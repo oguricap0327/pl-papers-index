@@ -486,3 +486,181 @@ Papers indexed from POPL, organized by year.
 **Keywords**: `fuzzing`, `program analysis`, `Bayesian methods`, `testing`
 
 ---
+
+## 2024
+
+### POPL 2024 — Principles of Programming Languages
+
+## Soundly Handling Linearity
+
+**Authors**: Wenhao Tang, Daniel Hillerström, Sam Lindley, J. Garrett Morris  
+**Venue**: POPL 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3632896  
+
+> This paper addresses the interaction between linear types and effect handlers, showing how to soundly handle effectful computations that use linear resources. The key insight is a type system that tracks linearity through effect handler boundaries, preventing resource duplication or loss.
+
+**Keywords**: `linear types`, `algebraic effects`, `effect handlers`, `type systems`
+
+---
+
+## Modular Denotational Semantics for Effects with Guarded Interaction Trees
+
+**Authors**: Daniel Frumin, Amin Timany, Lars Birkedal  
+**Venue**: POPL 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3632854  
+
+> This paper develops modular denotational semantics for effectful programs using guarded interaction trees, providing composable semantic building blocks. The approach scales to higher-order languages with recursive types by exploiting guarded recursion.
+
+**Keywords**: `denotational semantics`, `interaction trees`, `effects`, `guarded recursion`, `Iris`
+
+---
+
+## Indexed Types for a Statically Safe WebAssembly
+
+**Authors**: Adam T. Geller, Justine Frank, William J. Bowman  
+**Venue**: POPL 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3632922  
+
+> This paper presents a type system with index types for WebAssembly that statically rules out common safety violations. The approach uses type-level integers to track stack heights and memory access bounds, enabling static safety verification for Wasm programs.
+
+**Keywords**: `WebAssembly`, `indexed types`, `static safety`, `type systems`
+
+---
+
+## The Essence of Generalized Algebraic Data Types
+
+**Authors**: Filip Sieczkowski, Sergei Stepanenko, Jonathan Sterling, Lars Birkedal  
+**Venue**: POPL 2024  
+**Year**: 2024  
+
+> This paper provides a clean categorical and type-theoretic account of GADTs, revealing their essence as first-class refinement of inductive types. The formalization clarifies the relationship between GADTs and dependent types.
+
+**Keywords**: `GADTs`, `type theory`, `category theory`, `dependent types`
+
+---
+
+## Parametric Subtyping for Structural Parametric Polymorphism
+
+**Authors**: Henry DeYoung, Andreia Mordido, Frank Pfenning, Ankush Das  
+**Venue**: POPL 2024  
+**Year**: 2024  
+
+> This paper develops parametric subtyping for session types with structural parametric polymorphism. The key technical contribution is a proof of parametricity that enables equational reasoning about polymorphic session-typed programs.
+
+**Keywords**: `subtyping`, `parametric polymorphism`, `session types`, `structural typing`
+
+---
+
+## When Subtyping Constraints Liberate: A Novel Type Inference Approach for First-Class Polymorphism
+
+**Authors**: Lionel Parreaux, Aleksander Boruch-Gruszecki, Andong Fan, Chun Yin Chau  
+**Venue**: POPL 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3632890  
+
+> This paper presents a type inference algorithm for first-class polymorphism using subtyping constraints, enabling more expressive polymorphic programs without explicit type annotations. The constraint-based approach generalizes traditional Hindley-Milner inference.
+
+**Keywords**: `type inference`, `first-class polymorphism`, `subtyping`, `constraint solving`
+
+---
+
+## Polymorphic Type Inference for Dynamic Languages
+
+**Authors**: Giuseppe Castagna, Mickaël Laurent, Kim Nguyễn  
+**Venue**: POPL 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3632882  
+
+> This paper presents a polymorphic type inference algorithm for dynamically typed languages using semantic subtyping. The algorithm infers union and intersection types, giving precise types to dynamic language idioms.
+
+**Keywords**: `type inference`, `dynamic languages`, `semantic subtyping`, `union types`, `intersection types`
+
+---
+
+## Polynomial Time and Dependent Types
+
+**Authors**: Robert Atkey  
+**Venue**: POPL 2024  
+**Year**: 2024  
+
+> This paper investigates the interaction between polynomial-time computation and dependent type theory, exploring which computations over dependent types remain feasible. It characterizes a fragment of dependent types sound for polynomial-time verification.
+
+**Keywords**: `dependent types`, `computational complexity`, `polynomial time`, `type theory`
+
+---
+
+## Internal Parametricity, without an Interval
+
+**Authors**: Thorsten Altenkirch, Yorgo Chamoun, Ambrus Kaposi, Michael Shulman  
+**Venue**: POPL 2024  
+**Year**: 2024  
+
+> This paper presents an account of internal parametricity in type theory without requiring an interval type, simplifying the metatheory. The approach uses a two-level type theory to separate the parametricity layer from the base type theory.
+
+**Keywords**: `parametricity`, `type theory`, `homotopy type theory`, `dependent types`
+
+---
+
+## Asynchronous Probabilistic Couplings in Higher-Order Separation Logic
+
+**Authors**: Simon Oddershede Gregersen, Alejandro Aguirre, Philipp G. Haselwarter, Joseph Tassarotti, Lars Birkedal  
+**Venue**: POPL 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3632868  
+
+> This paper develops a higher-order separation logic for reasoning about probabilistic programs using asynchronous couplings. The logic supports modular verification of randomized algorithms and probabilistic data structures.
+
+**Keywords**: `separation logic`, `probabilistic programs`, `couplings`, `higher-order logic`, `Iris`
+
+---
+
+## Nominal Recursors as Epi-Recursors
+
+**Authors**: Andrei Popescu  
+**Venue**: POPL 2024  
+**Year**: 2024  
+
+> This paper shows that nominal recursors for binding-aware data types are epimorphic recursors, unifying nominal techniques with standard algebraic recursion principles. This provides a clean foundation for reasoning about syntax with binders.
+
+**Keywords**: `nominal types`, `binding`, `recursion`, `algebra`
+
+---
+
+## Automatic Parallelism Management
+
+**Authors**: Sam Westrick, Matthew Fluet, Mike Rainey, Umut A. Acar  
+**Venue**: POPL 2024  
+**Year**: 2024  
+
+> This paper presents a system for automatically managing parallel resources in functional programs, dynamically adjusting the degree of parallelism at runtime. The approach achieves near-optimal work and span bounds while avoiding over-subscription.
+
+**Keywords**: `parallelism`, `functional programming`, `runtime systems`, `scheduling`
+
+---
+
+## Deadlock-Free Separation Logic: Linearity Yields Progress for Dependent Higher-Order Message Passing
+
+**Authors**: Jules Jacobs, Jonas Kastberg Hinrichsen, Robbert Krebbers  
+**Venue**: POPL 2024  
+**Year**: 2024  
+
+> This paper presents a separation logic for verifying deadlock freedom of message-passing programs with dependent types. Linear typing provides the key invariant ensuring progress in higher-order concurrent systems.
+
+**Keywords**: `separation logic`, `deadlock freedom`, `message passing`, `linear types`, `concurrency`
+
+---
+
+## Flan: An Expressive and Efficient Datalog Compiler for Program Analysis
+
+**Authors**: Supun Abeysinghe, Anxhelo Xhebraj, Tiark Rompf  
+**Venue**: POPL 2024  
+**Year**: 2024  
+
+> This paper presents Flan, a Datalog compiler targeting program analysis workloads with expressive language features and efficient compilation. Flan supports recursive rules with aggregation and generates competitive code compared to specialized Datalog engines.
+
+**Keywords**: `Datalog`, `program analysis`, `compiler`, `static analysis`
+
+---

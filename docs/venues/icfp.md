@@ -458,3 +458,163 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `formal verification`, `separation logic`, `graph algorithms`, `program verification`, `algebraic methods`
 
 ---
+
+## 2024
+
+### ICFP 2024 — International Conference on Functional Programming
+
+## Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs
+
+**Authors**: Alejandro Aguirre, Philipp G. Haselwarter, Markus de Medeiros, Kwing Hei Li, Simon Oddershede Gregersen, Joseph Tassarotti, Lars Birkedal  
+**Venue**: ICFP 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3674635  
+
+> This paper introduces error credits as a resource in Iris-based separation logic for reasoning about error probability bounds in higher-order probabilistic programs. The credit-based accounting enables modular compositional proofs of expected error bounds.
+
+**Keywords**: `probabilistic programs`, `separation logic`, `error bounds`, `higher-order logic`, `Iris`
+
+---
+
+## Snapshottable Stores
+
+**Authors**: Clément Allain, Basile Clément, Alexandre Moine, Gabriel Scherer  
+**Venue**: ICFP 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3674637  
+
+> This paper presents snapshottable stores, a data structure supporting efficient copy-on-write snapshots of mutable state for functional languages. The approach achieves good amortized complexity and is integrated with OCaml's GC.
+
+**Keywords**: `data structures`, `mutable state`, `snapshots`, `OCaml`, `functional programming`
+
+---
+
+## Example-Based Reasoning about the Realizability of Polymorphic Programs
+
+**Authors**: Niek Mulleners, Johan Jeuring, Bastiaan Heeren  
+**Venue**: ICFP 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3674636  
+
+> This paper develops techniques for reasoning about whether polymorphic programs are realizable from their type signatures using example-based testing. The approach leverages parametricity to enumerate and verify program behaviors from a small number of examples.
+
+**Keywords**: `parametricity`, `polymorphism`, `program synthesis`, `testing`
+
+---
+
+## The Long Way to Deforestation: A Type Inference and Elaboration Technique for Removing Intermediate Data Structures
+
+**Authors**: Yijia Chen, Lionel Parreaux  
+**Venue**: ICFP 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3674634  
+
+> This paper presents a type inference and elaboration approach for automatically deforesting intermediate data structures in functional programs. The technique works via a novel type-directed fusion that avoids the limitations of existing approaches like stream fusion.
+
+**Keywords**: `deforestation`, `type inference`, `program optimization`, `fusion`, `functional programming`
+
+---
+
+## Abstracting Effect Systems for Algebraic Effect Handlers
+
+**Authors**: Takuma Yoshioka, Taro Sekiyama, Atsushi Igarashi  
+**Venue**: ICFP 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3674641  
+
+> This paper develops abstract interpretations of effect systems for algebraic effect handlers, enabling analysis of effectful programs using a range of different effect disciplines. The framework unifies various effect system designs under a common abstraction.
+
+**Keywords**: `algebraic effects`, `effect systems`, `abstract interpretation`, `type systems`
+
+---
+
+## Closure-Free Functional Programming in a Two-Level Type Theory
+
+**Authors**: András Kovács  
+**Venue**: ICFP 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3674648  
+
+> This paper develops a two-level type theory for closure-free functional programming, where the meta-level handles staging and the object-level produces closure-free code. The approach enables writing high-level functional code that compiles to efficient, allocation-free implementations.
+
+**Keywords**: `two-level type theory`, `staging`, `closures`, `program optimization`, `dependent types`
+
+---
+
+## Gradual Indexed Inductive Types
+
+**Authors**: Mara Malewski Correa, Kenji Maillard, Nicolas Tabareau, Éric Tanter  
+**Venue**: ICFP 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3674644  
+
+> This paper extends gradual typing to indexed inductive types, allowing programs to gradually migrate from untyped to fully dependently typed. The key challenge is handling the interaction between runtime type casts and dependent type indices.
+
+**Keywords**: `gradual typing`, `dependent types`, `indexed types`, `inductive types`
+
+---
+
+## Almost-Sure Termination by Guarded Refinement
+
+**Authors**: Simon Oddershede Gregersen, Alejandro Aguirre, Philipp G. Haselwarter, Joseph Tassarotti, Lars Birkedal  
+**Venue**: ICFP 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3674632  
+
+> This paper develops a higher-order separation logic for proving almost-sure termination of probabilistic programs using guarded refinement. The approach handles complex control flow and higher-order features while maintaining compositionality.
+
+**Keywords**: `probabilistic programs`, `termination`, `separation logic`, `guarded recursion`
+
+---
+
+## Oxidizing OCaml with Modal Memory Management
+
+**Authors**: Anton Lorenzen, Leo White, Stephen Dolan, Richard A. Eisenberg, Sam Lindley  
+**Venue**: ICFP 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3674642  
+
+> This paper extends OCaml with modal types for memory management inspired by Rust's ownership system, enabling safe manual memory control without a garbage collector in hot paths. The modal system integrates with OCaml's existing type system.
+
+**Keywords**: `OCaml`, `modal types`, `memory management`, `linear types`, `ownership`
+
+---
+
+## Sound Borrow-Checking for Rust via Symbolic Semantics
+
+**Authors**: Son Ho, Aymeric Fromherz, Jonathan Protzenko  
+**Venue**: ICFP 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3674640  
+
+> This paper presents a sound borrow-checking algorithm for Rust programs using symbolic execution, providing a formal foundation for Rust's type system. The symbolic semantics precisely characterizes valid borrows and enables verification of borrow-checker correctness.
+
+**Keywords**: `Rust`, `borrow checking`, `symbolic semantics`, `type systems`, `ownership`
+
+---
+
+## A Coq Mechanization of JavaScript Regular Expression Semantics
+
+**Authors**: Noé De Santo, Aurèle Barrière, Clément Pit-Claudel  
+**Venue**: ICFP 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3674666  
+
+> This paper presents a complete mechanization of the JavaScript regular expression specification (ECMAScript) in Coq, enabling formal verification of regex-related properties. The mechanization covers lookaheads, backreferences, and other advanced features.
+
+**Keywords**: `regular expressions`, `JavaScript`, `formal verification`, `Coq`, `mechanization`
+
+---
+
+## CCLemma: E-Graph Guided Lemma Discovery for Inductive Equational Proofs
+
+**Authors**: Cole Kurashige, Ruyi Ji, Aditya Giridharan, Mark Barbone, Daniel Noor, Shachar Itzhaky, Ranjit Jhala, Nadia Polikarpova  
+**Venue**: ICFP 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3674653  
+
+> This paper presents CCLemma, which uses e-graphs to guide the discovery of auxiliary lemmas needed for completing inductive equational proofs automatically. The approach handles goals that require creative lemma instantiation beyond simple induction.
+
+**Keywords**: `e-graphs`, `lemma discovery`, `inductive proofs`, `automated reasoning`, `equational logic`
+
+---

@@ -386,3 +386,176 @@ Papers indexed from PLDI (Programming Language Design and Implementation).
 **Keywords**: `code generation`, `language models`, `type systems`, `program synthesis`
 
 ---
+
+## 2024
+
+### PLDI 2024 — Programming Language Design and Implementation
+
+## RefinedRust: A Type System for High-Assurance Verification of Rust Programs
+
+**Authors**: Lennard Gäher, Michael Sammler, Ralf Jung, Robbert Krebbers, Derek Dreyer  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656422  
+
+> This paper presents RefinedRust, a refinement type system for high-assurance verification of Rust programs. Built on top of RustBelt's semantic model, it enables semi-automated verification of functional correctness properties while handling Rust's ownership and borrowing.
+
+**Keywords**: `Rust`, `refinement types`, `formal verification`, `type systems`, `separation logic`
+
+---
+
+## Verified Extraction from Coq to OCaml
+
+**Authors**: Yannick Forster, Matthieu Sozeau, Nicolas Tabareau  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656379  
+
+> This paper presents a verified extraction pipeline from Coq to OCaml, providing formal guarantees that the extracted code is semantically equivalent to the Coq source. The approach addresses long-standing trustworthiness concerns about Coq's extraction mechanism.
+
+**Keywords**: `Coq`, `extraction`, `formal verification`, `proof assistants`, `OCaml`
+
+---
+
+## Stream Types
+
+**Authors**: Joseph W. Cutler, Chris Watson, Emeka Nkurumeh, Phillip Hilliard, Harrison Goldstein, Caleb Stanford, Benjamin C. Pierce  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656434  
+
+> This paper introduces stream types for statically reasoning about computations over infinite data streams. The type system tracks stream consumption and production patterns, enabling verification of properties like productivity and type-safe corecursion.
+
+**Keywords**: `stream types`, `corecursion`, `type systems`, `functional programming`
+
+---
+
+## Space-Efficient Polymorphic Gradual Typing, Mostly Parametric
+
+**Authors**: Atsushi Igarashi, Shota Ozaki, Taro Sekiyama, Yudai Tanabe  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656441  
+
+> This paper develops a space-efficient coercion semantics for polymorphic gradual typing that reduces space overhead from coercion stacking while maintaining mostly parametric behavior. The approach handles dynamic type checks for polymorphic code efficiently.
+
+**Keywords**: `gradual typing`, `polymorphism`, `parametricity`, `type systems`
+
+---
+
+## Associated Effects
+
+**Authors**: Matthew Lutze, Magnus Madsen  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656393  
+
+> This paper introduces associated effects as a mechanism for abstracting over effect signatures in type classes, enabling polymorphic code that is generic over both data types and effects. The design integrates cleanly with algebraic effect systems.
+
+**Keywords**: `algebraic effects`, `type classes`, `effect polymorphism`, `type systems`
+
+---
+
+## Decidable Subtyping of Existential Types for Julia
+
+**Authors**: Julia Belyakova, Benjamin Chung, Ross Tate, Jan Vitek  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656421  
+
+> This paper presents a decidable subtyping algorithm for the existential type system used in Julia, addressing undecidability in the original design. The restricted but practically sufficient algorithm enables reliable type-based dispatch in Julia.
+
+**Keywords**: `subtyping`, `existential types`, `Julia`, `decidability`, `type systems`
+
+---
+
+## Numerical Fuzz: A Type System for Rounding Error Analysis
+
+**Authors**: Ariel E. Kellison, Justin Hsu  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656456  
+
+> This paper presents Numerical Fuzz, a type system for automatically bounding floating-point rounding errors. Building on sensitivity types (Fuzz), it assigns each expression a bound on its accumulated rounding error, enabling automated floating-point correctness analysis.
+
+**Keywords**: `floating-point`, `rounding errors`, `type systems`, `numerical analysis`, `program verification`
+
+---
+
+## Hyper Hoare Logic: (Dis-)Proving Program Hyperproperties
+
+**Authors**: Thibault Dardinier, Peter Müller  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656437  
+
+> This paper extends Hoare logic to prove and disprove hyperproperties — properties relating multiple program executions — such as non-interference and differential privacy. The logic systematically handles both positive and negative hyperproperty specifications.
+
+**Keywords**: `Hoare logic`, `hyperproperties`, `non-interference`, `program verification`, `security`
+
+---
+
+## Quest Complete: The Holy Grail of Gradual Security
+
+**Authors**: Tianyu Chen, Jeremy G. Siek  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656442  
+
+> This paper achieves a long-sought goal in gradual security typing: a gradual information flow type system satisfying non-interference, the gradual guarantee, and sound casts simultaneously. The key technical contribution is a careful semantic model resolving prior incompatibility results.
+
+**Keywords**: `gradual typing`, `information flow`, `non-interference`, `security types`
+
+---
+
+## Quiver: Guided Abductive Inference of Separation Logic Specifications in Coq
+
+**Authors**: Simon Spies, Lennard Gäher, Michael Sammler, Derek Dreyer  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656413  
+
+> This paper presents Quiver, a tool for automatically inferring separation logic specifications from Coq programs using guided abductive reasoning. It reduces the annotation burden for verified low-level code by synthesizing heap-manipulating specifications.
+
+**Keywords**: `separation logic`, `specification inference`, `Coq`, `program verification`, `abduction`
+
+---
+
+## The Functional Essence of Imperative Binary Search Trees
+
+**Authors**: Anton Lorenzen, Daan Leijen, Wouter Swierstra, Sam Lindley  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656398  
+
+> This paper shows how functional in-place update (FBIP) with reuse analysis can implement binary search tree operations with performance competitive to imperative code. The approach reveals that the functional and imperative approaches share the same underlying computational structure.
+
+**Keywords**: `functional programming`, `in-place update`, `binary search trees`, `Koka`, `FBIP`
+
+---
+
+## Bringing the WebAssembly Standard up to Speed with SpecTec
+
+**Authors**: Dongjun Youn, Shin Wonho, et al.  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656440  
+
+> This paper presents SpecTec, a domain-specific language for writing the WebAssembly specification that can be mechanically processed to generate prose, formal notation, and executable interpreters. This enables a single authoritative specification to serve multiple purposes.
+
+**Keywords**: `WebAssembly`, `specification languages`, `formal semantics`, `DSL`
+
+---
+
+## Bit Blasting Probabilistic Programs
+
+**Authors**: Poorva Garg, Steven Holtzen, Guy Van den Broeck, Todd Millstein  
+**Venue**: PLDI 2024  
+**Year**: 2024  
+**DOI**: https://doi.org/10.1145/3656412  
+
+> This paper presents a compilation technique for discrete probabilistic programs that translates them to Boolean circuits, enabling exact inference using knowledge compilation. The approach handles loops and recursion by bit-blasting the probabilistic computation.
+
+**Keywords**: `probabilistic programming`, `exact inference`, `compilation`, `Boolean circuits`
+
+---
