@@ -1,0 +1,86 @@
+site_name: PL Papers Index
+site_description: An indexed collection of papers from POPL, PLDI, OOPSLA, ECOOP, ICFP
+site_url: https://oguricap0327.github.io/pl-papers-index/
+repo_url: https://github.com/oguricap0327/pl-papers-index
+repo_name: oguricap0327/pl-papers-index
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - toc.follow
+
+plugins:
+  - search
+  - tags
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/oguricap0327
+
+nav:
+  - Home: index.md
+  - By Venue:
+    - POPL: venues/popl.md
+    - PLDI: venues/pldi.md
+    - OOPSLA: venues/oopsla.md
+    - ECOOP: venues/ecoop.md
+    - ICFP: venues/icfp.md
+  - By Topic:
+    - Type Systems: topics/type-systems.md
+    - Type Inference: topics/type-inference.md
+    - Subtyping: topics/subtyping.md
+    - Intersection Types: topics/intersection-types.md
+    - Dependent Types: topics/dependent-types.md
+    - Gradual Typing: topics/gradual-typing.md
+    - Formal Verification: topics/formal-verification.md
+    - Concurrency: topics/concurrency.md
+    - Compilers: topics/compilers.md
+    - Program Analysis: topics/program-analysis.md
+  - By Year:
+    - "2026": years/2026.md
+    - "2025": years/2025.md
+    - "2024": years/2024.md
+  - All Papers: all-papers.md
