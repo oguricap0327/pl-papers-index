@@ -7,75 +7,276 @@ ECOOP 2025 proceedings published in LIPIcs Volume 333.
 
 ## 2025
 
-## A Sound and Complete Type System for Featherweight Generic Java with Mutation
+## Compositional Static Value Analysis for Higher-Order Numerical Programs
 
-**Authors**: (ECOOP 2025, LIPIcs Vol. 333)  
+**Authors**: Milla Valnet, Raphaël Monat, Antoine Miné  
 **Venue**: ECOOP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
-**PDF**: N/A  
 
-> This paper develops a sound and complete type system for an extension of Featherweight Generic Java with mutation (mutable fields). The formalization covers generic classes, subtyping of parameterized types, and shows that well-typed programs do not go wrong under reduction.
+> Presents a compositional static value analysis for higher-order programs with numerical computations, enabling modular analysis of functions passed as arguments. The abstract interpretation framework scales to practical higher-order functional programs with numeric operations.
 
-**Keywords**: `type systems`, `Java`, `generics`, `subtyping`, `object-oriented`
-
-**Related**:
-- Prior work: Featherweight Java (Igarashi et al.), Generic Java
+**Keywords**: `abstract interpretation`, `static analysis`, `higher-order programs`, `numerical analysis`
 
 ---
 
-## Dependent Object Types with Intersection Types
+## Lightweight Diagramming for Formal Methods: A Grounded Language Design
 
-**Authors**: (ECOOP 2025, LIPIcs Vol. 333)  
+**Authors**: Siddhartha Prasad, Ben Greenman, Tim Nelson, Shriram Krishnamurthi  
 **Venue**: ECOOP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
-**PDF**: N/A  
 
-> This paper combines dependent object types (DOT calculus) with intersection types, allowing precise specification of object interfaces through type intersections. The resulting calculus supports path-dependent types and intersection of dependent types, with a mechanized soundness proof.
+> Develops a lightweight diagram notation integrated with formal specification languages, making formal models easier to understand visually. The language design is grounded in user studies showing that diagram integration reduces comprehension errors for formal specifications.
 
-**Keywords**: `dependent types`, `intersection types`, `DOT calculus`, `object-oriented`, `type theory`
-
-**Related**:
-- Prior work: DOT calculus (Amin et al.), Scala type system
+**Keywords**: `formal methods`, `diagramming`, `language design`, `visualization`
 
 ---
 
-## Coercive Subtyping for Gradual Object Types
+## Taming and Dissecting Recursions through Interprocedural Weak Topological Ordering
 
-**Authors**: (ECOOP 2025, LIPIcs Vol. 333)  
+**Authors**: Jiawei Yang, Xiao Cheng, Bor-Yuh Evan Chang, Xiapu Luo, Yulei Sui  
 **Venue**: ECOOP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
-**PDF**: N/A  
 
-> This paper develops a coercive interpretation of subtyping for gradual object types, where subtyping relations are witnessed by coercion functions generated at compile time. Dynamic checks are emitted for gradual ascriptions, with coercions composing soundly.
+> Presents interprocedural weak topological ordering to improve analysis of recursive programs by structuring the iteration order of fixpoint computations. The approach speeds up convergence and improves precision of dataflow analyses over recursive call graphs.
 
-**Keywords**: `subtyping`, `coercions`, `gradual typing`, `object-oriented`, `type systems`
-
-**Related**:
-- Prior work: Coercive subtyping (Luo), gradual typing
+**Keywords**: `static analysis`, `dataflow`, `recursion`, `fixpoint computation`
 
 ---
 
-## Intersection Types for Session-Typed Concurrent Programs
+## The Algebra of Patterns
 
-**Authors**: (ECOOP 2025, LIPIcs Vol. 333)  
+**Authors**: David Binder, Lean Ermantraut  
 **Venue**: ECOOP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
-**PDF**: N/A  
 
-> This paper extends session types with intersection types to allow a process endpoint to participate in multiple protocols simultaneously. Intersection of session types is shown to be safe and enables more expressive API specification for concurrent object-oriented programs.
+> Develops an algebraic theory of patterns in programming languages, characterizing pattern matching through algebraic laws and operations. The framework unifies various pattern forms across languages into a common algebraic structure.
 
-**Keywords**: `intersection types`, `session types`, `concurrency`, `type systems`
-
-**Related**:
-- Prior work: Session types (Honda), intersection types
+**Keywords**: `pattern matching`, `algebra`, `type theory`, `programming languages`
 
 ---
 
-*Note: ECOOP 2025 full paper list from LIPIcs Volume 333. Individual DOIs follow pattern 10.4230/LIPIcs.ECOOP.2025.N. See https://drops.dagstuhl.de/entities/volume/LIPIcs-volume-333 for complete volume.*
+## A theory of (linear-time) timed monitors
+
+**Authors**: Mouloud Amara, Giovanni Bernardi, Mohammed Aristide Foughali, Adrian Francalanza  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Develops a formal theory of timed runtime monitors operating over linear-time temporal properties, establishing correctness conditions for monitors with real-time constraints. The theory clarifies when timed monitors can correctly decide property violations on infinite executions.
+
+**Keywords**: `runtime verification`, `timed monitors`, `temporal logic`, `linear time`
+
+---
+
+## Contrasting Deadlock-Free Session Processes
+
+**Authors**: Juan C. Jaramillo, Jorge A. Pérez  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025.17  
+
+> Compares different approaches to ensuring deadlock freedom in session-typed process calculi, analyzing tradeoffs between expressiveness and compositional deadlock avoidance guarantees. The work clarifies the relationships between key session type disciplines for deadlock freedom.
+
+**Keywords**: `session types`, `deadlock freedom`, `process calculi`, `concurrency`
+
+---
+
+## Fair Termination of Asynchronous Binary Sessions
+
+**Authors**: Luca Padovani, Gianluigi Zavattaro  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Studies fair termination of asynchronous binary session-typed processes, ensuring that protocols eventually complete under fair scheduling assumptions. The work provides type-based criteria guaranteeing liveness of session communications.
+
+**Keywords**: `session types`, `fair termination`, `asynchronous communication`, `liveness`
+
+---
+
+## Incremental Computing by Differential Execution
+
+**Authors**: Prashant Kumar, André Pacak, Sebastian Erdweg  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Presents differential execution as a technique for incremental computation, where programs re-execute only the parts affected by input changes. The approach enables automatic incrementalization of programs without manual specification of dependencies.
+
+**Keywords**: `incremental computing`, `differential execution`, `program analysis`, `reactivity`
+
+---
+
+## Multiparty Asynchronous Session Types: A Mechanised Proof of Subject Reduction
+
+**Authors**: Dawit Tirore, Jesper Bengtson, Marco Carbone  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Provides a mechanized proof of subject reduction for multiparty asynchronous session types in a proof assistant, validating the type safety of this important concurrency type discipline. The mechanization covers the full MPST calculus with asynchronous communication.
+
+**Keywords**: `multiparty session types`, `mechanized proofs`, `subject reduction`, `asynchronous communication`
+
+---
+
+## Declarative Dynamic Object Reclassification
+
+**Authors**: Riccardo Sieve, Eduard Kamburjan, Ferruccio Damiani, Einar Broch Johnsen  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Introduces declarative dynamic object reclassification, allowing objects to change their class at runtime based on declarative rules. The approach combines active objects with reclassification to enable safe dynamic dispatch under changing object classifications.
+
+**Keywords**: `object reclassification`, `dynamic dispatch`, `active objects`, `object-oriented`
+
+---
+
+## Mono Types — First-Class Containers for Datalog
+
+**Authors**: Runqing Xu, David Klopp, Sebastian Erdweg  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Introduces mono types as first-class container types for Datalog, enabling Datalog programs to manipulate typed collections of facts directly. This extension increases the expressiveness of Datalog for programming language analysis tasks.
+
+**Keywords**: `Datalog`, `type systems`, `program analysis`, `containers`
+
+---
+
+## Monadic type-and-effect soundness
+
+**Authors**: Francesco Dagnino, Paola Giannini, Elena Zucca  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Establishes a general type-and-effect soundness theorem using monads to model computational effects, providing a unified framework for type safety across different effect systems. The monadic approach abstracts over specific effect implementations while preserving soundness.
+
+**Keywords**: `type and effect systems`, `monads`, `type soundness`, `computational effects`
+
+---
+
+## An Effectful Object Calculus
+
+**Authors**: Francesco Dagnino, Paola Giannini, Elena Zucca  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Develops an object calculus with effects where method calls can produce computational effects tracked in the type system. The calculus provides a formal foundation for effect-aware object-oriented programming with a sound type-and-effect system.
+
+**Keywords**: `object calculus`, `effects`, `type systems`, `object-oriented`
+
+---
+
+## Compositional Bug Detection for Internally Unsafe Libraries: A Logical Approach to Type Unsoundness
+
+**Authors**: Pedro Carrott, Sacha-Élie Ayoun, Azalea Raad  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025.5  
+
+> Presents a logical framework for compositional bug detection in libraries that use unsafe operations internally while exposing a safe interface. The approach uses incorrectness logic to find real bugs arising from unsoundness of FFI or unsafe code within otherwise typed programs.
+
+**Keywords**: `bug detection`, `compositional verification`, `incorrectness logic`, `unsafe code`
+
+---
+
+## Practical Type-Based Taint Checking and Inference
+
+**Authors**: Nima Karimipour, Kanak Das, Manu Sridharan, Behnaz Hassanshahi  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Develops a practical type-based taint analysis with type inference, reducing annotation burden while providing sound taint tracking. The system scales to real-world Java programs and identifies security vulnerabilities through automatic propagation of taint annotations.
+
+**Keywords**: `taint analysis`, `type inference`, `security`, `static analysis`
+
+---
+
+## Bottom-up Synthesis of Memory Mutations with Separation Logic
+
+**Authors**: Kasra Ferdowsi, Hila Peleg  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Presents a program synthesis algorithm for memory-manipulating programs using separation logic specifications, using a bottom-up enumeration strategy guided by heap constraints. The tool synthesizes pointer-manipulating code from pre/postconditions in separation logic.
+
+**Keywords**: `program synthesis`, `separation logic`, `memory safety`, `heap reasoning`
+
+---
+
+## IsaBIL: A Framework for Verifying (In)correctness of Binaries in Isabelle/HOL
+
+**Authors**: Matt Griffin, Brijesh Dongol, Azalea Raad  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Develops IsaBIL, an Isabelle/HOL framework for verifying both correctness and incorrectness properties of binary programs. The framework supports binary-level reasoning using both forward (correctness) and backward (bug-finding) program logics.
+
+**Keywords**: `binary verification`, `Isabelle/HOL`, `correctness`, `incorrectness logic`
+
+---
+
+## Reusing Caches and Invariants for Efficient and Sound Incremental Static Analysis
+
+**Authors**: Mamy Razafintsialonina, David Bühler, Antoine Miné, Valentin Perrelle, Julien Signoles  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Presents an incremental static analysis framework that reuses previously computed invariants and analysis caches to avoid redundant work when programs are updated. The approach provides soundness guarantees for incremental re-analysis of modified programs.
+
+**Keywords**: `incremental analysis`, `static analysis`, `abstract interpretation`, `soundness`
+
+---
+
+## RacerF: Lightweight Static Data Race Detection for C Code
+
+**Authors**: Tomáš Dacík, Tomas Vojnar  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Introduces RacerF, a lightweight static data race detector for C programs based on shape analysis with fractional permissions. The tool detects races without requiring programmer annotations by inferring ownership through compositional heap analysis.
+
+**Keywords**: `data race detection`, `static analysis`, `C`, `concurrency`
+
+---
+
+## PoTo: A Hybrid Andersen's Points-to Analysis for Python
+
+**Authors**: Ingkarat Rak-amnouykit, Ana Milanova, Guillaume Baudart, Martin Hirzel, Julian Dolby  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Presents PoTo, a hybrid points-to analysis for Python combining Andersen's static analysis with dynamic profiling for improved precision on dynamic language features. The hybrid approach achieves better recall on Python's dynamic dispatch while maintaining reasonable performance.
+
+**Keywords**: `points-to analysis`, `Python`, `dynamic analysis`, `program analysis`
+
+---
+
+## Pydrofoil: accelerating Sail-based instruction set simulators
+
+**Authors**: Martin Berger, CF Bolz-Tereick, Luke Panayi, Ferdia McKeogh, Tom Spink  
+**Venue**: ECOOP 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.4230/LIPIcs.ECOOP.2025  
+
+> Pydrofoil accelerates ISA simulators derived from Sail specifications by compiling them to efficient Python using meta-tracing JIT compilation. The tool enables high-performance simulation from formal ISA specifications without sacrificing their correctness guarantees.
+
+**Keywords**: `instruction set simulators`, `Sail`, `JIT compilation`, `ISA specification`
 
 ---
 
