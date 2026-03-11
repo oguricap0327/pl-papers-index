@@ -19,6 +19,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `dependent types`, `algebraic simplification`, `proof assistants`, `Idris`, `type theory`
 
 **Related**:
+
 - Prior work: Coq ring tactic, algebraic reflection
 - See also: [Robust Dynamic Embedding for Gradual Typing](#robust-dynamic-embedding-for-gradual-typing) (ICFP 2025)
 
@@ -37,6 +38,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `gradual typing`, `dynamic types`, `type systems`, `gradual guarantee`
 
 **Related**:
+
 - Prior work: Gradual Typing (Siek & Taha), Space-efficient blame calculus
 - See also: [First-Order Laziness](#first-order-laziness) (ICFP 2025)
 
@@ -56,6 +58,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `laziness`, `functional programming`, `type systems`, `evaluation strategy`
 
 **Related**:
+
 - Prior work: Lazy Haskell, call-by-need semantics
 - See also: [Lazy Linearity for a Core Functional Language](#lazy-linearity) (POPL 2026)
 
@@ -75,6 +78,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `multi-stage programming`, `type systems`, `metaprogramming`, `staging`
 
 **Related**:
+
 - Prior work: MetaOCaml, Template Haskell, two-level type theory
 
 ---
@@ -92,6 +96,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `formal verification`, `F*`, `mutable state`, `security`, `proof assistants`
 
 **Related**:
+
 - Prior work: F* proof assistant, reference monitors
 
 ---
@@ -109,6 +114,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `program semantics`, `bisimulation`, `concurrency`, `fairness`, `functional programming`
 
 **Related**:
+
 - Prior work: Bisimulation theory, coinduction
 
 ---
@@ -126,6 +132,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `type theory`, `initial semantics`, `category theory`, `binding`, `proof assistants`
 
 **Related**:
+
 - Prior work: Initiality for MLTT, abstract syntax with variable binding
 
 ---
@@ -143,6 +150,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `program semantics`, `bialgebra`, `coalgebra`, `stateful computation`, `bisimulation`
 
 **Related**:
+
 - See also: [Big Steps in Higher-Order Mathematical Operational Semantics](#big-steps-in-higher-order-mathematical-operational-semantics) (ICFP 2025)
 
 ---
@@ -175,6 +183,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `abstract interpretation`, `definitional interpreters`, `program analysis`, `static analysis`
 
 **Related**:
+
 - Prior work: Abstracting Definitional Interpreters (Darais et al.)
 
 ---
@@ -206,6 +215,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `verified compilation`, `Agda`, `Futhark`, `formal verification`, `high-performance computing`
 
 **Related**:
+
 - Prior work: Agda proof assistant, Futhark GPU language
 
 ---
@@ -266,6 +276,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `formal verification`, `OCaml`, `separation logic`, `program logic`, `mechanized semantics`
 
 **Related**:
+
 - Prior work: Iris separation logic, OCaml semantics
 
 ---
@@ -283,6 +294,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `session types`, `concurrency`, `functional programming`, `type systems`, `linear types`
 
 **Related**:
+
 - Prior work: Session types (Honda), linear logic and session types
 
 ---
@@ -300,6 +312,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `linear types`, `dependent types`, `multiplicities`, `graded types`, `type theory`
 
 **Related**:
+
 - Prior work: Quantitative type theory, graded modal types
 
 ---
@@ -317,6 +330,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `proof assistants`, `dependent types`, `Martin-Löf type theory`, `formal verification`, `Coq`
 
 **Related**:
+
 - Prior work: Martin-Löf type theory, NuPRL, Agda kernel
 
 ---
@@ -348,6 +362,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `algebraic effects`, `effect handlers`, `multiple resumptions`, `mutable state`, `functional programming`
 
 **Related**:
+
 - Prior work: Algebraic effects (Plotkin & Power), effect handlers
 
 ---
@@ -365,6 +380,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `dependent types`, `normalization by evaluation`, `universes`, `type theory`, `formal verification`
 
 **Related**:
+
 - Prior work: NbE for dependent types, universe polymorphism
 
 ---
@@ -396,6 +412,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `choreographic programming`, `concurrency`, `distributed systems`, `process calculi`, `session types`
 
 **Related**:
+
 - Prior work: Choreographic programming (Montesi), session types
 
 ---
@@ -413,6 +430,7 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 **Keywords**: `type theory`, `dependent types`, `metatheory`, `formalization`, `proof assistants`
 
 **Related**:
+
 - Prior work: Initiality conjecture, type theory in type theory (Altenkirch & Kaposi)
 
 ---

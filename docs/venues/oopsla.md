@@ -20,6 +20,7 @@ OOPSLA papers appear in PACMPL (Proceedings of the ACM on Programming Languages)
 **Keywords**: `subtyping`, `object-oriented`, `semantic subtyping`, `type theory`
 
 **Related**:
+
 - Prior work: Semantic subtyping (Frisch, Castagna, Benzaken)
 
 ---
@@ -37,6 +38,7 @@ OOPSLA papers appear in PACMPL (Proceedings of the ACM on Programming Languages)
 **Keywords**: `gradual typing`, `ownership types`, `type systems`, `object-oriented`
 
 **Related**:
+
 - Prior work: Ownership types, gradual typing
 
 ---
@@ -68,6 +70,7 @@ OOPSLA papers appear in PACMPL (Proceedings of the ACM on Programming Languages)
 **Keywords**: `intersection types`, `union types`, `record types`, `polymorphism`
 
 **Related**:
+
 - Prior work: Row polymorphism, typed merge
 
 ---

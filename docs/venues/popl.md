@@ -21,6 +21,7 @@ Papers indexed from POPL, organized by year.
 **Keywords**: `type inference`, `bidirectional typing`, `dependent types`, `contextual typing`
 
 **Related**:
+
 - Prior work: Local Type Inference (Pierce & Turner), Bidirectional Typing (Dunfield & Krishnaswami)
 - See also: [Extensible Data Types with Ad-Hoc Polymorphism](#extensible-data-types-with-ad-hoc-polymorphism) (POPL 2026)
 
@@ -39,6 +40,7 @@ Papers indexed from POPL, organized by year.
 **Keywords**: `type systems`, `extensible types`, `ad-hoc polymorphism`, `row types`
 
 **Related**:
+
 - Prior work: Row polymorphism, extensible variants
 - See also: [Local Contextual Type Inference](#local-contextual-type-inference) (POPL 2026)
 
@@ -57,6 +59,7 @@ Papers indexed from POPL, organized by year.
 **Keywords**: `type inference`, `Boolean types`, `let generalization`, `polymorphic recursion`
 
 **Related**:
+
 - Prior work: HM type inference, Boolean type systems
 
 ---
@@ -74,6 +77,7 @@ Papers indexed from POPL, organized by year.
 **Keywords**: `type systems`, `laziness`, `strictness`, `evaluation strategy`
 
 **Related**:
+
 - Prior work: Strictness analysis, lazy evaluation in Haskell
 
 ---
@@ -91,6 +95,7 @@ Papers indexed from POPL, organized by year.
 **Keywords**: `linear types`, `laziness`, `functional programming`, `type systems`
 
 **Related**:
+
 - Prior work: Linear Haskell, session types
 - See also: [Typing Strictness](#typing-strictness) (POPL 2026)
 
@@ -109,6 +114,7 @@ Papers indexed from POPL, organized by year.
 **Keywords**: `Rust`, `undefined behavior`, `operational semantics`, `program verification`
 
 **Related**:
+
 - Prior work: RustBelt, Stacked Borrows model
 
 ---
@@ -127,6 +133,7 @@ Papers indexed from POPL, organized by year.
 **Keywords**: `formal verification`, `mechanized semantics`, `JavaScript`, `regular expressions`, `Coq`
 
 **Related**:
+
 - Prior work: ECMAScript specification, regex semantics
 
 ---

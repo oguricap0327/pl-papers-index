@@ -33,6 +33,7 @@ Papers indexed from PLDI (Programming Language Design and Implementation).
 **Keywords**: `compiler verification`, `dependent types`, `Coq`, `formal verification`
 
 **Related**:
+
 - Prior work: CakeML verified compiler, Coq extraction
 
 ---
@@ -50,6 +51,7 @@ Papers indexed from PLDI (Programming Language Design and Implementation).
 **Keywords**: `gradual verification`, `abstract interpretation`, `program analysis`, `contracts`
 
 **Related**:
+
 - Prior work: Gradual typing, abstract interpretation (Cousot)
 
 ---
@@ -67,6 +69,7 @@ Papers indexed from PLDI (Programming Language Design and Implementation).
 **Keywords**: `program synthesis`, `type systems`, `recursive types`, `refinement types`
 
 **Related**:
+
 - Prior work: Synquid, MYTH synthesis
 
 ---
