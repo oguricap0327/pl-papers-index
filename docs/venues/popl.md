@@ -14,7 +14,7 @@ Papers indexed from POPL, organized by year.
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776653  
-**PDF**: N/A  
+**PDF**: https://i.cs.hku.hk/~bruno/papers/popl26.pdf  
 
 > This paper presents a local contextual type inference algorithm that propagates type information from the local context to infer types in expressive type systems. The approach supports dependent types and other advanced type features while remaining practically efficient, extending the power of bidirectional typing with richer contextual propagation.
 
@@ -107,7 +107,7 @@ Papers indexed from POPL, organized by year.
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776690  
-**PDF**: N/A  
+**PDF**: https://research.ralfj.de/papers/2026-popl-miri.pdf  
 
 > Miri is an interpreter for Rust's MIR (Mid-level Intermediate Representation) that detects undefined behavior at runtime. This paper formalizes the operational semantics used by Miri and demonstrates how it catches violations of Rust's memory model, including data races and misuse of raw pointers.
 
@@ -175,6 +175,7 @@ Papers indexed from POPL, organized by year.
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776660  
+**PDF**: https://silverbullettt.bitbucket.io/papers/popl2026.pdf  
 
 > ChiSA presents a static analysis framework for verifying hardware designs written in Chisel, a hardware description language embedded in Scala. The approach provides lightweight verification of circuit properties without the overhead of full formal verification.
 
