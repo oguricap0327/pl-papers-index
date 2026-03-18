@@ -277,6 +277,90 @@ Papers indexed from POPL, organized by year.
 
 ---
 
+## Zoo: A Framework for the Verification of Concurrent OCaml 5 Programs using Separation Logic
+
+**Authors**: Clément Allain, Gabriel Scherer  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776701  
+
+> Zoo is a separation-logic framework for verifying concurrent OCaml 5 programs, leveraging OCaml 5's native effects and fibers. Built on top of Iris, Zoo provides modular, mechanized proofs of safety and liveness for fine-grained concurrent data structures and schedulers in a realistic language setting.
+
+**Keywords**: `separation logic`, `concurrent programming`, `OCaml`, `Iris`, `effects`, `formal verification`
+
+**Related**:
+- Related: Iris framework, concurrent separation logic, OCaml effects
+
+---
+
+## The Complexity of Testing Message-Passing Concurrency
+
+**Authors**: Zheng Shi, Lasse Møldrup, Umang Mathur, Andreas Pavlogiannis  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776643  
+**PDF**: https://arxiv.org/abs/2505.05162  
+
+> This paper establishes tight complexity bounds for testing properties of message-passing concurrent programs, studying the problem of deciding whether a concurrent execution is consistent with a given communication pattern. The results characterize tractable and intractable cases using automata-theoretic and combinatorial arguments.
+
+**Keywords**: `concurrency`, `message passing`, `testing`, `complexity`, `automata`
+
+**Related**:
+- Related: concurrency testing, happens-before, causal consistency
+
+---
+
+## Verifying Almost-Sure Termination for Randomized Distributed Algorithms
+
+**Authors**: Constantin Enea, Rupak Majumdar, Harshit Jitendra Motwani, V.R. Sathiyanarayana  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776691  
+
+> This paper develops techniques for automatically verifying almost-sure termination of randomized distributed algorithms, combining probabilistic reasoning with reasoning about distributed state. The approach handles consensus protocols and randomized leader election algorithms, establishing termination probabilities under fair scheduling.
+
+**Keywords**: `probabilistic programs`, `distributed algorithms`, `almost-sure termination`, `verification`, `concurrency`
+
+**Related**:
+- Related: probabilistic model checking, randomized consensus, distributed systems
+
+---
+
+## Bayesian Separation Logic
+
+**Authors**: Shing Hin Ho, Nicolas Wu, Azalea Raad  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776696  
+**PDF**: https://www.arxiv.org/pdf/2507.15530  
+
+> Bayesian Separation Logic (BaySL) extends separation logic with Bayesian probabilistic reasoning, enabling compositional proofs of probabilistic programs that combine heap mutation with uncertainty. The logic supports reasoning about posteriors and priors in probabilistic models implemented as imperative programs.
+
+**Keywords**: `separation logic`, `probabilistic programs`, `Bayesian reasoning`, `program logic`, `Iris`
+
+**Related**:
+- Related: probabilistic separation logic, Iris, Bayesian programming
+
+---
+
+## Security Reasoning via Substructural Dependency Tracking
+
+**Authors**: Hemant Gouni, Frank Pfenning, Jonathan Aldrich  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776669  
+**PDF**: https://hgouni.com/files/popl26.pdf  
+**Award**: Distinguished Paper  
+
+> This paper presents a type-and-effect system for security reasoning based on substructural dependency tracking, enabling fine-grained information-flow analysis of programs with mutable state. The system tracks how sensitive data flows through a program using linear and affine types, preventing leaks through both explicit and implicit channels.
+
+**Keywords**: `information flow`, `security types`, `substructural types`, `linear types`, `dependency tracking`
+
+**Related**:
+- Related: information-flow security, DCC, linear type systems
+
+---
+
 ## 2025
 
 ### POPL 2025 — Selected Papers
@@ -292,345 +376,6 @@ Papers indexed from POPL, organized by year.
 > POPL 2025 proceedings (PACMPL Vol. 9, Issue POPL) contain papers across type systems, verification, and semantics. See ACM DL for full listing.
 
 **Keywords**: `type systems`, `verification`, `semantics`
-
----
-
-## A Modular Static Cost Analysis for GPU Warp-Level Parallelism
-
-**Authors**: Gregory Blike, Hannah Zicarelli, Udaya Sathiyamoorthy, Julien Lange, Tiago Cogumbreiro  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776693  
-
-> This paper presents a modular static cost analysis for GPU programs, targeting warp-level parallelism. The analysis handles the unique execution model of GPUs where threads execute in lockstep within warps, providing a framework for reasoning about parallel costs.
-
-**Keywords**: `GPU`, `cost analysis`, `static analysis`, `parallelism`, `warp`
-
----
-
-## ChiSA: Static Analysis for Lightweight Chisel Verification
-
-**Authors**: Jiacai Cui, Qinlin Chen, Zhongsheng Zhan, Tian Tan, Yue Li  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776660  
-**PDF**: https://silverbullettt.bitbucket.io/papers/popl2026.pdf  
-
-> ChiSA presents a static analysis framework for verifying hardware designs written in Chisel, a hardware description language embedded in Scala. The approach provides lightweight verification of circuit properties without the overhead of full formal verification.
-
-**Keywords**: `static analysis`, `hardware verification`, `Chisel`, `program analysis`
-
----
-
-## Piecewise Analysis of Probabilistic Programs via k-Induction
-
-**Authors**: Tengshun Yang, Shenghua Feng, Hongfei Fu, Naijun Zhan, Jingyu Ke, Shiyang Wu  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776709  
-
-> This paper applies k-induction to the piecewise analysis of probabilistic programs, enabling reasoning about programs with complex probabilistic behavior over multiple segments. The technique extends inductive proof methods to handle probabilistic invariants.
-
-**Keywords**: `probabilistic programs`, `k-induction`, `program analysis`, `verification`
-
----
-
-## Domain-Theoretic Semantics for Functional Logic Programming
-
-**Authors**: Eddie Jones, Samson Main, Celia Mengyue Li, Jonathan Marriott, Alex Kavvos  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776699  
-
-> This paper develops a domain-theoretic denotational semantics for functional logic programming languages, providing a mathematical foundation for programs that combine functional and logic programming paradigms. The semantics supports reasoning about non-determinism and constraint solving.
-
-**Keywords**: `domain theory`, `semantics`, `functional logic programming`, `denotational semantics`
-
----
-
-## Handling Scope Checks: A Comparative Framework for Dynamic Scope Extrusion Checks
-
-**Authors**: Michael Lee, Ningning Xie, Oleg Kiselyov, Jeremy Yallop  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776681  
-
-> This paper develops a comparative framework for dynamic scope extrusion checks in the context of effect handlers, analyzing different approaches to preventing scope violations when continuations escape their lexical scope.
-
-**Keywords**: `effect handlers`, `scope extrusion`, `continuations`, `algebraic effects`
-
----
-
-## Hyperfunctions: Communicating Continuations
-
-**Authors**: Donnacha Oisín Kidney, Nicolas Wu  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776649  
-
-> This paper introduces hyperfunctions as a model of communicating continuations, providing a compositional framework that unifies various forms of continuation-based communication patterns in functional programming.
-
-**Keywords**: `continuations`, `functional programming`, `communication`, `semantics`
-
----
-
-## Bounded Treewidth, Multiple Context-Free Grammars, and Downward Closures
-
-**Authors**: C. Aiswarya, Pascal Baumann, Prakash Saivasan, Lia Schütze, Georg Zetzsche  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776716  
-
-> This paper investigates downward closures of languages defined by multiple context-free grammars (MCFGs) and their connection to bounded treewidth. The results have implications for language theory and decidability of verification problems.
-
-**Keywords**: `formal languages`, `context-free grammars`, `treewidth`, `automata theory`
-
----
-
-## Network Change Validation with Relational NetKAT
-
-**Authors**: Han Xu, Zachary Kincaid, Ratul Mahajan, David Walker  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776656  
-
-> This paper extends NetKAT with relational reasoning to enable validation of network configuration changes. The approach allows operators to verify that network updates preserve desired properties by reasoning about pairs of network states.
-
-**Keywords**: `network verification`, `NetKAT`, `program analysis`, `formal methods`
-
----
-
-## Parameterized Verification of Quantum Circuits
-
-**Authors**: Parosh Aziz Abdulla, Yu-Fang Chen, Michal Hečko, Lukáš Holík, Ondřej Lengál, Jyun-Ao Lin, Ramanathan S. Thinniyam  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776712  
-
-> This paper presents techniques for parameterized verification of quantum circuits, allowing verification of circuit families that scale with a size parameter. The approach extends classical parameterized verification methods to the quantum computing domain.
-
-**Keywords**: `quantum computing`, `verification`, `parameterized systems`, `formal methods`
-
----
-
-## An Expressive Assertion Language for Quantum Programs
-
-**Authors**: Bonan Su, Yuan Feng, Mingsheng Ying, Li Zhou  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776658  
-
-> This paper introduces an expressive assertion language tailored for quantum programs, providing rich specifications that capture quantum-specific properties like superposition and entanglement. The framework supports verification of quantum program correctness against these specifications.
-
-**Keywords**: `quantum programming`, `assertions`, `program verification`, `specification`
-
----
-
-## Hadamard-Pi: Equational Quantum Programming
-
-**Authors**: Wang Fang, Chris Heunen, Robin Kaarsgaard  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776647  
-
-> Hadamard-Pi is an equational quantum programming language that provides a clean algebraic framework for expressing and reasoning about quantum computations. The language supports equational reasoning about quantum programs through a category-theoretic foundation.
-
-**Keywords**: `quantum programming`, `equational reasoning`, `category theory`, `Pi calculus`
-
----
-
-## Qudit Quantum Programming with Projective Cliffords
-
-**Authors**: Jennifer Paykin, Sam Winnick  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776646  
-
-> This paper develops a programming model for qudit quantum computing using projective Clifford operations, extending qubit-based quantum programming to higher-dimensional quantum systems. The approach provides a type-safe framework for qudit circuit programming.
-
-**Keywords**: `quantum programming`, `qudits`, `Clifford gates`, `type systems`
-
----
-
-## RapunSL: Untangling Quantum Computing with Separation, Linear Combination and Mixing
-
-**Authors**: Yusuke Matsushita, Kengo Hirata, Ryo Wakizaka, Emanuele D'Osualdo  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776648  
-
-> RapunSL is a separation logic for quantum programs that handles the entanglement between classical and quantum state through separation, linear combination, and mixing operators. The logic enables modular reasoning about quantum programs with complex state interactions.
-
-**Keywords**: `separation logic`, `quantum computing`, `program logic`, `verification`
-
----
-
-## Arbitration-Free Consistency Is Available (and Vice Versa)
-
-**Authors**: Hagit Attiya, Constantin Enea, Enrique Román-Calvo  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776683  
-
-> This paper establishes a fundamental correspondence between arbitration-free consistency and availability in distributed systems, showing that the two properties are equivalent under certain conditions. The result contributes to our understanding of the CAP theorem landscape.
-
-**Keywords**: `distributed systems`, `consistency`, `availability`, `concurrency`
-
----
-
-## ArchSem: Reusable Rigorous Semantics of Relaxed Architectures
-
-**Authors**: Thibaut Pérami, Thomas Bauereiss, Brian Campbell, Zongyuan Liu, Nils Lauermann, Alasdair Armstrong, Peter Sewell  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776650  
-
-> ArchSem presents a reusable framework for giving rigorous formal semantics to relaxed memory architectures like ARM and RISC-V. The modular design allows the semantics to be composed and reused across different architecture specifications and verification tools.
-
-**Keywords**: `memory models`, `relaxed memory`, `architecture semantics`, `formal verification`
-
----
-
-## Consistent Updates for Scalable Microservices
-
-**Authors**: Devora Chait-Roth, Kedar Namjoshi, Thomas Wies  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776700  
-
-> This paper develops techniques for ensuring consistent updates to microservice-based distributed systems, providing formal guarantees about the consistency of state transitions during rolling upgrades. The approach scales to large microservice deployments.
-
-**Keywords**: `microservices`, `consistency`, `distributed systems`, `formal methods`
-
----
-
-## Recurrence Sets for Proving Fair Non-termination under Axiomatic Memory Consistency Models
-
-**Authors**: Thomas Haas, Roland Meyer, Hernán Ponce de León, Andrés Lomelí Garduño  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776687  
-
-> This paper extends recurrence sets, a technique for proving non-termination, to work under relaxed memory consistency models. The approach handles the additional non-determinism introduced by weak memory semantics when verifying fair non-termination.
-
-**Keywords**: `non-termination`, `memory models`, `concurrency`, `program verification`
-
----
-
-## Characterizing Sets of Theories That Can Be Disjointly Combined
-
-**Authors**: Benjamin Przybocki, Guilherme V. Toledo, Yoni Zohar  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776652  
-
-> This paper characterizes which sets of theories admit disjoint combination in satisfiability modulo theories (SMT), extending the Nelson-Oppen framework. The results provide decidability conditions for reasoning in combined theories.
-
-**Keywords**: `SMT`, `theory combination`, `decision procedures`, `formal logic`
-
----
-
-## Context-Free-Language Reachability for Almost-Commuting Transition Systems
-
-**Authors**: Nikhil Pimpalkhare, Zachary Kincaid, Thomas Reps  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776686  
-
-> This paper presents efficient algorithms for context-free language (CFL) reachability on almost-commuting transition systems, exploiting commutativity structure to improve the complexity of interprocedural program analysis.
-
-**Keywords**: `CFL reachability`, `program analysis`, `interprocedural analysis`, `algorithms`
-
----
-
-## Determination Problems for Orbit Closures and Matrix Groups
-
-**Authors**: Rida Ait El Manssour, George Kenison, Mahsa Shirmohammadi, Anton Varonka, James Worrell  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776698  
-
-> This paper studies determination problems for orbit closures of matrix groups, a topic with connections to program termination and reachability analysis for linear arithmetic programs. The results establish decidability and complexity bounds for these algebraic problems.
-
-**Keywords**: `linear algebra`, `orbit closures`, `decidability`, `matrix groups`
-
----
-
-## Accelerating Syntax-Guided Program Synthesis by Optimizing Domain-Specific Languages
-
-**Authors**: Zhentao Ye, Ruyi Ji, Yingfei Xiong, Xin Zhang  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776679  
-
-> This paper presents techniques for accelerating syntax-guided synthesis (SyGuS) by optimizing the domain-specific language (DSL) used to define the search space, reducing search complexity while preserving completeness.
-
-**Keywords**: `program synthesis`, `syntax-guided synthesis`, `DSL`, `optimization`
-
----
-
-## Inductive Program Synthesis by Meta-Analysis-Guided Hole Filling
-
-**Authors**: Doyoon Lee, Woosuk Lee, Kwangkeun Yi  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776694  
-
-> This paper presents an inductive program synthesis approach that uses meta-analysis to guide hole filling, identifying structural patterns from examples to efficiently complete program sketches.
-
-**Keywords**: `program synthesis`, `inductive synthesis`, `hole filling`, `meta-analysis`
-
----
-
-## Oriented Metrics for Bottom-Up Enumerative Synthesis
-
-**Authors**: Roland Meyer, Jakob Tepe  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776717  
-
-> This paper introduces oriented metrics to guide bottom-up enumerative program synthesis, providing a principled ordering of candidate programs to improve search efficiency without sacrificing completeness guarantees.
-
-**Keywords**: `program synthesis`, `enumerative synthesis`, `metrics`, `search algorithms`
-
----
-
-## ChopChop: A Programmable Framework for Semantically Constraining the Output of Language Models
-
-**Authors**: Shaan Nagy, Timothy Zhou, Nadia Polikarpova, Loris D'Antoni  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776708  
-
-> ChopChop is a programmable framework that enforces semantic constraints on the output of large language models during generation, using formal grammar-based constraints to ensure outputs satisfy desired properties.
-
-**Keywords**: `language models`, `constrained generation`, `formal grammars`, `program synthesis`
-
----
-
-## Compiling to Linear Neurons
-
-**Authors**: Joey Velez-Ginorio, Nada Amin, Konrad Kording, Steve Zdancewic  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776677  
-
-> This paper explores compilation techniques that target linear neural network architectures, establishing a formal connection between programming language compilation and neural network construction. The approach enables programs to be directly compiled into neural representations.
-
-**Keywords**: `compilers`, `neural networks`, `compilation`, `machine learning`
-
----
-
-## Fuzzing Guided by Bayesian Program Analysis
-
-**Authors**: Yifan Zhang, Xin Zhang  
-**Venue**: POPL 2026  
-**Year**: 2026  
-**DOI**: https://doi.org/10.1145/3776659  
-
-> This paper presents a fuzzing technique guided by Bayesian program analysis, using probabilistic reasoning about program behavior to direct test generation toward unexplored program paths and bug-inducing inputs.
-
-**Keywords**: `fuzzing`, `program analysis`, `Bayesian methods`, `testing`
 
 ---
 
