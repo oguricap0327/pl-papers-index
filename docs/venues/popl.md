@@ -138,6 +138,145 @@ Papers indexed from POPL, organized by year.
 
 ---
 
+## A Modular Static Cost Analysis for GPU Warp-Level Parallelism
+
+**Authors**: Gregory Blike, Hannah Zicarelli, Udaya Sathiyamoorthy, Julien Lange, Tiago Cogumbreiro  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776693  
+
+> This paper presents a modular static cost analysis for GPU programs that accounts for warp-level parallelism. The analysis decomposes cost reasoning across program modules, capturing how thread divergence and synchronization affect performance, enabling compositional cost bounds for GPU kernels.
+
+**Keywords**: `static analysis`, `GPU`, `cost analysis`, `parallelism`, `program analysis`
+
+**Related**:
+
+- Related: resource analysis, type-and-effect systems
+
+---
+
+## Piecewise Analysis of Probabilistic Programs via k-Induction
+
+**Authors**: Tengshun Yang, Shenghua Feng, Hongfei Fu, Naijun Zhan, Jingyu Ke, Shiyang Wu  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776709  
+**PDF**: https://arxiv.org/pdf/2403.17567  
+
+> This paper develops a piecewise analysis technique for probabilistic programs based on k-induction. By splitting a program's state space into regions and applying k-inductive reasoning within each region, the method can automatically prove quantitative properties (such as expected runtime and termination probability) of programs that resist monolithic inductive approaches.
+
+**Keywords**: `probabilistic programs`, `k-induction`, `static analysis`, `quantitative verification`, `expected runtime`
+
+**Related**:
+
+- Related: probabilistic program verification, martingale methods
+
+---
+
+## Domain-Theoretic Semantics for Functional Logic Programming
+
+**Authors**: Eddie Jones, Samson Main, Celia Mengyue Li, Jonathan Marriott, Alex Kavvos  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776699  
+
+> This paper develops a domain-theoretic denotational semantics for functional logic programming, combining the equational reasoning of functional languages with the non-deterministic search of logic programming. The semantics gives a mathematical foundation to languages like Curry, validating program equivalences and supporting reasoning about fair search strategies.
+
+**Keywords**: `denotational semantics`, `domain theory`, `functional logic programming`, `Curry`, `non-determinism`
+
+**Related**:
+
+- Related: Curry language, domain theory, logic programming semantics
+
+---
+
+## Hyperfunctions: Communicating Continuations
+
+**Authors**: Donnacha Oisín Kidney, Nicolas Wu  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776649  
+**PDF**: https://doisinkidney.com/pdfs/hyperfunctions.pdf  
+
+> This paper investigates hyperfunctions — higher-order functions that communicate through continuations — as a programming abstraction. The authors develop a type theory for hyperfunctions, relating them to corecursive definitions and giving semantics via final coalgebras. The work uncovers connections between continuation-passing style, stream programming, and interaction nets.
+
+**Keywords**: `continuations`, `corecursion`, `coalgebra`, `functional programming`, `type theory`
+
+**Related**:
+
+- Related: interaction nets, final coalgebra, CPS transformation
+
+---
+
+## RapunSL: Untangling Quantum Computing with Separation, Linear Combination and Mixing
+
+**Authors**: Yusuke Matsushita, Kengo Hirata, Ryo Wakizaka, Emanuele D'Osualdo  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776648  
+**PDF**: https://arxiv.org/abs/2511.23472  
+
+> RapunSL is a quantum separation logic that handles three fundamental quantum program constructs: state separation, linear combination (superposition), and mixing (probabilistic choice). The logic enables compositional reasoning about quantum programs including those with entanglement across separated memory regions, offering a unified framework for proving correctness of quantum algorithms.
+
+**Keywords**: `quantum programming`, `separation logic`, `quantum verification`, `linear combination`, `program logic`
+
+**Related**:
+
+- Related: quantum Hoare logic, separation logic, probabilistic programs
+
+---
+
+## An Expressive Assertion Language for Quantum Programs
+
+**Authors**: Bonan Su, Yuan Feng, Mingsheng Ying, Li Zhou  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776658  
+
+> This paper introduces a rich assertion language for specifying and verifying quantum programs, going beyond existing quantum Hoare logics by supporting assertions about quantum states and their classical shadows. The language is expressive enough to capture subtle quantum properties, and the paper demonstrates its use in formally verifying several quantum algorithms.
+
+**Keywords**: `quantum programs`, `assertion language`, `quantum Hoare logic`, `formal verification`, `quantum algorithms`
+
+**Related**:
+
+- Related: quantum Hoare logic, RapunSL (POPL 2026)
+
+---
+
+## ArchSem: Reusable Rigorous Semantics of Relaxed Architectures
+
+**Authors**: Thibaut Pérami, Thomas Bauereiss, Brian Campbell, Zongyuan Liu, Nils Lauermann, Alasdair Armstrong, Peter Sewell  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776650  
+
+> ArchSem provides a reusable framework for giving rigorous formal semantics to relaxed memory architectures (such as Arm and RISC-V), enabling the same semantic infrastructure to be shared across multiple architecture specifications. The framework is mechanized and supports compositional reasoning about programs running on weak memory models, bridging architecture specifications and program verification.
+
+**Keywords**: `relaxed memory models`, `architecture semantics`, `concurrency`, `formal verification`, `weak memory`
+
+**Related**:
+
+- Related: Sail architecture semantics, mixed-size concurrency models
+
+---
+
+## Handling Scope Checks: A Comparative Framework for Dynamic Scope Extrusion Checks
+
+**Authors**: Michael Lee, Ningning Xie, Oleg Kiselyov, Jeremy Yallop  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776681  
+
+> This paper presents a unified framework for comparing dynamic scope extrusion checks in effectful languages. Scope extrusion — where a captured variable escapes its defining scope — is a subtle source of unsoundness in delimited control and effect handlers. The paper classifies existing checks, establishes their relationships, and provides semantic criteria for when scope extrusion is safe.
+
+**Keywords**: `algebraic effects`, `effect handlers`, `scope extrusion`, `delimited continuations`, `semantics`
+
+**Related**:
+
+- Related: algebraic effects, delimited control, Kiselyov's effect handlers
+
+---
+
 ## 2025
 
 ### POPL 2025 — Selected Papers
