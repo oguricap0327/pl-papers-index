@@ -4,6 +4,15 @@ Complete index of all papers in this collection.
 
 | Title | Authors | Venue | Year | Topics |
 |-------|---------|-------|------|--------|
+| [Affect: An Affine Type and Effect System](venues/popl.md#affect-an-affine-type-and-effect-system) | Orpheas van Rooij, Robbert Krebbers | POPL 2025 | 2025 | affine types, algebraic effects |
+| [Qurts: Automatic Quantum Uncomputation by Affine Types with Lifetime](venues/popl.md#qurts-automatic-quantum-uncomputation-by-affine-types-with-lifetime) | Kengo Hirata, Chris Heunen | POPL 2025 | 2025 | quantum programming, affine types |
+| [Consistency of a Dependent Calculus of Indistinguishability](venues/popl.md#consistency-of-a-dependent-calculus-of-indistinguishability) | Yiyun Liu, Jonathan Chan, Stephanie Weirich | POPL 2025 | 2025 | dependent types, type theory |
+| [BiSikkel: A Multimode Logical Framework in Agda](venues/popl.md#bisikkel-a-multimode-logical-framework-in-agda) | Joris Ceulemans, Andreas Nuyts, Dominique Devriese | POPL 2025 | 2025 | logical frameworks, modal types |
+| [Flo: A Semantic Foundation for Progressive Stream Processing](venues/popl.md#flo-a-semantic-foundation-for-progressive-stream-processing) | Shadaj Laddad, Alvin Cheung, Joseph M. Hellerstein, Mae Milano | POPL 2025 | 2025 | stream processing, semantics |
+| [Program Logics à la Carte](venues/popl.md#program-logics-à-la-carte) | Max Vistrup, Michael Sammler, Ralf Jung | POPL 2025 | 2025 | program logics, separation logic |
+| [The Duality of λ-Abstraction](venues/popl.md#the-duality-of-λ-abstraction) | Vikraman Choudhury, Simon J. Gay | POPL 2025 | 2025 | lambda calculus, duality |
+| [Finite-Choice Logic Programming](venues/popl.md#finite-choice-logic-programming) | Chris Martens, Robert J. Simmons, Michael Arntzenius | POPL 2025 | 2025 | logic programming, Datalog |
+| [A Dependent Type Theory for Meta-programming with Intensional Analysis](venues/popl.md#a-dependent-type-theory-for-meta-programming-with-intensional-analysis) | Jason Z. S. Hu, Brigitte Pientka | POPL 2025 | 2025 | dependent types, meta-programming |
 | [Local Contextual Type Inference](venues/popl.md#local-contextual-type-inference) | Xu Xue, Chen Cui, Shengyi Jiang, Bruno C. d. S. Oliveira | POPL 2026 | 2026 | type inference, bidirectional typing, dependent types |
 | [Extensible Data Types with Ad-Hoc Polymorphism](venues/popl.md#extensible-data-types-with-ad-hoc-polymorphism) | Matthew Toohey, Yanning Chen, Ara Jamalzadeh, Ningning Xie | POPL 2026 | 2026 | type systems, extensible types, ad-hoc polymorphism |
 | [Let Generalization, Polymorphic Recursion, and Variable Minimization in Boolean-Kinded Type Systems](venues/popl.md#let-generalization) | Joseph Zullo | POPL 2026 | 2026 | type inference, boolean types |

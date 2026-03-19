@@ -365,17 +365,129 @@ Papers indexed from POPL, organized by year.
 
 ### POPL 2025 — Selected Papers
 
-## A Gradual Approach to Polymorphism
+## Affect: An Affine Type and Effect System
 
-**Authors**: (POPL 2025 — from proceedings)  
+**Authors**: Orpheas van Rooij, Robbert Krebbers  
 **Venue**: POPL 2025  
 **Year**: 2025  
-**DOI**: https://doi.org/10.1145/3704823  
-**PDF**: N/A  
+**DOI**: https://doi.org/10.1145/3704841  
+**PDF**: https://doi.org/10.1145/3704841  
 
-> POPL 2025 proceedings (PACMPL Vol. 9, Issue POPL) contain papers across type systems, verification, and semantics. See ACM DL for full listing.
+> This paper presents Affect, a type and effect system combining affine types with algebraic effects, ensuring that linear resources are consumed exactly once while enabling compositional effect reasoning. The system is proven sound and covers a realistic functional language with handlers.
 
-**Keywords**: `type systems`, `verification`, `semantics`
+**Keywords**: `affine types`, `algebraic effects`, `type systems`, `linear types`
+
+---
+
+## Qurts: Automatic Quantum Uncomputation by Affine Types with Lifetime
+
+**Authors**: Kengo Hirata, Chris Heunen  
+**Venue**: POPL 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.1145/3704842  
+**PDF**: https://doi.org/10.1145/3704842  
+
+> Qurts introduces a quantum programming language with affine types annotated with lifetimes to automate quantum uncomputation — the reversal of intermediate computations to reclaim ancilla qubits. The type system statically guarantees correct uncomputation without programmer annotation.
+
+**Keywords**: `quantum programming`, `affine types`, `uncomputation`, `type systems`
+
+---
+
+## Consistency of a Dependent Calculus of Indistinguishability
+
+**Authors**: Yiyun Liu, Jonathan Chan, Stephanie Weirich  
+**Venue**: POPL 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.1145/3704843  
+**PDF**: https://doi.org/10.1145/3704843  
+
+> This paper establishes the consistency of a dependent type theory that internalizes indistinguishability — a notion of observational equality suited for reasoning about program equivalence and information hiding. The proof is mechanized and handles the interaction between dependent types and the indistinguishability relation.
+
+**Keywords**: `dependent types`, `indistinguishability`, `consistency`, `type theory`
+
+---
+
+## BiSikkel: A Multimode Logical Framework in Agda
+
+**Authors**: Joris Ceulemans, Andreas Nuyts, Dominique Devriese  
+**Venue**: POPL 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.1145/3704844  
+**PDF**: https://doi.org/10.1145/3704844  
+
+> BiSikkel is a multimode logical framework implemented and verified in Agda, supporting modal type theories with multiple modes and modalities. It provides a generic infrastructure for defining and reasoning about modally typed languages, demonstrated on several instantiations including guarded recursion and parametricity.
+
+**Keywords**: `logical frameworks`, `multimode type theory`, `modal types`, `Agda`, `dependent types`
+
+---
+
+## Flo: A Semantic Foundation for Progressive Stream Processing
+
+**Authors**: Shadaj Laddad, Alvin Cheung, Joseph M. Hellerstein, Mae Milano  
+**Venue**: POPL 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.1145/3704845  
+**PDF**: https://doi.org/10.1145/3704845  
+
+> Flo provides a denotational semantics for progressive stream processing, capturing the incremental behavior of streaming computations that produce partial results over time. The framework unifies batch and streaming computation models and enables formal reasoning about progressiveness and correctness.
+
+**Keywords**: `stream processing`, `denotational semantics`, `dataflow`, `progressive computation`
+
+---
+
+## Program Logics à la Carte
+
+**Authors**: Max Vistrup, Michael Sammler, Ralf Jung  
+**Venue**: POPL 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.1145/3704847  
+**PDF**: https://doi.org/10.1145/3704847  
+
+> This paper presents a modular framework for constructing program logics by composing reusable logical components "à la carte." Built on top of Iris, it allows users to mix and match features like invariants, ownership, and prophecies, enabling tailored program logics without duplicating proof infrastructure.
+
+**Keywords**: `program logics`, `separation logic`, `Iris`, `modularity`, `formal verification`
+
+---
+
+## The Duality of λ-Abstraction
+
+**Authors**: Vikraman Choudhury, Simon J. Gay  
+**Venue**: POPL 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.1145/3704848  
+**PDF**: https://doi.org/10.1145/3704848  
+
+> This paper explores the categorical duality of λ-abstraction, revealing a symmetric dual construction and its relationship to continuations, codata, and call-by-value/call-by-name duality. The work connects classical duality in logic with operational distinctions in programming language semantics.
+
+**Keywords**: `lambda calculus`, `duality`, `continuations`, `category theory`, `call-by-value`
+
+---
+
+## Finite-Choice Logic Programming
+
+**Authors**: Chris Martens, Robert J. Simmons, Michael Arntzenius  
+**Venue**: POPL 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.1145/3704849  
+**PDF**: https://doi.org/10.1145/3704849  
+
+> Finite-Choice Logic Programming extends Datalog with a controlled form of non-determinism that allows programs to make finite choices among alternatives, enabling concise specification of problems that require selecting among stable models. The paper provides a formal semantics and shows decidability and complexity results.
+
+**Keywords**: `logic programming`, `Datalog`, `non-determinism`, `stable models`, `semantics`
+
+---
+
+## A Dependent Type Theory for Meta-programming with Intensional Analysis
+
+**Authors**: Jason Z. S. Hu, Brigitte Pientka  
+**Venue**: POPL 2025  
+**Year**: 2025  
+**DOI**: https://doi.org/10.1145/3704851  
+**PDF**: https://doi.org/10.1145/3704851  
+
+> This paper develops a dependently typed language for meta-programming that supports intensional analysis of code, allowing programs to inspect and transform typed terms at compile time. The type theory ensures that meta-programs are type-safe and that intensional operations preserve typing invariants.
+
+**Keywords**: `dependent types`, `meta-programming`, `intensional analysis`, `type theory`, `staged computation`
 
 ---
 
