@@ -361,6 +361,102 @@ Papers indexed from POPL, organized by year.
 
 ---
 
+## TypeDis: A Type System for Disentanglement
+
+**Authors**: Alexandre Moine, Stephanie Balzer, Alex Xu, Sam Westrick  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**PDF**: https://arxiv.org/abs/2412.02016  
+
+> This paper presents TypeDis, a type system for enforcing disentanglement in parallel functional programs. Disentanglement guarantees that parallel tasks remain oblivious to each other's allocations, enabling efficient task-local garbage collection without inter-task synchronization. TypeDis statically prevents entanglement using a lightweight type discipline.
+
+**Keywords**: `type systems`, `disentanglement`, `parallelism`, `memory management`, `garbage collection`
+
+**Related**:
+- Related: MaPLe compiler, parallel functional programming, linear types
+
+---
+
+## All for One and One for All: Program Logics for Exploiting Internal Determinism in Parallel Programs
+
+**Authors**: Alexandre Moine, Sam Westrick, Joseph Tassarotti  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**PDF**: https://arxiv.org/abs/2411.19098  
+
+> This paper develops program logics for reasoning about internally deterministic parallel programs, where parallel steps proceed deterministically. Internal determinism lets programmers reason about programs as if they executed sequentially, and this work provides formal foundations for that reasoning via separation logic.
+
+**Keywords**: `program logics`, `parallelism`, `internal determinism`, `separation logic`, `concurrency`
+
+**Related**:
+- Related: internally deterministic parallelism, IDP, separation logic
+
+---
+
+## An Equational Axiomatization of Dynamic Threads via Algebraic Effects
+
+**Authors**: Ohad Kammar, Jack Liell-Cock, Sam Lindley, Cristina Matache, Sam Staton  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**PDF**: https://arxiv.org/abs/2502.03183  
+
+> This paper gives a complete equational axiomatization for dynamic threads using algebraic effects and parameterized algebraic theories. The approach models fork/wait primitives via strong monads on functor categories, providing a foundation for names and binding in concurrent systems with dynamic thread creation.
+
+**Keywords**: `algebraic effects`, `concurrency`, `threads`, `equational theory`, `monads`, `presheaves`
+
+**Related**:
+- Related: algebraic effects, effect handlers, concurrency
+
+---
+
+## The Relative Monadic Metalanguage
+
+**Authors**: Jack Liell-Cock, Zev Shirazi, Sam Staton  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**PDF**: https://arxiv.org/abs/2512.09099  
+
+> This paper generalizes the monadic metalanguage to the relative setting using relative monads, which provide a controlled view of computation. The framework generalizes two existing program calculi, including a linear-non-linear language for graded monads, with a complete semantics via strong relative monads on functor categories.
+
+**Keywords**: `relative monads`, `monadic metalanguage`, `graded monads`, `linear types`, `denotational semantics`
+
+**Related**:
+- Related: Moggi's metalanguage, graded monads, linear/non-linear logic
+
+---
+
+## Counting and Sampling Traces in Regular Languages
+
+**Authors**: Alexis de Colnet, Kuldeep S. Meel, Umang Mathur  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**PDF**: https://arxiv.org/abs/2412.00398  
+
+> This paper studies counting and sampling Mazurkiewicz traces touched by a regular language. Given a finite automaton and an independence relation, the paper develops algorithms for computing the number of distinct traces and sampling uniformly from them, with complexity bounds relative to the automaton size.
+
+**Keywords**: `regular languages`, `Mazurkiewicz traces`, `counting`, `sampling`, `concurrency`, `partial orders`
+
+**Related**:
+- Related: Mazurkiewicz trace theory, model counting, finite automata
+
+---
+
+## Optimal Program Synthesis via Abstract Interpretation
+
+**Authors**: Stephen Mell, Steve Zdancewic, Osbert Bastani  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**PDF**: https://arxiv.org/abs/2602.10847  
+
+> This paper presents a framework for synthesizing programs with numerical constants that provably optimize a quantitative objective over input-output examples. The synthesis procedure uses abstract interpretation to enumerate programs in a search graph, yielding provably optimal solutions within a given DSL.
+
+**Keywords**: `program synthesis`, `abstract interpretation`, `optimization`, `domain-specific languages`, `numerical constants`
+
+**Related**:
+- Related: syntax-guided synthesis (SyGuS), abstract interpretation, program optimization
+
+---
+
 ## 2025
 
 ### POPL 2025 — Selected Papers
