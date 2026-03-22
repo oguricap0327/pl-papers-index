@@ -1,0 +1,2755 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An indexed collection of papers from POPL, PLDI, OOPSLA, ECOOP, ICFP">
+      
+      
+      
+        <link rel="canonical" href="https://oguricap0327.github.io/pl-papers-index/venues/icfp/">
+      
+      
+        <link rel="prev" href="../ecoop/">
+      
+      
+        <link rel="next" href="../../topics/type-systems/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>ICFP - PL Papers Index</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#icfp-papers" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="PL Papers Index" class="md-header__button md-logo" aria-label="PL Papers Index" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PL Papers Index
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ICFP
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/oguricap0327/pl-papers-index" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    oguricap0327/pl-papers-index
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../popl/" class="md-tabs__link">
+          
+  
+  
+  By Venue
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../topics/type-systems/" class="md-tabs__link">
+          
+  
+  
+  By Topic
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../years/2026/" class="md-tabs__link">
+          
+  
+  
+  By Year
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../all-papers/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  All Papers
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="PL Papers Index" class="md-nav__button md-logo" aria-label="PL Papers Index" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    PL Papers Index
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/oguricap0327/pl-papers-index" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    oguricap0327/pl-papers-index
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    By Venue
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    By Venue
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../popl/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    POPL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pldi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PLDI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oopsla/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OOPSLA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ecoop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ECOOP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICFP
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICFP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2025" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frex-dependently-typed-algebraic-simplification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frex: Dependently Typed Algebraic Simplification
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#robust-dynamic-embedding-for-gradual-typing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Robust Dynamic Embedding for Gradual Typing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-order-laziness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First-Order Laziness
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multi-stage-programming-with-splice-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-stage Programming with Splice Variables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#secref-securely-sharing-mutable-references-between-verified-and-unverified-code-in-f" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SecRef: Securely Sharing Mutable References between Verified and Unverified Code in F
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#almost-fair-simulations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Almost Fair Simulations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-functoriality-of-initial-semantics-and-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2-Functoriality of Initial Semantics, and Applications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bialgebraic-reasoning-on-stateful-languages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bialgebraic Reasoning on Stateful Languages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#big-steps-in-higher-order-mathematical-operational-semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Big Steps in Higher-Order Mathematical Operational Semantics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#call-guarded-abstract-definitional-interpreters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Call-Guarded Abstract Definitional Interpreters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compiling-with-generating-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compiling with Generating Functions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#correctness-meets-performance-from-agda-to-futhark" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Correctness Meets Performance: From Agda to Futhark
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crdt-emulation-simulation-and-representation-independence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CRDT Emulation, Simulation, and Representation Independence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#effectful-lenses-there-and-back-with-different-monads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Effectful Lenses: There and Back with Different Monads
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#environment-sharing-analysis-and-caller-provided-environments-for-higher-order-languages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environment-Sharing Analysis and Caller-Provided Environments for Higher-Order Languages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formal-semantics-and-program-logics-for-a-fragment-of-ocaml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formal Semantics and Program Logics for a Fragment of OCaml
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fusing-session-typed-concurrent-programming-into-functional-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fusing Session-Typed Concurrent Programming into Functional Programming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linear-types-with-dynamic-multiplicities-in-dependent-type-theory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linear Types with Dynamic Multiplicities in Dependent Type Theory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mctt-a-verified-kernel-for-a-proof-assistant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McTT: A Verified Kernel for a Proof Assistant
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modular-reasoning-about-error-bounds-for-concurrent-probabilistic-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modular Reasoning about Error Bounds for Concurrent Probabilistic Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multiple-resumptions-and-local-mutable-state-directly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple Resumptions and Local Mutable State, Directly
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#normalization-by-evaluation-for-non-cumulativity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Normalization by Evaluation for Non-cumulativity
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reasoning-about-weak-isolation-levels-in-separation-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reasoning about Weak Isolation Levels in Separation Logic
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relax-the-semilenient-core-of-choreographic-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relax! The Semilenient Core of Choreographic Programming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-theory-in-type-theory-using-a-strictified-syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type Theory in Type Theory using a Strictified Syntax
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-universes-as-kripke-worlds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type Universes as Kripke Worlds
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verified-interpreters-for-dynamic-languages-with-applications-to-the-nix-expression-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verified Interpreters for Dynamic Languages with Applications to the Nix Expression Language
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verifying-graph-algorithms-in-separation-logic-a-case-for-an-algebraic-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verifying Graph Algorithms in Separation Logic: A Case for an Algebraic Approach
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2024
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2024">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#icfp-2024-international-conference-on-functional-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ICFP 2024 — International Conference on Functional Programming
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-credits-resourceful-reasoning-about-error-bounds-for-higher-order-probabilistic-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#snapshottable-stores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Snapshottable Stores
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-based-reasoning-about-the-realizability-of-polymorphic-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example-Based Reasoning about the Realizability of Polymorphic Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-long-way-to-deforestation-a-type-inference-and-elaboration-technique-for-removing-intermediate-data-structures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Long Way to Deforestation: A Type Inference and Elaboration Technique for Removing Intermediate Data Structures
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abstracting-effect-systems-for-algebraic-effect-handlers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstracting Effect Systems for Algebraic Effect Handlers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#closure-free-functional-programming-in-a-two-level-type-theory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Closure-Free Functional Programming in a Two-Level Type Theory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gradual-indexed-inductive-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gradual Indexed Inductive Types
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#almost-sure-termination-by-guarded-refinement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Almost-Sure Termination by Guarded Refinement
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oxidizing-ocaml-with-modal-memory-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oxidizing OCaml with Modal Memory Management
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sound-borrow-checking-for-rust-via-symbolic-semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sound Borrow-Checking for Rust via Symbolic Semantics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-coq-mechanization-of-javascript-regular-expression-semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Coq Mechanization of JavaScript Regular Expression Semantics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cclemma-e-graph-guided-lemma-discovery-for-inductive-equational-proofs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CCLemma: E-Graph Guided Lemma Discovery for Inductive Equational Proofs
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    By Topic
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    By Topic
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/type-systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Type Systems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/type-inference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Type Inference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/subtyping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subtyping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/intersection-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intersection Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/dependent-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dependent Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/gradual-typing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gradual Typing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/formal-verification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formal Verification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/concurrency/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concurrency
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/compilers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compilers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/program-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    By Year
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    By Year
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../years/2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../years/2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../years/2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../all-papers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    All Papers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2025" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frex-dependently-typed-algebraic-simplification" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frex: Dependently Typed Algebraic Simplification
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#robust-dynamic-embedding-for-gradual-typing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Robust Dynamic Embedding for Gradual Typing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#first-order-laziness" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        First-Order Laziness
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multi-stage-programming-with-splice-variables" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-stage Programming with Splice Variables
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#secref-securely-sharing-mutable-references-between-verified-and-unverified-code-in-f" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SecRef: Securely Sharing Mutable References between Verified and Unverified Code in F
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#almost-fair-simulations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Almost Fair Simulations
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-functoriality-of-initial-semantics-and-applications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2-Functoriality of Initial Semantics, and Applications
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bialgebraic-reasoning-on-stateful-languages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bialgebraic Reasoning on Stateful Languages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#big-steps-in-higher-order-mathematical-operational-semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Big Steps in Higher-Order Mathematical Operational Semantics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#call-guarded-abstract-definitional-interpreters" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Call-Guarded Abstract Definitional Interpreters
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#compiling-with-generating-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compiling with Generating Functions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#correctness-meets-performance-from-agda-to-futhark" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Correctness Meets Performance: From Agda to Futhark
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#crdt-emulation-simulation-and-representation-independence" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CRDT Emulation, Simulation, and Representation Independence
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#effectful-lenses-there-and-back-with-different-monads" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Effectful Lenses: There and Back with Different Monads
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#environment-sharing-analysis-and-caller-provided-environments-for-higher-order-languages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Environment-Sharing Analysis and Caller-Provided Environments for Higher-Order Languages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#formal-semantics-and-program-logics-for-a-fragment-of-ocaml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Formal Semantics and Program Logics for a Fragment of OCaml
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fusing-session-typed-concurrent-programming-into-functional-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fusing Session-Typed Concurrent Programming into Functional Programming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linear-types-with-dynamic-multiplicities-in-dependent-type-theory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Linear Types with Dynamic Multiplicities in Dependent Type Theory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mctt-a-verified-kernel-for-a-proof-assistant" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        McTT: A Verified Kernel for a Proof Assistant
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modular-reasoning-about-error-bounds-for-concurrent-probabilistic-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modular Reasoning about Error Bounds for Concurrent Probabilistic Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multiple-resumptions-and-local-mutable-state-directly" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multiple Resumptions and Local Mutable State, Directly
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#normalization-by-evaluation-for-non-cumulativity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Normalization by Evaluation for Non-cumulativity
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reasoning-about-weak-isolation-levels-in-separation-logic" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reasoning about Weak Isolation Levels in Separation Logic
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relax-the-semilenient-core-of-choreographic-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relax! The Semilenient Core of Choreographic Programming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-theory-in-type-theory-using-a-strictified-syntax" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type Theory in Type Theory using a Strictified Syntax
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-universes-as-kripke-worlds" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type Universes as Kripke Worlds
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verified-interpreters-for-dynamic-languages-with-applications-to-the-nix-expression-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verified Interpreters for Dynamic Languages with Applications to the Nix Expression Language
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verifying-graph-algorithms-in-separation-logic-a-case-for-an-algebraic-approach" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verifying Graph Algorithms in Separation Logic: A Case for an Algebraic Approach
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2024
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2024">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#icfp-2024-international-conference-on-functional-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ICFP 2024 — International Conference on Functional Programming
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#error-credits-resourceful-reasoning-about-error-bounds-for-higher-order-probabilistic-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#snapshottable-stores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Snapshottable Stores
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#example-based-reasoning-about-the-realizability-of-polymorphic-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Example-Based Reasoning about the Realizability of Polymorphic Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-long-way-to-deforestation-a-type-inference-and-elaboration-technique-for-removing-intermediate-data-structures" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Long Way to Deforestation: A Type Inference and Elaboration Technique for Removing Intermediate Data Structures
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#abstracting-effect-systems-for-algebraic-effect-handlers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Abstracting Effect Systems for Algebraic Effect Handlers
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#closure-free-functional-programming-in-a-two-level-type-theory" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Closure-Free Functional Programming in a Two-Level Type Theory
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gradual-indexed-inductive-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gradual Indexed Inductive Types
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#almost-sure-termination-by-guarded-refinement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Almost-Sure Termination by Guarded Refinement
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#oxidizing-ocaml-with-modal-memory-management" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Oxidizing OCaml with Modal Memory Management
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#sound-borrow-checking-for-rust-via-symbolic-semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sound Borrow-Checking for Rust via Symbolic Semantics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-coq-mechanization-of-javascript-regular-expression-semantics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Coq Mechanization of JavaScript Regular Expression Semantics
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cclemma-e-graph-guided-lemma-discovery-for-inductive-equational-proofs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CCLemma: E-Graph Guided Lemma Discovery for Inductive Equational Proofs
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="icfp-papers">ICFP Papers<a class="headerlink" href="#icfp-papers" title="Permanent link">&para;</a></h1>
+<p>Papers indexed from ICFP (International Conference on Functional Programming).</p>
+<hr />
+<h2 id="2025">2025<a class="headerlink" href="#2025" title="Permanent link">&para;</a></h2>
+<h2 id="frex-dependently-typed-algebraic-simplification">Frex: Dependently Typed Algebraic Simplification<a class="headerlink" href="#frex-dependently-typed-algebraic-simplification" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Guillaume Allais, Edwin Brady, Nathan Corbyn, Ohad Kammar, Jeremy Yallop<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747506<br />
+<strong>PDF</strong>: https://www.cl.cam.ac.uk/~jdy22/papers/frex-dependently-typed-algebraic-simplification.pdf  </p>
+<blockquote>
+<p>This paper presents Frex, a dependently typed framework for algebraic simplification. It uses free extensions of algebraic structures (frex) to derive verified simplification procedures, providing a principled approach to building certified algebraic normalizers in dependently typed proof assistants like Idris.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>dependent types</code>, <code>algebraic simplification</code>, <code>proof assistants</code>, <code>Idris</code>, <code>type theory</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Coq ring tactic, algebraic reflection</li>
+<li>See also: <a href="#robust-dynamic-embedding-for-gradual-typing">Robust Dynamic Embedding for Gradual Typing</a> (ICFP 2025)</li>
+</ul>
+<hr />
+<h2 id="robust-dynamic-embedding-for-gradual-typing">Robust Dynamic Embedding for Gradual Typing<a class="headerlink" href="#robust-dynamic-embedding-for-gradual-typing" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Koen Jacobs, Matías Toro, Nicolas Tabareau, Éric Tanter<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747507<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper develops a theory of robust dynamic embedding for gradual typing, ensuring that the gradual guarantee holds in the presence of dynamic checks. It addresses challenges arising when typed and untyped code interact, providing semantic foundations for sound gradual type systems.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>gradual typing</code>, <code>dynamic types</code>, <code>type systems</code>, <code>gradual guarantee</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Gradual Typing (Siek &amp; Taha), Space-efficient blame calculus</li>
+<li>See also: <a href="#first-order-laziness">First-Order Laziness</a> (ICFP 2025)</li>
+</ul>
+<hr />
+<h2 id="first-order-laziness">First-Order Laziness<a class="headerlink" href="#first-order-laziness" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Anton Lorenzen, Daan Leijen, Wouter Swierstra, Sam Lindley<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747530<br />
+<strong>PDF</strong>: https://antonlorenzen.de/papers/lazycons.pdf<br />
+<strong>Award</strong>: Distinguished Paper  </p>
+<blockquote>
+<p>This paper introduces first-order laziness, a restricted form of lazy evaluation that avoids the overhead of full laziness while retaining many of its benefits. By limiting lazy suspension to first-order values, the authors derive a type system that statically guarantees the absence of thunk duplication, improving predictability of functional programs.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>laziness</code>, <code>functional programming</code>, <code>type systems</code>, <code>evaluation strategy</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Lazy Haskell, call-by-need semantics</li>
+<li>See also: <a href="#lazy-linearity">Lazy Linearity for a Core Functional Language</a> (POPL 2026)</li>
+</ul>
+<hr />
+<h2 id="multi-stage-programming-with-splice-variables">Multi-stage Programming with Splice Variables<a class="headerlink" href="#multi-stage-programming-with-splice-variables" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Tsung-Ju Chiang, Ningning Xie<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747518<br />
+<strong>PDF</strong>: N/A<br />
+<strong>Award</strong>: Distinguished Paper  </p>
+<blockquote>
+<p>This paper develops a type-safe multi-stage programming calculus featuring splice variables, which allow sharing of code fragments across multiple stages. The approach extends existing two-level type theory to support fine-grained code reuse with a clean semantics, enabling expressive metaprogramming.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>multi-stage programming</code>, <code>type systems</code>, <code>metaprogramming</code>, <code>staging</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: MetaOCaml, Template Haskell, two-level type theory</li>
+</ul>
+<hr />
+<h2 id="secref-securely-sharing-mutable-references-between-verified-and-unverified-code-in-f">SecRef<em>: Securely Sharing Mutable References between Verified and Unverified Code in F</em><a class="headerlink" href="#secref-securely-sharing-mutable-references-between-verified-and-unverified-code-in-f" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Cezar-Constantin Andrici, Danel Ahman, Cătălin Hriţcu, Ruxandra Icleanu<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: N/A<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>SecRef<em> develops techniques for securely sharing mutable references at the boundary between verified (typed) and unverified (dynamically typed) code in F</em>. The work provides reference monitor semantics and proof rules for enforcing security policies across trust boundaries in proof-carrying code settings.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>formal verification</code>, <code>F*</code>, <code>mutable state</code>, <code>security</code>, <code>proof assistants</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: F* proof assistant, reference monitors</li>
+</ul>
+<hr />
+<h2 id="almost-fair-simulations">Almost Fair Simulations<a class="headerlink" href="#almost-fair-simulations" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Arthur Correnson, Iona Kuhn, Bernd Finkbeiner<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747512<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper introduces almost fair simulations, a semantic notion weaker than full bisimulation but sufficient for proving program equivalences under fair scheduling. The framework is developed in a functional programming context and yields compositional proof methods for concurrent programs.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>program semantics</code>, <code>bisimulation</code>, <code>concurrency</code>, <code>fairness</code>, <code>functional programming</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Bisimulation theory, coinduction</li>
+</ul>
+<hr />
+<h2 id="2-functoriality-of-initial-semantics-and-applications">2-Functoriality of Initial Semantics, and Applications<a class="headerlink" href="#2-functoriality-of-initial-semantics-and-applications" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Benedikt Ahrens, Ambroise Lafont, Thomas Lamiaux<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747527<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper establishes 2-functoriality for initial semantics of languages, showing that language interpretations (models) are functorial in 2-categorical sense. Applications include principled derivation of substitution lemmas and induction principles for languages with binding, formalized in a proof assistant.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>type theory</code>, <code>initial semantics</code>, <code>category theory</code>, <code>binding</code>, <code>proof assistants</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Initiality for MLTT, abstract syntax with variable binding</li>
+</ul>
+<hr />
+<h2 id="bialgebraic-reasoning-on-stateful-languages">Bialgebraic Reasoning on Stateful Languages<a class="headerlink" href="#bialgebraic-reasoning-on-stateful-languages" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Sergey Goncharov, Stefan Milius, Lutz Schröder, Stelios Tsampas, Henning Urbat<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747513<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper develops bialgebraic techniques for reasoning about the semantics of stateful languages, combining algebraic structure on syntax with coalgebraic structure on behavior. The framework yields compositional proof principles for program equivalence in languages with mutable state.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>program semantics</code>, <code>bialgebra</code>, <code>coalgebra</code>, <code>stateful computation</code>, <code>bisimulation</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>See also: <a href="#big-steps-in-higher-order-mathematical-operational-semantics">Big Steps in Higher-Order Mathematical Operational Semantics</a> (ICFP 2025)</li>
+</ul>
+<hr />
+<h2 id="big-steps-in-higher-order-mathematical-operational-semantics">Big Steps in Higher-Order Mathematical Operational Semantics<a class="headerlink" href="#big-steps-in-higher-order-mathematical-operational-semantics" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Sergey Goncharov, Pouya Partow, Stelios Tsampas<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747540<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper extends mathematical operational semantics to support big-step evaluation for higher-order languages with effects. It provides abstract conditions under which big-step and small-step semantics coincide, enabling modular proofs of program equivalence.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>operational semantics</code>, <code>big-step semantics</code>, <code>higher-order languages</code>, <code>category theory</code></p>
+<hr />
+<h2 id="call-guarded-abstract-definitional-interpreters">Call-Guarded Abstract Definitional Interpreters<a class="headerlink" href="#call-guarded-abstract-definitional-interpreters" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Kimball Germane<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747539<br />
+<strong>PDF</strong>: N/A<br />
+<strong>Award</strong>: Distinguished Paper  </p>
+<blockquote>
+<p>This paper introduces call-guarded abstract definitional interpreters (ADIs), addressing the challenge of non-termination in abstract interpretation derived from definitional interpreters. The call-guard mechanism ensures convergence while preserving the clarity of definitional interpreter structure, making static analysis derivation more principled.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>abstract interpretation</code>, <code>definitional interpreters</code>, <code>program analysis</code>, <code>static analysis</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Abstracting Definitional Interpreters (Darais et al.)</li>
+</ul>
+<hr />
+<h2 id="compiling-with-generating-functions">Compiling with Generating Functions<a class="headerlink" href="#compiling-with-generating-functions" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Jianlin Li, Yizhou Zhang<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747534<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper proposes using generating functions as a compilation technique for functional programs, enabling elegant derivation of efficient compiled code. The approach provides a mathematical foundation for compiler transformations based on formal power series.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>compilers</code>, <code>functional programming</code>, <code>code generation</code>, <code>generating functions</code></p>
+<hr />
+<h2 id="correctness-meets-performance-from-agda-to-futhark">Correctness Meets Performance: From Agda to Futhark<a class="headerlink" href="#correctness-meets-performance-from-agda-to-futhark" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Artjoms Šinkarovs, Troels Henriksen<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747524<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper presents a methodology for extracting high-performance array programs in Futhark from correctness proofs in Agda. The approach bridges the gap between verified functional specifications and GPU-accelerated implementations, maintaining a formal correspondence between proof and code.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>verified compilation</code>, <code>Agda</code>, <code>Futhark</code>, <code>formal verification</code>, <code>high-performance computing</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Agda proof assistant, Futhark GPU language</li>
+</ul>
+<hr />
+<h2 id="crdt-emulation-simulation-and-representation-independence">CRDT Emulation, Simulation, and Representation Independence<a class="headerlink" href="#crdt-emulation-simulation-and-representation-independence" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Nathan Liittschwager, Jonathan Castello, Stelios Tsampas, Lindsey Kuper<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747528<br />
+<strong>PDF</strong>: https://arxiv.org/abs/2504.05398  </p>
+<blockquote>
+<p>This paper studies CRDTs (Conflict-free Replicated Data Types) through the lens of simulation, emulation, and representation independence. It provides formal conditions under which different CRDT implementations are semantically equivalent, supporting safe refactoring of distributed data structures.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>CRDTs</code>, <code>distributed computing</code>, <code>representation independence</code>, <code>bisimulation</code>, <code>concurrency</code></p>
+<hr />
+<h2 id="effectful-lenses-there-and-back-with-different-monads">Effectful Lenses: There and Back with Different Monads<a class="headerlink" href="#effectful-lenses-there-and-back-with-different-monads" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Ruifeng Xie, Tom Schrijvers, Zhenjiang Hu<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747523<br />
+<strong>PDF</strong>: N/A<br />
+<strong>Award</strong>: Distinguished Paper  </p>
+<blockquote>
+<p>This paper develops a theory of effectful lenses that allow the forward and backward passes of a bidirectional transformation to use different monadic effects. The framework generalizes optics to the effectful setting, enabling practical bidirectional programming with rich computational effects.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>lenses</code>, <code>optics</code>, <code>monads</code>, <code>bidirectional programming</code>, <code>functional programming</code></p>
+<hr />
+<h2 id="environment-sharing-analysis-and-caller-provided-environments-for-higher-order-languages">Environment-Sharing Analysis and Caller-Provided Environments for Higher-Order Languages<a class="headerlink" href="#environment-sharing-analysis-and-caller-provided-environments-for-higher-order-languages" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: J. Carr, Benjamin Quiring, John Reppy, Olin Shivers, Skye Soss, Byron Zhong<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747516<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper develops environment-sharing analysis for higher-order languages, detecting when closures can share environments rather than copying them. The analysis enables significant memory savings in functional language implementations and is evaluated on a set of benchmark programs.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>compilers</code>, <code>closure conversion</code>, <code>program analysis</code>, <code>higher-order functions</code>, <code>memory optimization</code></p>
+<hr />
+<h2 id="formal-semantics-and-program-logics-for-a-fragment-of-ocaml">Formal Semantics and Program Logics for a Fragment of OCaml<a class="headerlink" href="#formal-semantics-and-program-logics-for-a-fragment-of-ocaml" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Remy Seassau, Irene Yoon, Jean-Marie Madiot, François Pottier<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747509<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper presents a formal operational semantics and separation logic proof system for a realistic fragment of OCaml, covering mutable references, exceptions, and higher-order functions. The logic is mechanized and used to verify several non-trivial OCaml programs.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>formal verification</code>, <code>OCaml</code>, <code>separation logic</code>, <code>program logic</code>, <code>mechanized semantics</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Iris separation logic, OCaml semantics</li>
+</ul>
+<hr />
+<h2 id="fusing-session-typed-concurrent-programming-into-functional-programming">Fusing Session-Typed Concurrent Programming into Functional Programming<a class="headerlink" href="#fusing-session-typed-concurrent-programming-into-functional-programming" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Chuta Sano, Deepak Garg, Ryan Kavanagh, Brigitte Pientka, Bernardo Toninho<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747519<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper presents a fusion of session-typed concurrent programming with functional programming, enabling seamless interoperability between the two paradigms in a single language. The design preserves session type safety while allowing functional code to orchestrate concurrent processes naturally.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>session types</code>, <code>concurrency</code>, <code>functional programming</code>, <code>type systems</code>, <code>linear types</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Session types (Honda), linear logic and session types</li>
+</ul>
+<hr />
+<h2 id="linear-types-with-dynamic-multiplicities-in-dependent-type-theory">Linear Types with Dynamic Multiplicities in Dependent Type Theory<a class="headerlink" href="#linear-types-with-dynamic-multiplicities-in-dependent-type-theory" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Maximilian Doré<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747531<br />
+<strong>PDF</strong>: https://www.cs.ox.ac.uk/people/maximilian.dore/icfp25.pdf  </p>
+<blockquote>
+<p>This functional pearl develops linear types with multiplicities that can depend on runtime values in a dependent type theory. Dynamic multiplicities allow resource usage specifications to mention program values, yielding a more expressive linear type system that subsumes graded type theories.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>linear types</code>, <code>dependent types</code>, <code>multiplicities</code>, <code>graded types</code>, <code>type theory</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Quantitative type theory, graded modal types</li>
+</ul>
+<hr />
+<h2 id="mctt-a-verified-kernel-for-a-proof-assistant">McTT: A Verified Kernel for a Proof Assistant<a class="headerlink" href="#mctt-a-verified-kernel-for-a-proof-assistant" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Junyoung Jang, Antoine Gaulin, Jason Z. S. Hu, Brigitte Pientka<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747511<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>McTT is a verified kernel for a Martin-Löf type theory proof assistant, with a mechanized proof of type soundness in Coq. The kernel covers a core dependent type theory with universes and eliminators, providing a trustworthy foundation for building proof assistants.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>proof assistants</code>, <code>dependent types</code>, <code>Martin-Löf type theory</code>, <code>formal verification</code>, <code>Coq</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Martin-Löf type theory, NuPRL, Agda kernel</li>
+</ul>
+<hr />
+<h2 id="modular-reasoning-about-error-bounds-for-concurrent-probabilistic-programs">Modular Reasoning about Error Bounds for Concurrent Probabilistic Programs<a class="headerlink" href="#modular-reasoning-about-error-bounds-for-concurrent-probabilistic-programs" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Kwing Hei Li, Alejandro Aguirre, Simon Oddershede Gregersen, Philipp G. Haselwarter, Joseph Tassarotti, Lars Birkedal<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747514<br />
+<strong>PDF</strong>: https://hei411.github.io/pdf/coneris.pdf  </p>
+<blockquote>
+<p>This paper presents a modular program logic for reasoning about probabilistic error bounds in concurrent programs. Built on Iris, the logic supports compositional proofs that programs exceed error thresholds with bounded probability, with applications to randomized algorithms.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>program verification</code>, <code>concurrency</code>, <code>probabilistic programming</code>, <code>separation logic</code>, <code>Iris</code></p>
+<hr />
+<h2 id="multiple-resumptions-and-local-mutable-state-directly">Multiple Resumptions and Local Mutable State, Directly<a class="headerlink" href="#multiple-resumptions-and-local-mutable-state-directly" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Serkan Muhcu, Philipp Schuster, Michel Steuwer, Jonathan Immanuel Brachthäuser<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747529<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper presents a direct-style implementation of algebraic effects with multiple resumptions and local mutable state, avoiding continuation-passing transformations. The approach enables natural programming with complex effect interactions while maintaining competitive performance.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>algebraic effects</code>, <code>effect handlers</code>, <code>multiple resumptions</code>, <code>mutable state</code>, <code>functional programming</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Algebraic effects (Plotkin &amp; Power), effect handlers</li>
+</ul>
+<hr />
+<h2 id="normalization-by-evaluation-for-non-cumulativity">Normalization by Evaluation for Non-cumulativity<a class="headerlink" href="#normalization-by-evaluation-for-non-cumulativity" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Shengyi Jiang, Jason Z. S. Hu, Bruno C. d. S. Oliveira<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747508<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper develops a normalization by evaluation (NbE) algorithm for a type theory with non-cumulative universes, where types in one universe level do not automatically inhabit higher levels. The NbE algorithm is formally verified and handles the additional bureaucracy of universe lifting explicitly.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>dependent types</code>, <code>normalization by evaluation</code>, <code>universes</code>, <code>type theory</code>, <code>formal verification</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: NbE for dependent types, universe polymorphism</li>
+</ul>
+<hr />
+<h2 id="reasoning-about-weak-isolation-levels-in-separation-logic">Reasoning about Weak Isolation Levels in Separation Logic<a class="headerlink" href="#reasoning-about-weak-isolation-levels-in-separation-logic" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Anders Alnor Mathiasen, Léon Gondelman, Léon Ducruet, Amin Timany, Lars Birkedal<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747515<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper develops a separation logic for reasoning about programs under weak isolation levels (read committed, snapshot isolation) in databases. The logic accounts for non-serializable anomalies and provides compositional reasoning about concurrent transactions.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>separation logic</code>, <code>concurrency</code>, <code>database transactions</code>, <code>weak memory</code>, <code>formal verification</code></p>
+<hr />
+<h2 id="relax-the-semilenient-core-of-choreographic-programming">Relax! The Semilenient Core of Choreographic Programming<a class="headerlink" href="#relax-the-semilenient-core-of-choreographic-programming" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Dan Plyukhin, Xueying Qin, Fabrizio Montesi<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747538<br />
+<strong>PDF</strong>: https://dplyukhin.github.io/files/relax-extended.pdf  </p>
+<blockquote>
+<p>This functional pearl identifies the semilenient core of choreographic programming — a minimal calculus capturing the essential features of choreographies without unnecessary restrictions. The core admits a clean denotational semantics and simplifies reasoning about distributed protocol correctness.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>choreographic programming</code>, <code>concurrency</code>, <code>distributed systems</code>, <code>process calculi</code>, <code>session types</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Choreographic programming (Montesi), session types</li>
+</ul>
+<hr />
+<h2 id="type-theory-in-type-theory-using-a-strictified-syntax">Type Theory in Type Theory using a Strictified Syntax<a class="headerlink" href="#type-theory-in-type-theory-using-a-strictified-syntax" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Ambrus Kaposi, Loïc Pujet<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747535<br />
+<strong>PDF</strong>: https://pujet.fr/pdf/strictification_preprint.pdf  </p>
+<blockquote>
+<p>This paper formalizes type theory inside type theory using a strictified (setoid-based) syntax, avoiding the coherence problems that arise from working with higher inductive types. The strictification ensures that the metatheory can be verified in standard type-theoretic proof assistants.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>type theory</code>, <code>dependent types</code>, <code>metatheory</code>, <code>formalization</code>, <code>proof assistants</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Initiality conjecture, type theory in type theory (Altenkirch &amp; Kaposi)</li>
+</ul>
+<hr />
+<h2 id="type-universes-as-kripke-worlds">Type Universes as Kripke Worlds<a class="headerlink" href="#type-universes-as-kripke-worlds" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Paulette Koronkevich, William J. Bowman<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747532<br />
+<strong>PDF</strong>: https://koronkevi.ch/files/tukw_preprint.pdf  </p>
+<blockquote>
+<p>This paper interprets type universes in dependent type theory as Kripke worlds in a possible-worlds semantics, enabling a uniform treatment of universe polymorphism and cumulative universes. The Kripke model validates universe operations and provides a denotational foundation for universe hierarchies.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>dependent types</code>, <code>type universes</code>, <code>Kripke semantics</code>, <code>denotational semantics</code>, <code>type theory</code></p>
+<hr />
+<h2 id="verified-interpreters-for-dynamic-languages-with-applications-to-the-nix-expression-language">Verified Interpreters for Dynamic Languages with Applications to the Nix Expression Language<a class="headerlink" href="#verified-interpreters-for-dynamic-languages-with-applications-to-the-nix-expression-language" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Rutger Broekhoff, Robbert Krebbers<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747537<br />
+<strong>PDF</strong>: https://robbertkrebbers.nl/research/articles/nix.pdf  </p>
+<blockquote>
+<p>This paper develops a verified interpreter for the Nix expression language using Iris and Coq, establishing soundness of dynamic type checking and lazy evaluation. The formalization covers the full semantic complexity of Nix including recursive bindings and built-in functions.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>formal verification</code>, <code>dynamic languages</code>, <code>Nix</code>, <code>Coq</code>, <code>Iris</code>, <code>interpreter correctness</code></p>
+<hr />
+<h2 id="verifying-graph-algorithms-in-separation-logic-a-case-for-an-algebraic-approach">Verifying Graph Algorithms in Separation Logic: A Case for an Algebraic Approach<a class="headerlink" href="#verifying-graph-algorithms-in-separation-logic-a-case-for-an-algebraic-approach" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Marcos Grandury, Aleksandar Nanevski, Alexander Gryzlov<br />
+<strong>Venue</strong>: ICFP 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3747510<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper presents an algebraic approach to verifying graph algorithms in separation logic, using graph algebra to abstractly specify and compose graph transformations. The methodology is applied to verify several classic graph algorithms including spanning tree computation.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>formal verification</code>, <code>separation logic</code>, <code>graph algorithms</code>, <code>program verification</code>, <code>algebraic methods</code></p>
+<hr />
+<h2 id="2024">2024<a class="headerlink" href="#2024" title="Permanent link">&para;</a></h2>
+<h3 id="icfp-2024-international-conference-on-functional-programming">ICFP 2024 — International Conference on Functional Programming<a class="headerlink" href="#icfp-2024-international-conference-on-functional-programming" title="Permanent link">&para;</a></h3>
+<h2 id="error-credits-resourceful-reasoning-about-error-bounds-for-higher-order-probabilistic-programs">Error Credits: Resourceful Reasoning about Error Bounds for Higher-Order Probabilistic Programs<a class="headerlink" href="#error-credits-resourceful-reasoning-about-error-bounds-for-higher-order-probabilistic-programs" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Alejandro Aguirre, Philipp G. Haselwarter, Markus de Medeiros, Kwing Hei Li, Simon Oddershede Gregersen, Joseph Tassarotti, Lars Birkedal<br />
+<strong>Venue</strong>: ICFP 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3674635  </p>
+<blockquote>
+<p>This paper introduces error credits as a resource in Iris-based separation logic for reasoning about error probability bounds in higher-order probabilistic programs. The credit-based accounting enables modular compositional proofs of expected error bounds.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>probabilistic programs</code>, <code>separation logic</code>, <code>error bounds</code>, <code>higher-order logic</code>, <code>Iris</code></p>
+<hr />
+<h2 id="snapshottable-stores">Snapshottable Stores<a class="headerlink" href="#snapshottable-stores" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Clément Allain, Basile Clément, Alexandre Moine, Gabriel Scherer<br />
+<strong>Venue</strong>: ICFP 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3674637  </p>
+<blockquote>
+<p>This paper presents snapshottable stores, a data structure supporting efficient copy-on-write snapshots of mutable state for functional languages. The approach achieves good amortized complexity and is integrated with OCaml's GC.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>data structures</code>, <code>mutable state</code>, <code>snapshots</code>, <code>OCaml</code>, <code>functional programming</code></p>
+<hr />
+<h2 id="example-based-reasoning-about-the-realizability-of-polymorphic-programs">Example-Based Reasoning about the Realizability of Polymorphic Programs<a class="headerlink" href="#example-based-reasoning-about-the-realizability-of-polymorphic-programs" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Niek Mulleners, Johan Jeuring, Bastiaan Heeren<br />
+<strong>Venue</strong>: ICFP 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3674636  </p>
+<blockquote>
+<p>This paper develops techniques for reasoning about whether polymorphic programs are realizable from their type signatures using example-based testing. The approach leverages parametricity to enumerate and verify program behaviors from a small number of examples.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>parametricity</code>, <code>polymorphism</code>, <code>program synthesis</code>, <code>testing</code></p>
+<hr />
+<h2 id="the-long-way-to-deforestation-a-type-inference-and-elaboration-technique-for-removing-intermediate-data-structures">The Long Way to Deforestation: A Type Inference and Elaboration Technique for Removing Intermediate Data Structures<a class="headerlink" href="#the-long-way-to-deforestation-a-type-inference-and-elaboration-technique-for-removing-intermediate-data-structures" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Yijia Chen, Lionel Parreaux<br />
+<strong>Venue</strong>: ICFP 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3674634  </p>
+<blockquote>
+<p>This paper presents a type inference and elaboration approach for automatically deforesting intermediate data structures in functional programs. The technique works via a novel type-directed fusion that avoids the limitations of existing approaches like stream fusion.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>deforestation</code>, <code>type inference</code>, <code>program optimization</code>, <code>fusion</code>, <code>functional programming</code></p>
+<hr />
+<h2 id="abstracting-effect-systems-for-algebraic-effect-handlers">Abstracting Effect Systems for Algebraic Effect Handlers<a class="headerlink" href="#abstracting-effect-systems-for-algebraic-effect-handlers" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Takuma Yoshioka, Taro Sekiyama, Atsushi Igarashi<br />
+<strong>Venue</strong>: ICFP 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3674641  </p>
+<blockquote>
+<p>This paper develops abstract interpretations of effect systems for algebraic effect handlers, enabling analysis of effectful programs using a range of different effect disciplines. The framework unifies various effect system designs under a common abstraction.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>algebraic effects</code>, <code>effect systems</code>, <code>abstract interpretation</code>, <code>type systems</code></p>
+<hr />
+<h2 id="closure-free-functional-programming-in-a-two-level-type-theory">Closure-Free Functional Programming in a Two-Level Type Theory<a class="headerlink" href="#closure-free-functional-programming-in-a-two-level-type-theory" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: András Kovács<br />
+<strong>Venue</strong>: ICFP 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3674648  </p>
+<blockquote>
+<p>This paper develops a two-level type theory for closure-free functional programming, where the meta-level handles staging and the object-level produces closure-free code. The approach enables writing high-level functional code that compiles to efficient, allocation-free implementations.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>two-level type theory</code>, <code>staging</code>, <code>closures</code>, <code>program optimization</code>, <code>dependent types</code></p>
+<hr />
+<h2 id="gradual-indexed-inductive-types">Gradual Indexed Inductive Types<a class="headerlink" href="#gradual-indexed-inductive-types" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Mara Malewski Correa, Kenji Maillard, Nicolas Tabareau, Éric Tanter<br />
+<strong>Venue</strong>: ICFP 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3674644  </p>
+<blockquote>
+<p>This paper extends gradual typing to indexed inductive types, allowing programs to gradually migrate from untyped to fully dependently typed. The key challenge is handling the interaction between runtime type casts and dependent type indices.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>gradual typing</code>, <code>dependent types</code>, <code>indexed types</code>, <code>inductive types</code></p>
+<hr />
+<h2 id="almost-sure-termination-by-guarded-refinement">Almost-Sure Termination by Guarded Refinement<a class="headerlink" href="#almost-sure-termination-by-guarded-refinement" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Simon Oddershede Gregersen, Alejandro Aguirre, Philipp G. Haselwarter, Joseph Tassarotti, Lars Birkedal<br />
+<strong>Venue</strong>: ICFP 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3674632  </p>
+<blockquote>
+<p>This paper develops a higher-order separation logic for proving almost-sure termination of probabilistic programs using guarded refinement. The approach handles complex control flow and higher-order features while maintaining compositionality.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>probabilistic programs</code>, <code>termination</code>, <code>separation logic</code>, <code>guarded recursion</code></p>
+<hr />
+<h2 id="oxidizing-ocaml-with-modal-memory-management">Oxidizing OCaml with Modal Memory Management<a class="headerlink" href="#oxidizing-ocaml-with-modal-memory-management" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Anton Lorenzen, Leo White, Stephen Dolan, Richard A. Eisenberg, Sam Lindley<br />
+<strong>Venue</strong>: ICFP 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3674642  </p>
+<blockquote>
+<p>This paper extends OCaml with modal types for memory management inspired by Rust's ownership system, enabling safe manual memory control without a garbage collector in hot paths. The modal system integrates with OCaml's existing type system.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>OCaml</code>, <code>modal types</code>, <code>memory management</code>, <code>linear types</code>, <code>ownership</code></p>
+<hr />
+<h2 id="sound-borrow-checking-for-rust-via-symbolic-semantics">Sound Borrow-Checking for Rust via Symbolic Semantics<a class="headerlink" href="#sound-borrow-checking-for-rust-via-symbolic-semantics" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Son Ho, Aymeric Fromherz, Jonathan Protzenko<br />
+<strong>Venue</strong>: ICFP 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3674640  </p>
+<blockquote>
+<p>This paper presents a sound borrow-checking algorithm for Rust programs using symbolic execution, providing a formal foundation for Rust's type system. The symbolic semantics precisely characterizes valid borrows and enables verification of borrow-checker correctness.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>Rust</code>, <code>borrow checking</code>, <code>symbolic semantics</code>, <code>type systems</code>, <code>ownership</code></p>
+<hr />
+<h2 id="a-coq-mechanization-of-javascript-regular-expression-semantics">A Coq Mechanization of JavaScript Regular Expression Semantics<a class="headerlink" href="#a-coq-mechanization-of-javascript-regular-expression-semantics" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Noé De Santo, Aurèle Barrière, Clément Pit-Claudel<br />
+<strong>Venue</strong>: ICFP 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3674666  </p>
+<blockquote>
+<p>This paper presents a complete mechanization of the JavaScript regular expression specification (ECMAScript) in Coq, enabling formal verification of regex-related properties. The mechanization covers lookaheads, backreferences, and other advanced features.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>regular expressions</code>, <code>JavaScript</code>, <code>formal verification</code>, <code>Coq</code>, <code>mechanization</code></p>
+<hr />
+<h2 id="cclemma-e-graph-guided-lemma-discovery-for-inductive-equational-proofs">CCLemma: E-Graph Guided Lemma Discovery for Inductive Equational Proofs<a class="headerlink" href="#cclemma-e-graph-guided-lemma-discovery-for-inductive-equational-proofs" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Cole Kurashige, Ruyi Ji, Aditya Giridharan, Mark Barbone, Daniel Noor, Shachar Itzhaky, Ranjit Jhala, Nadia Polikarpova<br />
+<strong>Venue</strong>: ICFP 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3674653  </p>
+<blockquote>
+<p>This paper presents CCLemma, which uses e-graphs to guide the discovery of auxiliary lemmas needed for completing inductive equational proofs automatically. The approach handles goals that require creative lemma instantiation beyond simple induction.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>e-graphs</code>, <code>lemma discovery</code>, <code>inductive proofs</code>, <code>automated reasoning</code>, <code>equational logic</code></p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/oguricap0327" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
