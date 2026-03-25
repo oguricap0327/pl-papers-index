@@ -764,3 +764,99 @@ Papers indexed from POPL, organized by year.
 **Keywords**: `Datalog`, `program analysis`, `compiler`, `static analysis`
 
 ---
+
+## [Hadamard-Pi: Equational Quantum Programming](https://arxiv.org/abs/2506.06835)
+
+**Authors**: Wang Fang, Chris Heunen, Robin Kaarsgaard  
+**Venue**: POPL 2026  
+**Year**: 2026  
+
+> This paper introduces Hadamard-Pi, an equational quantum programming language based on the Pi reversible language augmented with Hadamard gates. It provides a complete equational theory for quantum circuits, bridging categorical quantum mechanics with concrete programming language semantics.
+
+**Keywords**: `quantum programming`, `equational theory`, `reversible computing`, `Pi calculus`, `Hadamard gates`
+
+---
+
+## [Arbitration-Free Consistency Is Available (and Vice Versa)](https://arxiv.org/abs/2510.21304)
+
+**Authors**: Hagit Attiya, Constantin Enea, Enrique Román-Calvo  
+**Venue**: POPL 2026  
+**Year**: 2026  
+
+> This paper establishes a formal equivalence between arbitration-free consistency models and available consistency models in distributed systems. The result provides new insight into the fundamental relationship between coordination-freedom and consistency guarantees.
+
+**Keywords**: `distributed systems`, `consistency models`, `availability`, `concurrency`, `coordination`
+
+---
+
+## [Oriented Metrics for Bottom-Up Enumerative Synthesis](https://arxiv.org/abs/2511.02491)
+
+**Authors**: Ria Ramesh, Thomas Bourgeat, Adam Chlipala  
+**Venue**: POPL 2026  
+**Year**: 2026  
+
+> This paper introduces oriented metrics, a framework for guiding bottom-up enumerative program synthesis by imposing a direction on the space of candidate programs. Oriented metrics improve synthesis efficiency by ruling out redundant candidates early in the search.
+
+**Keywords**: `program synthesis`, `enumerative synthesis`, `bottom-up synthesis`, `search guidance`, `metrics`
+
+---
+
+## [Compiling to Linear Neurons](https://arxiv.org/abs/2511.14953)
+
+**Authors**: Joey Velez-Ginorio, Sriram Sankaranarayanan, Swarat Chaudhuri  
+**Venue**: POPL 2026  
+**Year**: 2026  
+
+> This paper presents a compilation approach that translates programs into recurrent neural network architectures composed of linear neurons. The framework gives a formal semantics to neural computation in terms of program execution, enabling program analysis techniques to be applied to neural networks.
+
+**Keywords**: `neural networks`, `compilation`, `program semantics`, `recurrent networks`, `neurosymbolic`
+
+---
+
+## ChiSA: Static Analysis for Lightweight Chisel Verification
+
+**Authors**: Jiacai Cui, Qinlin Chen, Zhongsheng Zhan, Tian Tan, Yue Li  
+**Venue**: POPL 2026  
+**Year**: 2026  
+
+> ChiSA is a static analysis framework for verifying hardware designs written in Chisel, a hardware description language embedded in Scala. The approach leverages lightweight abstract interpretation to detect bugs and verify safety properties without requiring full formal verification.
+
+**Keywords**: `hardware verification`, `static analysis`, `Chisel`, `abstract interpretation`, `HDL`
+
+---
+
+## Parameterized Verification of Quantum Circuits
+
+**Authors**: Parosh Aziz Abdulla, Yu-Fang Chen, Michal Hečko, Lukáš Holík, Ondřej Lengál, Jyun-Ao Lin, Ramanathan S. Thinniyam  
+**Venue**: POPL 2026  
+**Year**: 2026  
+
+> This paper develops a parameterized verification framework for quantum circuits that can handle families of circuits of arbitrary size. The approach combines automata-theoretic techniques with quantum semantics to prove properties of scalable quantum algorithms.
+
+**Keywords**: `quantum circuits`, `parameterized verification`, `automata theory`, `formal verification`, `quantum computing`
+
+---
+
+## Recurrence Sets for Proving Fair Non-termination under Axiomatic Memory Consistency Models
+
+**Authors**: Thomas Haas, Roland Meyer, Hernán Ponce de León, Andrés Lomelí Garduño  
+**Venue**: POPL 2026  
+**Year**: 2026  
+
+> This paper develops a technique for proving fair non-termination of concurrent programs under weak memory consistency models. The approach introduces recurrence sets that capture infinite execution witnesses compatible with axiomatic memory semantics.
+
+**Keywords**: `non-termination`, `concurrency`, `weak memory models`, `axiomatic semantics`, `fair termination`
+
+---
+
+## Network Change Validation with Relational NetKAT
+
+**Authors**: Han Xu, Zachary Kincaid, Ratul Mahajan, David Walker  
+**Venue**: POPL 2026  
+**Year**: 2026  
+
+> This paper extends NetKAT with relational semantics to support verification of network change operations, enabling formal validation of configuration updates in software-defined networks. The relational approach allows expressing and checking properties that span before and after states of a network.
+
+**Keywords**: `network verification`, `NetKAT`, `software-defined networking`, `relational semantics`, `change validation`
+
+---

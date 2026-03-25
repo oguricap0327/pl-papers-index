@@ -26,6 +26,14 @@ Complete index of all papers in this collection.
 | [The Relative Monadic Metalanguage](venues/popl.md#the-relative-monadic-metalanguage) | Jack Liell-Cock, Zev Shirazi, Sam Staton | POPL 2026 | 2026 | relative monads, graded monads, denotational semantics |
 | [Counting and Sampling Traces in Regular Languages](venues/popl.md#counting-and-sampling-traces-in-regular-languages) | Alexis de Colnet, Kuldeep S. Meel, Umang Mathur | POPL 2026 | 2026 | regular languages, Mazurkiewicz traces, counting |
 | [Optimal Program Synthesis via Abstract Interpretation](venues/popl.md#optimal-program-synthesis-via-abstract-interpretation) | Stephen Mell, Steve Zdancewic, Osbert Bastani | POPL 2026 | 2026 | program synthesis, abstract interpretation, optimization |
+| [Hadamard-Pi: Equational Quantum Programming](venues/popl.md#hadamard-pi-equational-quantum-programming) | Wang Fang, Chris Heunen, Robin Kaarsgaard | POPL 2026 | 2026 | quantum programming, equational theory, reversible computing |
+| [Arbitration-Free Consistency Is Available (and Vice Versa)](venues/popl.md#arbitration-free-consistency-is-available-and-vice-versa) | Hagit Attiya, Constantin Enea, Enrique Román-Calvo | POPL 2026 | 2026 | distributed systems, consistency models, availability |
+| [Oriented Metrics for Bottom-Up Enumerative Synthesis](venues/popl.md#oriented-metrics-for-bottom-up-enumerative-synthesis) | Ria Ramesh, Thomas Bourgeat, Adam Chlipala | POPL 2026 | 2026 | program synthesis, enumerative synthesis, search guidance |
+| [Compiling to Linear Neurons](venues/popl.md#compiling-to-linear-neurons) | Joey Velez-Ginorio, Sriram Sankaranarayanan, Swarat Chaudhuri | POPL 2026 | 2026 | neural networks, compilation, program semantics |
+| [ChiSA: Static Analysis for Lightweight Chisel Verification](venues/popl.md#chisa-static-analysis-for-lightweight-chisel-verification) | Jiacai Cui, Qinlin Chen, Zhongsheng Zhan, Tian Tan, Yue Li | POPL 2026 | 2026 | hardware verification, static analysis, Chisel |
+| [Parameterized Verification of Quantum Circuits](venues/popl.md#parameterized-verification-of-quantum-circuits) | Parosh Aziz Abdulla et al. | POPL 2026 | 2026 | quantum circuits, parameterized verification, automata theory |
+| [Recurrence Sets for Proving Fair Non-termination under Axiomatic Memory Consistency Models](venues/popl.md#recurrence-sets-for-proving-fair-non-termination) | Thomas Haas, Roland Meyer, Hernán Ponce de León, Andrés Lomelí Garduño | POPL 2026 | 2026 | non-termination, concurrency, weak memory models |
+| [Network Change Validation with Relational NetKAT](venues/popl.md#network-change-validation-with-relational-netkat) | Han Xu, Zachary Kincaid, Ratul Mahajan, David Walker | POPL 2026 | 2026 | network verification, NetKAT, relational semantics |
 | [Frex: Dependently Typed Algebraic Simplification](venues/icfp.md#frex) | Allais, Brady, Corbyn, Kammar, Yallop | ICFP 2025 | 2025 | dependent types, proof assistants, Idris |
 | [Robust Dynamic Embedding for Gradual Typing](venues/icfp.md#robust-dynamic-embedding) | Jacobs, Toro, Tabareau, Tanter | ICFP 2025 | 2025 | gradual typing, type systems |
 | [First-Order Laziness ⭐](venues/icfp.md#first-order-laziness) | Lorenzen, Leijen, Swierstra, Lindley | ICFP 2025 | 2025 | functional programming, laziness, type systems |
@@ -50,11 +58,11 @@ Complete index of all papers in this collection.
 
 ---
 
-**Total papers indexed:** 26
+**Total papers indexed:** 34
 
 **Coverage:** POPL 2026, ICFP 2025, PLDI 2025, OOPSLA 2025, ECOOP 2025
 
-**Last updated:** 2026-03-11
+**Last updated:** 2026-03-25
 | [Bialgebraic Reasoning on Stateful Languages](venues/icfp.md#bialgebraic-reasoning-on-stateful-languages) | Goncharov, Milius, Schröder, Tsampas, Urbat | ICFP 2025 | 2025 | program semantics, bialgebra, bisimulation |
 | [Big Steps in Higher-Order Mathematical Operational Semantics](venues/icfp.md#big-steps-in-higher-order-mathematical-operational-semantics) | Goncharov, Partow, Tsampas | ICFP 2025 | 2025 | operational semantics, category theory |
 | [Call-Guarded Abstract Definitional Interpreters ⭐](venues/icfp.md#call-guarded-abstract-definitional-interpreters) | Kimball Germane | ICFP 2025 | 2025 | abstract interpretation, program analysis |
