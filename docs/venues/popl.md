@@ -8,13 +8,12 @@ Papers indexed from POPL, organized by year.
 
 ### POPL 2026 — Types Session Papers
 
-## Local Contextual Type Inference
+## [Local Contextual Type Inference](https://i.cs.hku.hk/~bruno/papers/popl26.pdf)
 
 **Authors**: Xu Xue, Chen Cui, Shengyi Jiang, Bruno C. d. S. Oliveira  
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776653  
-**PDF**: https://i.cs.hku.hk/~bruno/papers/popl26.pdf  
 
 > This paper presents a local contextual type inference algorithm that propagates type information from the local context to infer types in expressive type systems. The approach supports dependent types and other advanced type features while remaining practically efficient, extending the power of bidirectional typing with richer contextual propagation.
 
@@ -27,13 +26,12 @@ Papers indexed from POPL, organized by year.
 
 ---
 
-## Extensible Data Types with Ad-Hoc Polymorphism
+## [Extensible Data Types with Ad-Hoc Polymorphism](https://mtoohey.com/papers/popl26.pdf)
 
 **Authors**: Matthew Toohey, Yanning Chen, Ara Jamalzadeh, Ningning Xie  
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776662  
-**PDF**: https://mtoohey.com/papers/popl26.pdf  
 
 > This paper develops a type system supporting extensible data types combined with ad-hoc polymorphism (type classes / overloading). It enables defining and extending algebraic data types with operations that dispatch on types at runtime, while maintaining type safety and coherence.
 
@@ -82,13 +80,12 @@ Papers indexed from POPL, organized by year.
 
 ---
 
-## Lazy Linearity for a Core Functional Language
+## [Lazy Linearity for a Core Functional Language](https://arxiv.org/pdf/2511.10361)
 
 **Authors**: Rodrigo Mesquita, Bernardo Toninho  
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776711  
-**PDF**: https://arxiv.org/pdf/2511.10361  
 
 > This paper develops a linear type system for a lazy core functional language, reconciling linear types with lazy evaluation. The key contribution is a novel treatment of thunks and sharing that is compatible with linearity constraints, enabling safe resource-bounded programming under lazy semantics.
 
@@ -101,13 +98,12 @@ Papers indexed from POPL, organized by year.
 
 ---
 
-## Miri: Practical Undefined Behavior Detection for Rust
+## [Miri: Practical Undefined Behavior Detection for Rust](https://research.ralfj.de/papers/2026-popl-miri.pdf)
 
 **Authors**: Ralf Jung, Benjamin Kimock, Christian Poveda, Eduardo Sánchez Muñoz, Oli Scherer, Qian (Andy) Wang  
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776690  
-**PDF**: https://research.ralfj.de/papers/2026-popl-miri.pdf  
 
 > Miri is an interpreter for Rust's MIR (Mid-level Intermediate Representation) that detects undefined behavior at runtime. This paper formalizes the operational semantics used by Miri and demonstrates how it catches violations of Rust's memory model, including data races and misuse of raw pointers.
 
@@ -119,13 +115,12 @@ Papers indexed from POPL, organized by year.
 
 ---
 
-## Formal Verification for JavaScript Regular Expressions: A Proven Mechanized Semantics and Its Applications
+## [Formal Verification for JavaScript Regular Expressions: A Proven Mechanized Semantics and Its Applications](https://arxiv.org/pdf/2507.13091)
 
 **Authors**: Aurèle Barrière, Victor Deng, Clément Pit-Claudel  
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776710  
-**PDF**: https://arxiv.org/pdf/2507.13091  
 **Award**: Distinguished Paper  
 
 > This paper presents a fully mechanized (Coq-verified) semantics for JavaScript regular expressions, covering all features of the ECMAScript specification including lookahead and backreferences. The formalization enables formal proofs about regex program properties and has been used to verify JavaScript engine implementations.
@@ -155,13 +150,12 @@ Papers indexed from POPL, organized by year.
 
 ---
 
-## Piecewise Analysis of Probabilistic Programs via k-Induction
+## [Piecewise Analysis of Probabilistic Programs via k-Induction](https://arxiv.org/pdf/2403.17567)
 
 **Authors**: Tengshun Yang, Shenghua Feng, Hongfei Fu, Naijun Zhan, Jingyu Ke, Shiyang Wu  
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776709  
-**PDF**: https://arxiv.org/pdf/2403.17567  
 
 > This paper develops a piecewise analysis technique for probabilistic programs based on k-induction. By splitting a program's state space into regions and applying k-inductive reasoning within each region, the method can automatically prove quantitative properties (such as expected runtime and termination probability) of programs that resist monolithic inductive approaches.
 
@@ -190,13 +184,12 @@ Papers indexed from POPL, organized by year.
 
 ---
 
-## Hyperfunctions: Communicating Continuations
+## [Hyperfunctions: Communicating Continuations](https://doisinkidney.com/pdfs/hyperfunctions.pdf)
 
 **Authors**: Donnacha Oisín Kidney, Nicolas Wu  
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776649  
-**PDF**: https://doisinkidney.com/pdfs/hyperfunctions.pdf  
 
 > This paper investigates hyperfunctions — higher-order functions that communicate through continuations — as a programming abstraction. The authors develop a type theory for hyperfunctions, relating them to corecursive definitions and giving semantics via final coalgebras. The work uncovers connections between continuation-passing style, stream programming, and interaction nets.
 
@@ -208,13 +201,12 @@ Papers indexed from POPL, organized by year.
 
 ---
 
-## RapunSL: Untangling Quantum Computing with Separation, Linear Combination and Mixing
+## [RapunSL: Untangling Quantum Computing with Separation, Linear Combination and Mixing](https://arxiv.org/abs/2511.23472)
 
 **Authors**: Yusuke Matsushita, Kengo Hirata, Ryo Wakizaka, Emanuele D'Osualdo  
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776648  
-**PDF**: https://arxiv.org/abs/2511.23472  
 
 > RapunSL is a quantum separation logic that handles three fundamental quantum program constructs: state separation, linear combination (superposition), and mixing (probabilistic choice). The logic enables compositional reasoning about quantum programs including those with entanglement across separated memory regions, offering a unified framework for proving correctness of quantum algorithms.
 
@@ -293,13 +285,12 @@ Papers indexed from POPL, organized by year.
 
 ---
 
-## The Complexity of Testing Message-Passing Concurrency
+## [The Complexity of Testing Message-Passing Concurrency](https://arxiv.org/abs/2505.05162)
 
 **Authors**: Zheng Shi, Lasse Møldrup, Umang Mathur, Andreas Pavlogiannis  
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776643  
-**PDF**: https://arxiv.org/abs/2505.05162  
 
 > This paper establishes tight complexity bounds for testing properties of message-passing concurrent programs, studying the problem of deciding whether a concurrent execution is consistent with a given communication pattern. The results characterize tractable and intractable cases using automata-theoretic and combinatorial arguments.
 
@@ -326,13 +317,12 @@ Papers indexed from POPL, organized by year.
 
 ---
 
-## Bayesian Separation Logic
+## [Bayesian Separation Logic](https://www.arxiv.org/pdf/2507.15530)
 
 **Authors**: Shing Hin Ho, Nicolas Wu, Azalea Raad  
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776696  
-**PDF**: https://www.arxiv.org/pdf/2507.15530  
 
 > Bayesian Separation Logic (BaySL) extends separation logic with Bayesian probabilistic reasoning, enabling compositional proofs of probabilistic programs that combine heap mutation with uncertainty. The logic supports reasoning about posteriors and priors in probabilistic models implemented as imperative programs.
 
@@ -343,13 +333,12 @@ Papers indexed from POPL, organized by year.
 
 ---
 
-## Security Reasoning via Substructural Dependency Tracking
+## [Security Reasoning via Substructural Dependency Tracking](https://hgouni.com/files/popl26.pdf)
 
 **Authors**: Hemant Gouni, Frank Pfenning, Jonathan Aldrich  
 **Venue**: POPL 2026  
 **Year**: 2026  
 **DOI**: https://doi.org/10.1145/3776669  
-**PDF**: https://hgouni.com/files/popl26.pdf  
 **Award**: Distinguished Paper  
 
 > This paper presents a type-and-effect system for security reasoning based on substructural dependency tracking, enabling fine-grained information-flow analysis of programs with mutable state. The system tracks how sensitive data flows through a program using linear and affine types, preventing leaks through both explicit and implicit channels.

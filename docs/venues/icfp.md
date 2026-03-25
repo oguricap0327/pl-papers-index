@@ -6,13 +6,12 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 
 ## 2025
 
-## Frex: Dependently Typed Algebraic Simplification
+## [Frex: Dependently Typed Algebraic Simplification](https://www.cl.cam.ac.uk/~jdy22/papers/frex-dependently-typed-algebraic-simplification.pdf)
 
 **Authors**: Guillaume Allais, Edwin Brady, Nathan Corbyn, Ohad Kammar, Jeremy Yallop  
 **Venue**: ICFP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.1145/3747506  
-**PDF**: https://www.cl.cam.ac.uk/~jdy22/papers/frex-dependently-typed-algebraic-simplification.pdf  
 
 > This paper presents Frex, a dependently typed framework for algebraic simplification. It uses free extensions of algebraic structures (frex) to derive verified simplification procedures, providing a principled approach to building certified algebraic normalizers in dependently typed proof assistants like Idris.
 
@@ -44,13 +43,12 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 
 ---
 
-## First-Order Laziness
+## [First-Order Laziness](https://antonlorenzen.de/papers/lazycons.pdf)
 
 **Authors**: Anton Lorenzen, Daan Leijen, Wouter Swierstra, Sam Lindley  
 **Venue**: ICFP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.1145/3747530  
-**PDF**: https://antonlorenzen.de/papers/lazycons.pdf  
 **Award**: Distinguished Paper  
 
 > This paper introduces first-order laziness, a restricted form of lazy evaluation that avoids the overhead of full laziness while retaining many of its benefits. By limiting lazy suspension to first-order values, the authors derive a type system that statically guarantees the absence of thunk duplication, improving predictability of functional programs.
@@ -220,13 +218,12 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 
 ---
 
-## CRDT Emulation, Simulation, and Representation Independence
+## [CRDT Emulation, Simulation, and Representation Independence](https://arxiv.org/abs/2504.05398)
 
 **Authors**: Nathan Liittschwager, Jonathan Castello, Stelios Tsampas, Lindsey Kuper  
 **Venue**: ICFP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.1145/3747528  
-**PDF**: https://arxiv.org/abs/2504.05398  
 
 > This paper studies CRDTs (Conflict-free Replicated Data Types) through the lens of simulation, emulation, and representation independence. It provides formal conditions under which different CRDT implementations are semantically equivalent, supporting safe refactoring of distributed data structures.
 
@@ -299,13 +296,12 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 
 ---
 
-## Linear Types with Dynamic Multiplicities in Dependent Type Theory
+## [Linear Types with Dynamic Multiplicities in Dependent Type Theory](https://www.cs.ox.ac.uk/people/maximilian.dore/icfp25.pdf)
 
 **Authors**: Maximilian Doré  
 **Venue**: ICFP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.1145/3747531  
-**PDF**: https://www.cs.ox.ac.uk/people/maximilian.dore/icfp25.pdf  
 
 > This functional pearl develops linear types with multiplicities that can depend on runtime values in a dependent type theory. Dynamic multiplicities allow resource usage specifications to mention program values, yielding a more expressive linear type system that subsumes graded type theories.
 
@@ -335,13 +331,12 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 
 ---
 
-## Modular Reasoning about Error Bounds for Concurrent Probabilistic Programs
+## [Modular Reasoning about Error Bounds for Concurrent Probabilistic Programs](https://hei411.github.io/pdf/coneris.pdf)
 
 **Authors**: Kwing Hei Li, Alejandro Aguirre, Simon Oddershede Gregersen, Philipp G. Haselwarter, Joseph Tassarotti, Lars Birkedal  
 **Venue**: ICFP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.1145/3747514  
-**PDF**: https://hei411.github.io/pdf/coneris.pdf  
 
 > This paper presents a modular program logic for reasoning about probabilistic error bounds in concurrent programs. Built on Iris, the logic supports compositional proofs that programs exceed error thresholds with bounded probability, with applications to randomized algorithms.
 
@@ -399,13 +394,12 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 
 ---
 
-## Relax! The Semilenient Core of Choreographic Programming
+## [Relax! The Semilenient Core of Choreographic Programming](https://dplyukhin.github.io/files/relax-extended.pdf)
 
 **Authors**: Dan Plyukhin, Xueying Qin, Fabrizio Montesi  
 **Venue**: ICFP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.1145/3747538  
-**PDF**: https://dplyukhin.github.io/files/relax-extended.pdf  
 
 > This functional pearl identifies the semilenient core of choreographic programming — a minimal calculus capturing the essential features of choreographies without unnecessary restrictions. The core admits a clean denotational semantics and simplifies reasoning about distributed protocol correctness.
 
@@ -417,13 +411,12 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 
 ---
 
-## Type Theory in Type Theory using a Strictified Syntax
+## [Type Theory in Type Theory using a Strictified Syntax](https://pujet.fr/pdf/strictification_preprint.pdf)
 
 **Authors**: Ambrus Kaposi, Loïc Pujet  
 **Venue**: ICFP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.1145/3747535  
-**PDF**: https://pujet.fr/pdf/strictification_preprint.pdf  
 
 > This paper formalizes type theory inside type theory using a strictified (setoid-based) syntax, avoiding the coherence problems that arise from working with higher inductive types. The strictification ensures that the metatheory can be verified in standard type-theoretic proof assistants.
 
@@ -435,13 +428,12 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 
 ---
 
-## Type Universes as Kripke Worlds
+## [Type Universes as Kripke Worlds](https://koronkevi.ch/files/tukw_preprint.pdf)
 
 **Authors**: Paulette Koronkevich, William J. Bowman  
 **Venue**: ICFP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.1145/3747532  
-**PDF**: https://koronkevi.ch/files/tukw_preprint.pdf  
 
 > This paper interprets type universes in dependent type theory as Kripke worlds in a possible-worlds semantics, enabling a uniform treatment of universe polymorphism and cumulative universes. The Kripke model validates universe operations and provides a denotational foundation for universe hierarchies.
 
@@ -449,13 +441,12 @@ Papers indexed from ICFP (International Conference on Functional Programming).
 
 ---
 
-## Verified Interpreters for Dynamic Languages with Applications to the Nix Expression Language
+## [Verified Interpreters for Dynamic Languages with Applications to the Nix Expression Language](https://robbertkrebbers.nl/research/articles/nix.pdf)
 
 **Authors**: Rutger Broekhoff, Robbert Krebbers  
 **Venue**: ICFP 2025  
 **Year**: 2025  
 **DOI**: https://doi.org/10.1145/3747537  
-**PDF**: https://robbertkrebbers.nl/research/articles/nix.pdf  
 
 > This paper develops a verified interpreter for the Nix expression language using Iris and Coq, establishing soundness of dynamic type checking and lazy evaluation. The formalization covers the full semantic complexity of Nix including recursive bindings and built-in functions.
 
