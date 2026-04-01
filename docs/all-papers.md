@@ -4,6 +4,10 @@ Complete index of all papers in this collection.
 
 | Title | Authors | Venue | Year | Topics |
 |-------|---------|-------|------|--------|
+| [Superset Decompilation](venues/arxiv.md#superset-decompilation) | Chang Liu et al. | arXiv | 2026 | reverse engineering, decompilation, Datalog |
+| [Towards verifying unsafe Rust programs](venues/arxiv.md#towards-verifying-unsafe-rust-programs-against-rusts-pointer-aliasing-restrictions) | Wannes Tas et al. | arXiv | 2026 | Rust, formal verification, program logics |
+| [Multi-paradigm Logic Programming in ErgoAI](venues/arxiv.md#multi-paradigm-logic-programming-in-the-ergoai-system) | Theresa Swift et al. | arXiv | 2026 | logic programming, F-logic, HiLog |
+| [Folding the Heighway dragon curve](venues/arxiv.md#folding-the-heighway-dragon-curve) | Shin-Cheng Mu | arXiv | 2026 | functional programming, fold duality, fractals |
 | [Affect: An Affine Type and Effect System](venues/popl.md#affect-an-affine-type-and-effect-system) | Orpheas van Rooij, Robbert Krebbers | POPL 2025 | 2025 | affine types, algebraic effects |
 | [Qurts: Automatic Quantum Uncomputation by Affine Types with Lifetime](venues/popl.md#qurts-automatic-quantum-uncomputation-by-affine-types-with-lifetime) | Kengo Hirata, Chris Heunen | POPL 2025 | 2025 | quantum programming, affine types |
 | [Consistency of a Dependent Calculus of Indistinguishability](venues/popl.md#consistency-of-a-dependent-calculus-of-indistinguishability) | Yiyun Liu, Jonathan Chan, Stephanie Weirich | POPL 2025 | 2025 | dependent types, type theory |
@@ -123,3 +127,13 @@ Complete index of all papers in this collection.
 | [The Functional Essence of Imperative Binary Search Trees](venues/pldi.md#the-functional-essence-of-imperative-binary-search-trees) | Lorenzen, Leijen, Swierstra, Lindley | PLDI 2024 | 2024 | functional programming, in-place update, data structures |
 | [Bringing the WebAssembly Standard up to Speed with SpecTec](venues/pldi.md#bringing-the-webassembly-standard-up-to-speed-with-spectec) | Youn, Wonho, et al. | PLDI 2024 | 2024 | WebAssembly, specification languages, DSL |
 | [Bit Blasting Probabilistic Programs](venues/pldi.md#bit-blasting-probabilistic-programs) | Garg, Holtzen, Van den Broeck, Millstein | PLDI 2024 | 2024 | probabilistic programming, exact inference, compilation |
+
+⭐ = Distinguished Paper award
+
+---
+
+**Total papers indexed:** 114
+
+**Coverage:** arXiv 2026, POPL 2024-2026, ICFP 2024-2025, PLDI 2024-2025, OOPSLA 2025, ECOOP 2025
+
+**Last updated:** 2026-04-02
