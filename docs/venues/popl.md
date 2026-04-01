@@ -849,3 +849,63 @@ Papers indexed from POPL, organized by year.
 **Keywords**: `network verification`, `NetKAT`, `software-defined networking`, `relational semantics`, `change validation`
 
 ---
+
+## [Superset Decompilation](https://arxiv.org/abs/2603.28002)
+
+**Authors**: Chang Liu  
+**Venue**: POPL 2026  
+**Year**: 2026  
+
+> This paper presents provenance-guided superset decompilation (PGSD), a framework that structures decompilation as a sequence of modular passes deriving facts about binaries into a relation store. Instead of committing early to a single interpretation, the pipeline retains ambiguous interpretations as parallel candidates with provenance, deferring resolution until the final selection phase. Manifold implements PGSD as a declarative reverse engineering framework lifting Linux ELF binaries to C99 through a granular intermediate representation in ~35K lines of Rust and Datalog.
+
+**Keywords**: `decompilation`, `binary analysis`, `Datalog`, `reverse engineering`, `program analysis`
+
+**Related**:
+- Related: Ghidra, IDA Pro, angr, RetDec
+
+---
+
+## [Towards Verifying Unsafe Rust Programs Against Rust's Pointer-Aliasing Restrictions](https://arxiv.org/abs/2603.28326)
+
+**Authors**: Wannes Tas  
+**Venue**: POPL 2026  
+**Year**: 2026  
+
+> This paper presents work in progress towards the first program logic for modularly verifying that Rust programs using unsafe blocks comply with Rust's pointer-aliasing rules. The logic aims to statically verify that unsafe code respects ownership and borrowing invariants that the type system cannot enforce.
+
+**Keywords**: `Rust`, `unsafe code`, `program logic`, `pointer aliasing`, `verification`
+
+**Related**:
+- Related: RustBelt, Stacked Borrows, Miri
+
+---
+
+## [Bit-Vector CHC Solving for Binary Analysis and Binary Analysis for Bit-Vector CHC Solving](https://arxiv.org/abs/2603.27107)
+
+**Authors**: Aaron Bembenek  
+**Venue**: POPL 2026  
+**Year**: 2026  
+
+> This paper evaluates the viability of constrained Horn clause (CHC) solving for binary analysis by encoding binary analysis problems as CHCs in the SMT logic of quantifier-free bit vectors. A portfolio of off-the-shelf CHC solvers achieves 59.5-66.1% success on binaries compiled from 983 C invariant inference benchmarks. The work also shows that binary-derived problems provide valuable bit-vector CHC benchmarks that differ structurally from existing benchmarks.
+
+**Keywords**: `CHC solving`, `binary analysis`, `bit vectors`, `SMT`, `program verification`
+
+**Related**:
+- Related: Datalog, program analysis, SMT solvers
+
+---
+
+## [Differential Privacy Refutation via Supermartingales](https://arxiv.org/abs/2603.26215)
+
+**Authors**: Ehsan Kafshdar Goharshady  
+**Venue**: POPL 2026  
+**Year**: 2026  
+
+> This paper presents a novel method for automated formal refutation of ε-differential privacy by searching for a pair of inputs together with a non-negative function over outputs whose expected value differs significantly. The approach utilizes upper expectation supermartingales and lower expectation submartingales from probabilistic program analysis, providing a sound and complete proof rule for ε-DP refutation. The prototype tool SuperDP is fully automated, applicable to both discrete and continuous distributions, and provides soundness and semi-completeness guarantees.
+
+**Keywords**: `differential privacy`, `probabilistic programs`, `supermartingales`, `automated verification`, `privacy`
+
+**Related**:
+- Related: probabilistic program analysis, privacy verification
+
+---
