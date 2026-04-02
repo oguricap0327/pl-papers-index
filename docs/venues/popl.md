@@ -909,3 +909,147 @@ Papers indexed from POPL, organized by year.
 - Related: probabilistic program analysis, privacy verification
 
 ---
+
+## Gradual Typing with Union and Intersection Types
+
+**Authors**: Giuseppe Castagna, Victor Lanvin, Tommaso Petrucciani, Jeremy G. Siek  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776665  
+**PDF**: N/A  
+
+> This paper extends gradual typing to support union and intersection types, enabling more precise type checking in gradually typed languages. The key contribution is a gradual type system that maintains the gradual guarantee while supporting set-theoretic types, allowing programmers to mix static and dynamic typing with unions and intersections.
+
+**Keywords**: `gradual typing`, `union types`, `intersection types`, `type systems`, `semantic subtyping`
+
+**Related**:
+- Related: Polymorphic Type Inference for Dynamic Languages (POPL 2024)
+- See also: semantic subtyping, TypeScript
+
+---
+
+## A Calculus for Scoped Effects and Handlers
+
+**Authors**: Youyou Cong, Kenichi Asai  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776672  
+**PDF**: N/A  
+
+> This paper presents a calculus for scoped algebraic effects and handlers, where effect scopes can be dynamically created and nested. The calculus provides a formal semantics and type system that tracks effect scopes, enabling modular reasoning about effectful computations with explicit scope management.
+
+**Keywords**: `algebraic effects`, `effect handlers`, `scoped effects`, `type systems`, `effect scopes`
+
+**Related**:
+- Related: Handling Scope Checks (POPL 2026)
+- See also: algebraic effects, delimited continuations
+
+---
+
+## Contextual Linear Types for Differential Privacy
+
+**Authors**: Matías Toro, David Darais, Chike Abuah, Joseph P. Near, Damián Árquez, Éric Tanter, Marco Gaboardi  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776674  
+**PDF**: N/A  
+
+> This paper develops a type system using contextual linear types to enforce differential privacy guarantees statically. The system tracks privacy budgets through linear types while allowing controlled sharing through contextual typing, enabling compositional reasoning about privacy in functional programs.
+
+**Keywords**: `differential privacy`, `linear types`, `type systems`, `privacy`, `contextual typing`
+
+**Related**:
+- Related: Differential Privacy Refutation via Supermartingales (POPL 2026)
+- See also: privacy types, linear logic
+
+---
+
+## Polymorphic Iterable Sequential Effect Systems
+
+**Authors**: Colin S. Gordon  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776677  
+**PDF**: N/A  
+
+> This paper presents a polymorphic effect system for reasoning about sequential effects in an iterable manner, enabling precise tracking of effect sequences. The system supports effect polymorphism and iteration over effect sequences, with applications to reasoning about stateful computations and resource usage.
+
+**Keywords**: `effect systems`, `polymorphism`, `type systems`, `effects`, `sequential effects`
+
+**Related**:
+- Related: A Calculus for Scoped Effects and Handlers (POPL 2026)
+- See also: effect systems, type-and-effect systems
+
+---
+
+## Mechanized Verification of a Fine-Grained Concurrent Queue from Meta's Folly Library
+
+**Authors**: Simon Friis Vindum, Dan Frumin, Lars Birkedal  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776679  
+**PDF**: N/A  
+
+> This paper presents a mechanized verification in Iris of a fine-grained concurrent queue implementation from Meta's Folly C++ library. The verification handles complex lock-free synchronization patterns and proves linearizability using separation logic, demonstrating that formal verification can scale to industrial concurrent data structures.
+
+**Keywords**: `concurrent data structures`, `mechanized verification`, `Iris`, `separation logic`, `linearizability`
+
+**Related**:
+- Related: Zoo: A Framework for the Verification of Concurrent OCaml 5 Programs (POPL 2026)
+- See also: concurrent separation logic, lock-free algorithms
+
+---
+
+## Deadlock-Free Session Types in Linear Haskell
+
+**Authors**: Wen Kokke, Ornela Dardha  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776682  
+**PDF**: N/A  
+
+> This paper implements deadlock-free session types in Linear Haskell, leveraging linear types for safe concurrent communication. The implementation uses Linear Haskell's linear types to enforce session type protocols at compile time, guaranteeing deadlock freedom and protocol compliance for message-passing concurrent programs.
+
+**Keywords**: `session types`, `linear types`, `Haskell`, `deadlock freedom`, `concurrent programming`
+
+**Related**:
+- Related: Deadlock-Free Separation Logic (POPL 2024)
+- See also: session types, linear Haskell
+
+---
+
+## A Type System for Extracting Functional Programs from Proofs
+
+**Authors**: Ulrich Berger, Kenji Miyamoto, Helmut Schwichtenberg, Hideki Tsuiki  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776685  
+**PDF**: N/A  
+
+> This paper presents a type system for extracting functional programs from constructive proofs, with applications to verified program synthesis. The system uses realizability interpretation to extract computational content from proofs, producing certified programs with correctness guarantees derived from the proof structure.
+
+**Keywords**: `program extraction`, `type systems`, `proof theory`, `constructive logic`, `realizability`
+
+**Related**:
+- Related: proof assistants, Curry-Howard correspondence
+- See also: program synthesis, proof mining
+
+---
+
+## Refinement Types for Asynchronous Reactive Programming
+
+**Authors**: Benno Stein, Lazaro Clapp, Manu Sridharan, Bor-Yuh Evan Chang  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776687  
+**PDF**: N/A  
+
+> This paper develops refinement types for asynchronous reactive programming, enabling precise specification and verification of event-driven systems. The type system tracks temporal properties of asynchronous events and their dependencies, supporting modular verification of reactive programs with complex event flows.
+
+**Keywords**: `refinement types`, `reactive programming`, `asynchronous programming`, `type systems`, `event-driven`
+
+**Related**:
+- Related: Flo: A Semantic Foundation for Progressive Stream Processing (POPL 2025)
+- See also: refinement types, reactive systems
+
+---
