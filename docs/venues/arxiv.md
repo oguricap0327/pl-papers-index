@@ -4,6 +4,29 @@ Recent papers from arXiv Programming Languages category.
 
 ## 2026
 
+### A Domain-Specific Language for Programming Non-Axiomatic Reasoning Agents
+**Authors:** Seamus Brady et al.  
+**arXiv:** [2604.00043](https://arxiv.org/abs/2604.00043) | [PDF](https://arxiv.org/pdf/2604.00043)  
+**Date:** March 29, 2026  
+**Topics:** DSL, non-axiomatic reasoning, NARS, agent programming
+
+Non-Axiomatic Reasoning Systems (NARS) provide a framework for building adaptive agents that operate under insufficient knowledge and resources. However, the standard input language, Narsese, poses a usability barrier with its dense symbolic notation and overloaded punctuation.
+
+**DriftScript** is a Lisp-like domain-specific language that compiles to Narsese. It provides:
+- Source-level constructs for NAL levels 1-8
+- Readable keyword-based S-expressions instead of symbolic syntax
+- Coverage of inheritance, temporal implication, variable quantification, sequential conjunction, and operation invocation
+
+**Implementation:**
+- Zero-dependency, four-stage compiler pipeline
+- 1,941 lines of C99
+- Connects to external systems through structured callbacks and HTTP operation registry
+- Enables sense-reason-act loop for autonomous agents
+
+**Evaluation:** 106-case test suite, equivalence testing against hand-written Narsese, NAL coverage analysis, structural readability metrics, and compilation benchmarks.
+
+---
+
 ### Executing as You Generate: Hiding Execution Latency in LLM Code Generation
 **Authors:** Zhensu Sun et al.  
 **arXiv:** [2604.00491](https://arxiv.org/abs/2604.00491) | [PDF](https://arxiv.org/pdf/2604.00491)  
