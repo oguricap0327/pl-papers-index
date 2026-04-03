@@ -446,6 +446,102 @@ Papers indexed from POPL, organized by year.
 
 ---
 
+## [TypeDis: A Type System for Disentanglement](https://arxiv.org/pdf/2511.17893)
+
+**Authors**: Alexandre Moine, Stephanie Balzer, Alex Xu, Sam Westrick  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776702  
+
+> Disentanglement is a runtime property of parallel programs guaranteeing that parallel tasks remain oblivious to each other's allocations. This paper presents TypeDis, a type system that statically enforces disentanglement, enabling fast automatic memory management with task-local garbage collection and no synchronization between parallel tasks. The type system is proven sound and has been implemented in the MaPLe compiler.
+
+**Keywords**: `parallel programming`, `type systems`, `memory management`, `garbage collection`, `disentanglement`
+
+**Related**:
+- Related: MaPLe compiler, parallel GC, separation logic
+
+---
+
+## [All for One and One for All: Program Logics for Exploiting Internal Determinism in Parallel Programs](https://arxiv.org/pdf/2511.17894)
+
+**Authors**: Alexandre Moine, Sam Westrick, Joseph Tassarotti  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776703  
+
+> This paper develops program logics for reasoning about internally deterministic parallel programs, where the steps of a parallel computation proceed deterministically despite concurrent execution. The logics enable sequential reasoning about parallel programs while maintaining soundness, bridging the gap between deterministic semantics and concurrent implementation.
+
+**Keywords**: `parallel programming`, `program logic`, `determinism`, `concurrency`, `verification`
+
+**Related**:
+- Related: internal determinism, concurrent separation logic, parallel algorithms
+
+---
+
+## [An Equational Axiomatization of Dynamic Threads via Algebraic Effects](https://arxiv.org/pdf/2502.03062)
+
+**Authors**: Ohad Kammar, Jack Liell-Cock, Sam Lindley, Cristina Matache, Sam Staton  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776697  
+
+> This paper uses algebraic effects to give a complete equational axiomatization for dynamic threads, where threads can be created and synchronized dynamically. The method is based on parameterized algebraic theories, which provide a concrete syntax for strong monads on functor categories. The axiomatization handles key primitives like fork and wait, enabling compositional reasoning about concurrent programs with dynamic thread creation.
+
+**Keywords**: `algebraic effects`, `concurrency`, `threads`, `equational reasoning`, `parameterized theories`
+
+**Related**:
+- Related: algebraic effects, concurrent programming, process calculi
+
+---
+
+## [The Relative Monadic Metalanguage](https://arxiv.org/pdf/2512.08504)
+
+**Authors**: Jack Liell-Cock, Zev Shirazi, Sam Staton  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776698  
+
+> This paper generalizes the monadic metalanguage to a relative setting, providing a controlled view of computation through relative monads. The authors give a complete semantics with strong relative monads and provide a linear-non-linear language for graded monads (LNL-RMM), along with a semantic proof that it is a conservative extension of the standard monadic metalanguage.
+
+**Keywords**: `monads`, `relative monads`, `metalanguage`, `graded monads`, `linear logic`
+
+**Related**:
+- Related: monadic metalanguage, graded types, linear-non-linear logic
+
+---
+
+## [Coco: Corecursion with Compositional Heterogeneous Productivity](https://arxiv.org/pdf/2511.16893)
+
+**Authors**: Jaewoo Kim, Yeonwoo Nam, Chung-Kil Hur  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776704  
+
+> Contemporary proof assistants impose restrictive syntactic guardedness conditions that reject many valid corecursive definitions. This paper presents Compositional Heterogeneous Productivity (CHP), a theoretical framework that unifies high automation with extensive coverage for corecursive definitions. The framework has been implemented in the Coco proof assistant, accepting significantly more valid corecursive definitions than existing systems.
+
+**Keywords**: `corecursion`, `proof assistants`, `productivity`, `guardedness`, `type theory`
+
+**Related**:
+- Related: Coq, guardedness checking, coinductive types
+
+---
+
+## [Bayesian Separation Logic](https://arxiv.org/pdf/2507.10722)
+
+**Authors**: Shing Hin Ho, Nicolas Wu, Azalea Raad  
+**Venue**: POPL 2026  
+**Year**: 2026  
+**DOI**: https://doi.org/10.1145/3776705  
+
+> This paper develops Bayesian Separation Logic, a program logic for reasoning about Bayesian probabilistic programs. The logic extends separation logic with probabilistic reasoning, enabling compositional verification of statistical inference algorithms. The framework supports reasoning about expected values, independence of random variables, and posterior distributions in a modular way.
+
+**Keywords**: `probabilistic programming`, `separation logic`, `Bayesian inference`, `program verification`, `statistical inference`
+
+**Related**:
+- Related: probabilistic separation logic, Bayesian programming languages
+
+---
+
 ## 2025
 
 ### POPL 2025 — Selected Papers
