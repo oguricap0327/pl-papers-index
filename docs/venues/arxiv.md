@@ -4,6 +4,28 @@ Recent papers from arXiv Programming Languages category.
 
 ## 2026
 
+### Executing as You Generate: Hiding Execution Latency in LLM Code Generation
+**Authors:** Zhensu Sun et al.  
+**arXiv:** [2604.00491](https://arxiv.org/abs/2604.00491) | [PDF](https://arxiv.org/pdf/2604.00491)  
+**Date:** April 1, 2026  
+**Topics:** LLM code generation, parallel execution, latency optimization
+
+Current LLM-based coding agents follow a serial execution paradigm: generate complete code, then execute it. This leaves the executor idle during generation and the generator idle during execution. This paper observes that LLMs produce code tokens sequentially without revision, making parallel execution possible.
+
+**Eager** is a concrete implementation featuring:
+- AST-based chunking
+- Dynamic batching with gated execution
+- Early error interruption
+
+**Results:** Reduces non-overlapped execution latency by up to 99.9% and end-to-end latency by up to 55% across seven LLMs and four benchmarks.
+
+**Key contributions:**
+- Formalizes parallel execution paradigm as a three-stage pipeline (generation, detection, execution)
+- Derives closed-form latency bounds
+- Demonstrates significant speedup in practice
+
+---
+
 ### Superset Decompilation
 **Authors:** Chang Liu et al.  
 **arXiv:** [2603.28002](https://arxiv.org/abs/2603.28002) | [PDF](https://arxiv.org/pdf/2603.28002)  
