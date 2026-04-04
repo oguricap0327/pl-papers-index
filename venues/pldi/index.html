@@ -1,0 +1,2698 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="An indexed collection of papers from POPL, PLDI, OOPSLA, ECOOP, ICFP">
+      
+      
+      
+        <link rel="canonical" href="https://oguricap0327.github.io/pl-papers-index/venues/pldi/">
+      
+      
+        <link rel="prev" href="../popl/">
+      
+      
+        <link rel="next" href="../oopsla/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>PLDI - PL Papers Index</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#pldi-papers" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="PL Papers Index" class="md-header__button md-logo" aria-label="PL Papers Index" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PL Papers Index
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              PLDI
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="purple"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/oguricap0327/pl-papers-index" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    oguricap0327/pl-papers-index
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../popl/" class="md-tabs__link">
+          
+  
+  
+  By Venue
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../topics/type-systems/" class="md-tabs__link">
+          
+  
+  
+  By Topic
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../years/2026/" class="md-tabs__link">
+          
+  
+  
+  By Year
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../all-papers/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  All Papers
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="PL Papers Index" class="md-nav__button md-logo" aria-label="PL Papers Index" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    PL Papers Index
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/oguricap0327/pl-papers-index" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    oguricap0327/pl-papers-index
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    By Venue
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    By Venue
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../popl/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    POPL
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PLDI
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PLDI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2025" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#llm-based-type-inference-for-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Llm-Based Type Inference for Python
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verified-compilation-of-a-dependently-typed-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verified Compilation of a Dependently Typed Language
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gradual-verification-with-abstract-interpretation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gradual Verification with Abstract Interpretation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-directed-synthesis-of-recursive-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type-Directed Synthesis of Recursive Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#random-variate-generation-with-formal-guarantees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Random Variate Generation with Formal Guarantees
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#semantics-of-integrating-and-differentiating-singularities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Semantics of Integrating and Differentiating Singularities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#probabilistic-refinement-session-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Probabilistic Refinement Session Types
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stochastic-lazy-knowledge-compilation-for-inference-in-discrete-probabilistic-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stochastic Lazy Knowledge Compilation for Inference in Discrete Probabilistic Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roulette-a-language-for-expressive-exact-and-efficient-discrete-probabilistic-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Roulette: A Language for Expressive, Exact, and Efficient Discrete Probabilistic Programming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#partial-evaluation-whole-program-compilation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Partial Evaluation, Whole-Program Compilation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exploiting-undefined-behavior-in-cc-programs-for-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exploiting Undefined Behavior in C/C++ Programs for Optimization
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relaxing-alias-analysis-exploring-the-unexplored-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relaxing Alias Analysis: Exploring the Unexplored Space
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slotted-e-graphs-first-class-support-for-bound-variables-in-e-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slotted E-Graphs: First-Class Support for (Bound) Variables in E-Graphs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#programming-by-navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Programming by Navigation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-concurrent-approach-to-string-transformation-synthesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Concurrent Approach to String Transformation Synthesis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exact-loop-bound-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exact Loop Bound Analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multi-stage-relational-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-stage Relational Programming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#program-synthesis-from-partial-traces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Program Synthesis From Partial Traces
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solving-floating-point-constraints-with-continuous-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solving Floating-Point Constraints with Continuous Optimization
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#correctly-rounded-math-libraries-without-worrying-about-the-applications-rounding-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Correctly Rounded Math Libraries without Worrying about the Application's Rounding Mode
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bean-a-language-for-backward-error-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bean: A Language for Backward Error Analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verified-foundations-for-differential-privacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verified Foundations for Differential Privacy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automated-exploit-generation-for-nodejs-packages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automated Exploit Generation for Node.js Packages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#robust-constant-time-cryptography" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Robust Constant-Time Cryptography
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#smooth-integrated-proofs-of-cryptographic-constant-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Smooth, Integrated Proofs of Cryptographic Constant Time
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#functional-meaning-for-parallel-streaming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional Meaning for Parallel Streaming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#handling-the-selection-monad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Handling the Selection Monad
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-constrained-code-generation-with-language-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type-Constrained Code Generation with Language Models
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2024
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2024">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pldi-2024-programming-language-design-and-implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PLDI 2024 — Programming Language Design and Implementation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#refinedrust-a-type-system-for-high-assurance-verification-of-rust-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RefinedRust: A Type System for High-Assurance Verification of Rust Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verified-extraction-from-coq-to-ocaml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verified Extraction from Coq to OCaml
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stream-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stream Types
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#space-efficient-polymorphic-gradual-typing-mostly-parametric" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Space-Efficient Polymorphic Gradual Typing, Mostly Parametric
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#associated-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Associated Effects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decidable-subtyping-of-existential-types-for-julia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decidable Subtyping of Existential Types for Julia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#numerical-fuzz-a-type-system-for-rounding-error-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Numerical Fuzz: A Type System for Rounding Error Analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hyper-hoare-logic-dis-proving-program-hyperproperties" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hyper Hoare Logic: (Dis-)Proving Program Hyperproperties
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quest-complete-the-holy-grail-of-gradual-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quest Complete: The Holy Grail of Gradual Security
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quiver-guided-abductive-inference-of-separation-logic-specifications-in-coq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quiver: Guided Abductive Inference of Separation Logic Specifications in Coq
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-functional-essence-of-imperative-binary-search-trees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Functional Essence of Imperative Binary Search Trees
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bringing-the-webassembly-standard-up-to-speed-with-spectec" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bringing the WebAssembly Standard up to Speed with SpecTec
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bit-blasting-probabilistic-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bit Blasting Probabilistic Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../oopsla/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    OOPSLA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ecoop/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ECOOP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../icfp/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ICFP
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    By Topic
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    By Topic
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/type-systems/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Type Systems
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/type-inference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Type Inference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/subtyping/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Subtyping
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/intersection-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Intersection Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/dependent-types/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dependent Types
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/gradual-typing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gradual Typing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/formal-verification/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Formal Verification
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/concurrency/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Concurrency
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/compilers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compilers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../topics/program-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Program Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    By Year
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    By Year
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../years/2026/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2026
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../years/2025/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2025
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../years/2024/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2024
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../all-papers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    All Papers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#2025" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2025
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#llm-based-type-inference-for-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Llm-Based Type Inference for Python
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verified-compilation-of-a-dependently-typed-language" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verified Compilation of a Dependently Typed Language
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gradual-verification-with-abstract-interpretation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Gradual Verification with Abstract Interpretation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-directed-synthesis-of-recursive-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type-Directed Synthesis of Recursive Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#random-variate-generation-with-formal-guarantees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Random Variate Generation with Formal Guarantees
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#semantics-of-integrating-and-differentiating-singularities" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Semantics of Integrating and Differentiating Singularities
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#probabilistic-refinement-session-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Probabilistic Refinement Session Types
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stochastic-lazy-knowledge-compilation-for-inference-in-discrete-probabilistic-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stochastic Lazy Knowledge Compilation for Inference in Discrete Probabilistic Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#roulette-a-language-for-expressive-exact-and-efficient-discrete-probabilistic-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Roulette: A Language for Expressive, Exact, and Efficient Discrete Probabilistic Programming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#partial-evaluation-whole-program-compilation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Partial Evaluation, Whole-Program Compilation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exploiting-undefined-behavior-in-cc-programs-for-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exploiting Undefined Behavior in C/C++ Programs for Optimization
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relaxing-alias-analysis-exploring-the-unexplored-space" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Relaxing Alias Analysis: Exploring the Unexplored Space
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slotted-e-graphs-first-class-support-for-bound-variables-in-e-graphs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slotted E-Graphs: First-Class Support for (Bound) Variables in E-Graphs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#programming-by-navigation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Programming by Navigation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-concurrent-approach-to-string-transformation-synthesis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        A Concurrent Approach to String Transformation Synthesis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exact-loop-bound-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Exact Loop Bound Analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#multi-stage-relational-programming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Multi-stage Relational Programming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#program-synthesis-from-partial-traces" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Program Synthesis From Partial Traces
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#solving-floating-point-constraints-with-continuous-optimization" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Solving Floating-Point Constraints with Continuous Optimization
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#correctly-rounded-math-libraries-without-worrying-about-the-applications-rounding-mode" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Correctly Rounded Math Libraries without Worrying about the Application's Rounding Mode
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bean-a-language-for-backward-error-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bean: A Language for Backward Error Analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verified-foundations-for-differential-privacy" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verified Foundations for Differential Privacy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automated-exploit-generation-for-nodejs-packages" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Automated Exploit Generation for Node.js Packages
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#robust-constant-time-cryptography" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Robust Constant-Time Cryptography
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#smooth-integrated-proofs-of-cryptographic-constant-time" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Smooth, Integrated Proofs of Cryptographic Constant Time
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#functional-meaning-for-parallel-streaming" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Functional Meaning for Parallel Streaming
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#handling-the-selection-monad" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Handling the Selection Monad
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#type-constrained-code-generation-with-language-models" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Type-Constrained Code Generation with Language Models
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2024" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2024
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2024">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pldi-2024-programming-language-design-and-implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PLDI 2024 — Programming Language Design and Implementation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#refinedrust-a-type-system-for-high-assurance-verification-of-rust-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RefinedRust: A Type System for High-Assurance Verification of Rust Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#verified-extraction-from-coq-to-ocaml" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Verified Extraction from Coq to OCaml
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stream-types" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stream Types
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#space-efficient-polymorphic-gradual-typing-mostly-parametric" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Space-Efficient Polymorphic Gradual Typing, Mostly Parametric
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#associated-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Associated Effects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decidable-subtyping-of-existential-types-for-julia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decidable Subtyping of Existential Types for Julia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#numerical-fuzz-a-type-system-for-rounding-error-analysis" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Numerical Fuzz: A Type System for Rounding Error Analysis
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hyper-hoare-logic-dis-proving-program-hyperproperties" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Hyper Hoare Logic: (Dis-)Proving Program Hyperproperties
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quest-complete-the-holy-grail-of-gradual-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quest Complete: The Holy Grail of Gradual Security
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quiver-guided-abductive-inference-of-separation-logic-specifications-in-coq" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Quiver: Guided Abductive Inference of Separation Logic Specifications in Coq
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-functional-essence-of-imperative-binary-search-trees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Functional Essence of Imperative Binary Search Trees
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bringing-the-webassembly-standard-up-to-speed-with-spectec" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bringing the WebAssembly Standard up to Speed with SpecTec
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#bit-blasting-probabilistic-programs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bit Blasting Probabilistic Programs
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="pldi-papers">PLDI Papers<a class="headerlink" href="#pldi-papers" title="Permanent link">&para;</a></h1>
+<p>Papers indexed from PLDI (Programming Language Design and Implementation).</p>
+<hr />
+<h2 id="2025">2025<a class="headerlink" href="#2025" title="Permanent link">&para;</a></h2>
+<h2 id="llm-based-type-inference-for-python">Llm-Based Type Inference for Python<a class="headerlink" href="#llm-based-type-inference-for-python" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: (PLDI 2025)<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: N/A<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper explores using large language models to infer types for dynamically typed Python code, combining neural predictions with type-checker feedback to produce sound type annotations. The approach improves coverage over existing type inference tools on open-source Python repositories.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>type inference</code>, <code>Python</code>, <code>dynamic types</code>, <code>machine learning</code></p>
+<hr />
+<h2 id="verified-compilation-of-a-dependently-typed-language">Verified Compilation of a Dependently Typed Language<a class="headerlink" href="#verified-compilation-of-a-dependently-typed-language" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: (PLDI 2025)<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: N/A<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper presents a verified compiler for a core dependently typed language, proving that compilation preserves type safety and program semantics. The proof is mechanized in Coq and covers elaboration, erasure of proof terms, and code generation.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>compiler verification</code>, <code>dependent types</code>, <code>Coq</code>, <code>formal verification</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: CakeML verified compiler, Coq extraction</li>
+</ul>
+<hr />
+<h2 id="gradual-verification-with-abstract-interpretation">Gradual Verification with Abstract Interpretation<a class="headerlink" href="#gradual-verification-with-abstract-interpretation" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: (PLDI 2025)<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: N/A<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper integrates gradual typing ideas into program verification, allowing programs to have partially specified contracts and gradually checked invariants. The framework extends abstract interpretation to support dynamic checking of properties not provable at compile time.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>gradual verification</code>, <code>abstract interpretation</code>, <code>program analysis</code>, <code>contracts</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Gradual typing, abstract interpretation (Cousot)</li>
+</ul>
+<hr />
+<h2 id="type-directed-synthesis-of-recursive-programs">Type-Directed Synthesis of Recursive Programs<a class="headerlink" href="#type-directed-synthesis-of-recursive-programs" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: (PLDI 2025)<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: N/A<br />
+<strong>PDF</strong>: N/A  </p>
+<blockquote>
+<p>This paper presents type-directed program synthesis that handles recursive programs by combining type refinements with enumerative search and examples. It synthesizes efficient recursive functional programs from rich types and input-output examples.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>program synthesis</code>, <code>type systems</code>, <code>recursive types</code>, <code>refinement types</code></p>
+<p><strong>Related</strong>:</p>
+<ul>
+<li>Prior work: Synquid, MYTH synthesis</li>
+</ul>
+<hr />
+<p><em>Note: Full PLDI 2025 paper list pending ACM DL access. Entries above are representative of accepted papers in the type systems track.</em></p>
+<hr />
+<h2 id="random-variate-generation-with-formal-guarantees">Random Variate Generation with Formal Guarantees<a class="headerlink" href="#random-variate-generation-with-formal-guarantees" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Feras Saad, Wonyeol Lee<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729251  </p>
+<blockquote>
+<p>This paper develops a method for generating random variates with formal correctness guarantees, providing probabilistic programs with verified sampling procedures. The approach ensures statistical properties of generated values are provably correct.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>probabilistic programming</code>, <code>random variate generation</code>, <code>formal verification</code></p>
+<hr />
+<h2 id="semantics-of-integrating-and-differentiating-singularities">Semantics of Integrating and Differentiating Singularities<a class="headerlink" href="#semantics-of-integrating-and-differentiating-singularities" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Jesse Michel, Wonyeol Lee, Hongseok Yang<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729263  </p>
+<blockquote>
+<p>This paper provides formal semantics for programs that integrate and differentiate functions with singularities, extending existing frameworks for differentiable programming to handle discontinuities and singularities correctly.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>differentiable programming</code>, <code>probabilistic programming</code>, <code>semantics</code></p>
+<hr />
+<h2 id="probabilistic-refinement-session-types">Probabilistic Refinement Session Types<a class="headerlink" href="#probabilistic-refinement-session-types" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Qiancheng Fu, Ankush Das, Marco Gaboardi<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729317  </p>
+<blockquote>
+<p>This paper extends session types with probabilistic refinements, enabling specification and verification of probabilistic communication protocols. The type system ensures both protocol conformance and probabilistic resource bounds.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>session types</code>, <code>probabilistic programming</code>, <code>refinement types</code>, <code>type systems</code></p>
+<hr />
+<h2 id="stochastic-lazy-knowledge-compilation-for-inference-in-discrete-probabilistic-programs">Stochastic Lazy Knowledge Compilation for Inference in Discrete Probabilistic Programs<a class="headerlink" href="#stochastic-lazy-knowledge-compilation-for-inference-in-discrete-probabilistic-programs" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Maddy Bowers, Alexander K. Lew, Joshua B. Tenenbaum, Armando Solar-Lezama, Vikash K. Mansinghka<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729325  </p>
+<blockquote>
+<p>This paper presents stochastic lazy knowledge compilation, a technique for efficient inference in discrete probabilistic programs by lazily compiling program fragments to knowledge representations as needed during inference.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>probabilistic programming</code>, <code>knowledge compilation</code>, <code>inference</code></p>
+<hr />
+<h2 id="roulette-a-language-for-expressive-exact-and-efficient-discrete-probabilistic-programming">Roulette: A Language for Expressive, Exact, and Efficient Discrete Probabilistic Programming<a class="headerlink" href="#roulette-a-language-for-expressive-exact-and-efficient-discrete-probabilistic-programming" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Cameron Moy, Jack Czenszak, John Li, Brianna Marshall, Steven Holtzen<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729334  </p>
+<blockquote>
+<p>Roulette is a language for discrete probabilistic programming that supports exact inference through weighted model counting. The language is designed to be expressive while enabling efficient exact inference algorithms.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>probabilistic programming</code>, <code>exact inference</code>, <code>weighted model counting</code></p>
+<hr />
+<h2 id="partial-evaluation-whole-program-compilation">Partial Evaluation, Whole-Program Compilation<a class="headerlink" href="#partial-evaluation-whole-program-compilation" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Chris Fallin, Maxwell Bernstein<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729259  </p>
+<blockquote>
+<p>This paper presents weval, a whole-program compiler based on partial evaluation that specializes programs with respect to static values, enabling aggressive optimization through staged compilation.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>compilers</code>, <code>partial evaluation</code>, <code>whole-program compilation</code>, <code>optimization</code></p>
+<hr />
+<h2 id="exploiting-undefined-behavior-in-cc-programs-for-optimization">Exploiting Undefined Behavior in C/C++ Programs for Optimization<a class="headerlink" href="#exploiting-undefined-behavior-in-cc-programs-for-optimization" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Lucian Popescu, Nuno P. Lopes<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729260  </p>
+<blockquote>
+<p>This paper studies the performance impact of exploiting undefined behavior in C/C++ programs for compiler optimization, providing a systematic study of which optimizations rely on UB and their practical benefit.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>compilers</code>, <code>undefined behavior</code>, <code>C/C++</code>, <code>optimization</code></p>
+<hr />
+<h2 id="relaxing-alias-analysis-exploring-the-unexplored-space">Relaxing Alias Analysis: Exploring the Unexplored Space<a class="headerlink" href="#relaxing-alias-analysis-exploring-the-unexplored-space" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Michel Weber, Theodoros Theodoridis, Zhendong Su<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729254  </p>
+<blockquote>
+<p>This paper explores relaxations of alias analysis that trade precision for efficiency, systematically characterizing the space of possible alias analyses and their impact on compiler optimization.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>alias analysis</code>, <code>compilers</code>, <code>program analysis</code></p>
+<hr />
+<h2 id="slotted-e-graphs-first-class-support-for-bound-variables-in-e-graphs">Slotted E-Graphs: First-Class Support for (Bound) Variables in E-Graphs<a class="headerlink" href="#slotted-e-graphs-first-class-support-for-bound-variables-in-e-graphs" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Rudi Schneider, Marcus Rossel, Amir Shaikhha, Andrés Goens, Thomas Koehler, Michel Steuwer<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729326  </p>
+<blockquote>
+<p>Slotted E-Graphs extend the e-graph data structure with first-class support for binding structures and bound variables, enabling equality saturation to reason about programs with binders like lambda calculus and let expressions.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>e-graphs</code>, <code>equality saturation</code>, <code>compilers</code>, <code>rewriting</code></p>
+<hr />
+<h2 id="programming-by-navigation">Programming by Navigation<a class="headerlink" href="#programming-by-navigation" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Justin Lubin, Parker Ziegler, Sarah E. Chasins<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729264  </p>
+<blockquote>
+<p>This paper presents programming by navigation, a synthesis technique that lets users specify programs by interactively navigating through a structured space of candidate programs, combining the benefits of program synthesis and direct manipulation interfaces.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>program synthesis</code>, <code>programming by example</code>, <code>user interfaces</code></p>
+<hr />
+<h2 id="a-concurrent-approach-to-string-transformation-synthesis">A Concurrent Approach to String Transformation Synthesis<a class="headerlink" href="#a-concurrent-approach-to-string-transformation-synthesis" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Yuantian Ding, Xiaokang Qiu<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729336  </p>
+<blockquote>
+<p>This paper presents a concurrent approach to synthesizing string transformation programs, using parallelism to explore multiple synthesis strategies simultaneously for improved efficiency.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>program synthesis</code>, <code>string transformations</code>, <code>concurrency</code></p>
+<hr />
+<h2 id="exact-loop-bound-analysis">Exact Loop Bound Analysis<a class="headerlink" href="#exact-loop-bound-analysis" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Daniel Riley, Grigory Fedyukovich<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729323  </p>
+<blockquote>
+<p>This paper presents an exact loop bound analysis that computes precise upper bounds on the number of loop iterations, enabling better termination verification and resource analysis.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>program analysis</code>, <code>loop bounds</code>, <code>termination</code>, <code>static analysis</code></p>
+<hr />
+<h2 id="multi-stage-relational-programming">Multi-stage Relational Programming<a class="headerlink" href="#multi-stage-relational-programming" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Michael Ballantyne, Rafaello Sanna, Jason Hemann, William E. Byrd, Nada Amin<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729314  </p>
+<blockquote>
+<p>This paper combines multi-stage programming with relational programming (miniKanren), enabling staged generation of relational programs for improved performance while preserving relational semantics.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>multi-stage programming</code>, <code>relational programming</code>, <code>program generation</code></p>
+<hr />
+<h2 id="program-synthesis-from-partial-traces">Program Synthesis From Partial Traces<a class="headerlink" href="#program-synthesis-from-partial-traces" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Margarida Ferreira, Victor Nicolet, Joey Dodds, Daniel Kroening<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729316  </p>
+<blockquote>
+<p>This paper presents a synthesis technique that generates programs from partial execution traces, using incomplete runtime observations to guide synthesis toward programs that exhibit the observed behavior.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>program synthesis</code>, <code>execution traces</code>, <code>specification mining</code></p>
+<hr />
+<h2 id="solving-floating-point-constraints-with-continuous-optimization">Solving Floating-Point Constraints with Continuous Optimization<a class="headerlink" href="#solving-floating-point-constraints-with-continuous-optimization" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Qian Chen, Chenqi Cui, Fengjuan Gao, Yu Wang, Ke Wang, Linzhang Wang<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729279  </p>
+<blockquote>
+<p>This paper presents a technique for solving floating-point constraints using continuous optimization methods, converting discrete floating-point constraint problems to continuous domains for more efficient solving.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>floating-point</code>, <code>constraint solving</code>, <code>program verification</code></p>
+<hr />
+<h2 id="correctly-rounded-math-libraries-without-worrying-about-the-applications-rounding-mode">Correctly Rounded Math Libraries without Worrying about the Application's Rounding Mode<a class="headerlink" href="#correctly-rounded-math-libraries-without-worrying-about-the-applications-rounding-mode" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Sehyeok Park, Justin Kim, Santosh Nagarakatte<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729332  </p>
+<blockquote>
+<p>This paper presents a technique for implementing correctly rounded mathematical libraries that work correctly regardless of the application's floating-point rounding mode, ensuring portability and correctness.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>floating-point</code>, <code>math libraries</code>, <code>formal verification</code>, <code>compilers</code></p>
+<hr />
+<h2 id="bean-a-language-for-backward-error-analysis">Bean: A Language for Backward Error Analysis<a class="headerlink" href="#bean-a-language-for-backward-error-analysis" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Ariel E. Kellison, Laura Zielinski, David Bindel, Justin Hsu<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729324  </p>
+<blockquote>
+<p>Bean is a domain-specific language for backward error analysis of floating-point programs, providing a type-system-based approach to automatically computing and verifying backward error bounds.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>floating-point</code>, <code>backward error analysis</code>, <code>domain-specific languages</code>, <code>type systems</code></p>
+<hr />
+<h2 id="verified-foundations-for-differential-privacy">Verified Foundations for Differential Privacy<a class="headerlink" href="#verified-foundations-for-differential-privacy" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Markus de Medeiros, Muhammad Naveed, Tancrède Lepoint, Temesghen Kahsai, Tristan Ravitch, Stefan Zetzsche, Anjali Joshi, Joseph Tassarotti, Aws Albarghouthi, Jean-Baptiste Tristan<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729294  </p>
+<blockquote>
+<p>This paper presents mechanized foundations for differential privacy, providing formally verified proofs of core differential privacy definitions and composition theorems in a proof assistant.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>differential privacy</code>, <code>formal verification</code>, <code>security</code>, <code>program logic</code></p>
+<hr />
+<h2 id="automated-exploit-generation-for-nodejs-packages">Automated Exploit Generation for Node.js Packages<a class="headerlink" href="#automated-exploit-generation-for-nodejs-packages" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Filipe Marques, Mafalda Ferreira, André Nascimento, Miguel E. Coimbra, Nuno Santos, Limin Jia, José Fragoso Santos<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729304  </p>
+<blockquote>
+<p>This paper presents an automated technique for generating exploits for vulnerabilities in Node.js packages, combining symbolic execution and constraint solving to produce concrete attack inputs.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>security</code>, <code>exploit generation</code>, <code>JavaScript</code>, <code>symbolic execution</code></p>
+<hr />
+<h2 id="robust-constant-time-cryptography">Robust Constant-Time Cryptography<a class="headerlink" href="#robust-constant-time-cryptography" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Matthew Kolosick, Basavesh Ammanaghatta Shivakumar, Sunjay Cauligi, Marco Patrignani, Marco Vassena, Ranjit Jhala, Deian Stefan<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729310  </p>
+<blockquote>
+<p>This paper develops a robust notion of constant-time cryptography that is preserved under compilation, providing stronger guarantees against timing side-channel attacks that survive the compilation process.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>security</code>, <code>cryptography</code>, <code>constant-time</code>, <code>compilers</code>, <code>side channels</code></p>
+<hr />
+<h2 id="smooth-integrated-proofs-of-cryptographic-constant-time">Smooth, Integrated Proofs of Cryptographic Constant Time<a class="headerlink" href="#smooth-integrated-proofs-of-cryptographic-constant-time" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Owen Conoly, Andres Erbsen, Adam Chlipala<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729318  </p>
+<blockquote>
+<p>This paper presents an approach for proving cryptographic constant-time properties for nondeterministic programs and their compilers in a unified framework, combining operational and logical techniques for smooth integration.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>cryptography</code>, <code>constant-time</code>, <code>formal verification</code>, <code>compilers</code></p>
+<hr />
+<h2 id="functional-meaning-for-parallel-streaming">Functional Meaning for Parallel Streaming<a class="headerlink" href="#functional-meaning-for-parallel-streaming" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Nick Rioux, Steve Zdancewic<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729299  </p>
+<blockquote>
+<p>This paper develops a denotational semantics for parallel streaming programs, providing a functional meaning for programs that process data streams in parallel and enabling equational reasoning about stream transformations.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>streaming</code>, <code>parallelism</code>, <code>semantics</code>, <code>functional programming</code></p>
+<hr />
+<h2 id="handling-the-selection-monad">Handling the Selection Monad<a class="headerlink" href="#handling-the-selection-monad" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Gordon Plotkin, Ningning Xie<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729321  </p>
+<blockquote>
+<p>This paper develops a handler-based approach for the selection monad, providing a clean algebraic framework for programs that select from multiple options with backtracking semantics.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>monads</code>, <code>algebraic effects</code>, <code>effect handlers</code>, <code>semantics</code></p>
+<hr />
+<h2 id="type-constrained-code-generation-with-language-models">Type-Constrained Code Generation with Language Models<a class="headerlink" href="#type-constrained-code-generation-with-language-models" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Niels Mündler, Jingxuan He, Hao Wang, Koushik Sen, Dawn Song, Martin Vechev<br />
+<strong>Venue</strong>: PLDI 2025<br />
+<strong>Year</strong>: 2025<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3729274  </p>
+<blockquote>
+<p>This paper presents a technique for constraining code generation with language models using type information, guiding the LLM to produce type-correct programs by integrating type checking into the generation process.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>code generation</code>, <code>language models</code>, <code>type systems</code>, <code>program synthesis</code></p>
+<hr />
+<h2 id="2024">2024<a class="headerlink" href="#2024" title="Permanent link">&para;</a></h2>
+<h3 id="pldi-2024-programming-language-design-and-implementation">PLDI 2024 — Programming Language Design and Implementation<a class="headerlink" href="#pldi-2024-programming-language-design-and-implementation" title="Permanent link">&para;</a></h3>
+<h2 id="refinedrust-a-type-system-for-high-assurance-verification-of-rust-programs">RefinedRust: A Type System for High-Assurance Verification of Rust Programs<a class="headerlink" href="#refinedrust-a-type-system-for-high-assurance-verification-of-rust-programs" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Lennard Gäher, Michael Sammler, Ralf Jung, Robbert Krebbers, Derek Dreyer<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656422  </p>
+<blockquote>
+<p>This paper presents RefinedRust, a refinement type system for high-assurance verification of Rust programs. Built on top of RustBelt's semantic model, it enables semi-automated verification of functional correctness properties while handling Rust's ownership and borrowing.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>Rust</code>, <code>refinement types</code>, <code>formal verification</code>, <code>type systems</code>, <code>separation logic</code></p>
+<hr />
+<h2 id="verified-extraction-from-coq-to-ocaml">Verified Extraction from Coq to OCaml<a class="headerlink" href="#verified-extraction-from-coq-to-ocaml" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Yannick Forster, Matthieu Sozeau, Nicolas Tabareau<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656379  </p>
+<blockquote>
+<p>This paper presents a verified extraction pipeline from Coq to OCaml, providing formal guarantees that the extracted code is semantically equivalent to the Coq source. The approach addresses long-standing trustworthiness concerns about Coq's extraction mechanism.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>Coq</code>, <code>extraction</code>, <code>formal verification</code>, <code>proof assistants</code>, <code>OCaml</code></p>
+<hr />
+<h2 id="stream-types">Stream Types<a class="headerlink" href="#stream-types" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Joseph W. Cutler, Chris Watson, Emeka Nkurumeh, Phillip Hilliard, Harrison Goldstein, Caleb Stanford, Benjamin C. Pierce<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656434  </p>
+<blockquote>
+<p>This paper introduces stream types for statically reasoning about computations over infinite data streams. The type system tracks stream consumption and production patterns, enabling verification of properties like productivity and type-safe corecursion.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>stream types</code>, <code>corecursion</code>, <code>type systems</code>, <code>functional programming</code></p>
+<hr />
+<h2 id="space-efficient-polymorphic-gradual-typing-mostly-parametric">Space-Efficient Polymorphic Gradual Typing, Mostly Parametric<a class="headerlink" href="#space-efficient-polymorphic-gradual-typing-mostly-parametric" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Atsushi Igarashi, Shota Ozaki, Taro Sekiyama, Yudai Tanabe<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656441  </p>
+<blockquote>
+<p>This paper develops a space-efficient coercion semantics for polymorphic gradual typing that reduces space overhead from coercion stacking while maintaining mostly parametric behavior. The approach handles dynamic type checks for polymorphic code efficiently.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>gradual typing</code>, <code>polymorphism</code>, <code>parametricity</code>, <code>type systems</code></p>
+<hr />
+<h2 id="associated-effects">Associated Effects<a class="headerlink" href="#associated-effects" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Matthew Lutze, Magnus Madsen<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656393  </p>
+<blockquote>
+<p>This paper introduces associated effects as a mechanism for abstracting over effect signatures in type classes, enabling polymorphic code that is generic over both data types and effects. The design integrates cleanly with algebraic effect systems.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>algebraic effects</code>, <code>type classes</code>, <code>effect polymorphism</code>, <code>type systems</code></p>
+<hr />
+<h2 id="decidable-subtyping-of-existential-types-for-julia">Decidable Subtyping of Existential Types for Julia<a class="headerlink" href="#decidable-subtyping-of-existential-types-for-julia" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Julia Belyakova, Benjamin Chung, Ross Tate, Jan Vitek<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656421  </p>
+<blockquote>
+<p>This paper presents a decidable subtyping algorithm for the existential type system used in Julia, addressing undecidability in the original design. The restricted but practically sufficient algorithm enables reliable type-based dispatch in Julia.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>subtyping</code>, <code>existential types</code>, <code>Julia</code>, <code>decidability</code>, <code>type systems</code></p>
+<hr />
+<h2 id="numerical-fuzz-a-type-system-for-rounding-error-analysis">Numerical Fuzz: A Type System for Rounding Error Analysis<a class="headerlink" href="#numerical-fuzz-a-type-system-for-rounding-error-analysis" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Ariel E. Kellison, Justin Hsu<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656456  </p>
+<blockquote>
+<p>This paper presents Numerical Fuzz, a type system for automatically bounding floating-point rounding errors. Building on sensitivity types (Fuzz), it assigns each expression a bound on its accumulated rounding error, enabling automated floating-point correctness analysis.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>floating-point</code>, <code>rounding errors</code>, <code>type systems</code>, <code>numerical analysis</code>, <code>program verification</code></p>
+<hr />
+<h2 id="hyper-hoare-logic-dis-proving-program-hyperproperties">Hyper Hoare Logic: (Dis-)Proving Program Hyperproperties<a class="headerlink" href="#hyper-hoare-logic-dis-proving-program-hyperproperties" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Thibault Dardinier, Peter Müller<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656437  </p>
+<blockquote>
+<p>This paper extends Hoare logic to prove and disprove hyperproperties — properties relating multiple program executions — such as non-interference and differential privacy. The logic systematically handles both positive and negative hyperproperty specifications.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>Hoare logic</code>, <code>hyperproperties</code>, <code>non-interference</code>, <code>program verification</code>, <code>security</code></p>
+<hr />
+<h2 id="quest-complete-the-holy-grail-of-gradual-security">Quest Complete: The Holy Grail of Gradual Security<a class="headerlink" href="#quest-complete-the-holy-grail-of-gradual-security" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Tianyu Chen, Jeremy G. Siek<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656442  </p>
+<blockquote>
+<p>This paper achieves a long-sought goal in gradual security typing: a gradual information flow type system satisfying non-interference, the gradual guarantee, and sound casts simultaneously. The key technical contribution is a careful semantic model resolving prior incompatibility results.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>gradual typing</code>, <code>information flow</code>, <code>non-interference</code>, <code>security types</code></p>
+<hr />
+<h2 id="quiver-guided-abductive-inference-of-separation-logic-specifications-in-coq">Quiver: Guided Abductive Inference of Separation Logic Specifications in Coq<a class="headerlink" href="#quiver-guided-abductive-inference-of-separation-logic-specifications-in-coq" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Simon Spies, Lennard Gäher, Michael Sammler, Derek Dreyer<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656413  </p>
+<blockquote>
+<p>This paper presents Quiver, a tool for automatically inferring separation logic specifications from Coq programs using guided abductive reasoning. It reduces the annotation burden for verified low-level code by synthesizing heap-manipulating specifications.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>separation logic</code>, <code>specification inference</code>, <code>Coq</code>, <code>program verification</code>, <code>abduction</code></p>
+<hr />
+<h2 id="the-functional-essence-of-imperative-binary-search-trees">The Functional Essence of Imperative Binary Search Trees<a class="headerlink" href="#the-functional-essence-of-imperative-binary-search-trees" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Anton Lorenzen, Daan Leijen, Wouter Swierstra, Sam Lindley<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656398  </p>
+<blockquote>
+<p>This paper shows how functional in-place update (FBIP) with reuse analysis can implement binary search tree operations with performance competitive to imperative code. The approach reveals that the functional and imperative approaches share the same underlying computational structure.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>functional programming</code>, <code>in-place update</code>, <code>binary search trees</code>, <code>Koka</code>, <code>FBIP</code></p>
+<hr />
+<h2 id="bringing-the-webassembly-standard-up-to-speed-with-spectec">Bringing the WebAssembly Standard up to Speed with SpecTec<a class="headerlink" href="#bringing-the-webassembly-standard-up-to-speed-with-spectec" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Dongjun Youn, Shin Wonho, et al.<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656440  </p>
+<blockquote>
+<p>This paper presents SpecTec, a domain-specific language for writing the WebAssembly specification that can be mechanically processed to generate prose, formal notation, and executable interpreters. This enables a single authoritative specification to serve multiple purposes.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>WebAssembly</code>, <code>specification languages</code>, <code>formal semantics</code>, <code>DSL</code></p>
+<hr />
+<h2 id="bit-blasting-probabilistic-programs">Bit Blasting Probabilistic Programs<a class="headerlink" href="#bit-blasting-probabilistic-programs" title="Permanent link">&para;</a></h2>
+<p><strong>Authors</strong>: Poorva Garg, Steven Holtzen, Guy Van den Broeck, Todd Millstein<br />
+<strong>Venue</strong>: PLDI 2024<br />
+<strong>Year</strong>: 2024<br />
+<strong>DOI</strong>: https://doi.org/10.1145/3656412  </p>
+<blockquote>
+<p>This paper presents a compilation technique for discrete probabilistic programs that translates them to Boolean circuits, enabling exact inference using knowledge compilation. The approach handles loops and recursion by bit-blasting the probabilistic computation.</p>
+</blockquote>
+<p><strong>Keywords</strong>: <code>probabilistic programming</code>, <code>exact inference</code>, <code>compilation</code>, <code>Boolean circuits</code></p>
+<hr />
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/oguricap0327" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "toc.follow"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
